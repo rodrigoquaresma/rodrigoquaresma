@@ -1,0 +1,78 @@
+<div class="row">
+	<div class="col-md-12">
+		<div id="carousel-example-generic" class="carousel slide">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    <div class="item active">
+		      <%= image_tag 'slide-01.jpg' %>
+		    </div>
+		    <div class="item">
+		      <%= image_tag 'slide-02.jpg' %>
+		    </div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+		    <span class="icon-prev"></span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+		    <span class="icon-next"></span>
+		  </a>
+		</div>
+	</div>
+</div>
+<hr>
+<div class="row">
+	<div class="col-md-6">
+		<div class="box-hight-light">
+			<h3>O Evento</h3>
+			<p>O Congresso AgriMoney é um evento itinerante que vai levar ao produtor rural os mecanismos de formação de preço e debater as novas estratégias de comercialização do agronegócio.</p>
+			<p><%= link_to "Clique aqui e confira", agrimoney_evento_path, :class => "btn btn-primary" %></p>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="box-hight-light">
+			<h3>Programação</h3>
+			<p>Confira a programação completa para os 2 dias do Congresso AgriMoney.</p>
+			<p><%= link_to "Clique aqui e confira", agrimoney_programacao_path, :class => "btn btn-primary" %></p>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<div class="box-hight-light">
+			<h3>Palestrantes</h3>
+			<p>Conteúdo exclusivo com grandes nomes do mercado e oportunidade de relacionamento com os principais representantes do setor.</p>
+			<p><%= link_to "Clique aqui e confira", agrimoney_palestrantes_path, :class => "btn btn-primary" %></p>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="box-hight-light">
+			<h3>Local do evento</h3>
+			<p>De 26 a 27 de novembro</p>
+			<p><%= link_to "Saiba mais sobre o local do evento", agrimoney_local_path, :class => "btn btn-primary" %></p>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<p><%= link_to "Entre em contato conosco", agrimoney_contato_path, :class => "btn btn-default" %></p>
+
+	</div>
+</div>
+
+
+
+<div class="row social-icons hide">
+	<div class="col-md-12">
+		<a href="#"><%= image_tag 'facebook.png' %></a>
+		<a href="#"><%= image_tag 'twitter.png' %></a>
+		<a href="#"><%= image_tag 'linkedin.png' %></a>
+	</div>
+</div>
