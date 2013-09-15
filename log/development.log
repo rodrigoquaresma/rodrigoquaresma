@@ -15626,3 +15626,75 @@ Processing by SiteController#index as HTML
   Rendered site/_footer.html.erb (0.0ms)
   Rendered site/index.html.erb within layouts/application (13.7ms)
 Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"home"}
+  Rendered site/_header.html.erb (8.9ms)
+  Rendered site/_navbar.html.erb (1.5ms)
+  Rendered site/_home.html.erb (0.5ms)
+  Rendered site/_footer.html.erb (0.1ms)
+  Rendered site/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"jobs"}
+  Rendered site/_header.html.erb (9.2ms)
+  Rendered site/_navbar.html.erb (1.5ms)
+  Rendered site/_jobs.html.erb (0.0ms)
+  Rendered site/_footer.html.erb (0.0ms)
+  Rendered site/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 32ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"projects"}
+  Rendered site/_header.html.erb (15.8ms)
+  Rendered site/_navbar.html.erb (0.8ms)
+  Rendered site/_projects.html.erb (0.1ms)
+  Rendered site/_footer.html.erb (0.0ms)
+  Rendered site/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"bio"}
+  Rendered site/_header.html.erb (16.7ms)
+  Rendered site/_navbar.html.erb (0.9ms)
+  Rendered site/_bio.html.erb (0.0ms)
+  Rendered site/_footer.html.erb (0.0ms)
+  Rendered site/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"jobs"}
+  Rendered site/_header.html.erb (11.2ms)
+  Rendered site/_navbar.html.erb (0.8ms)
+  Rendered site/_jobs.html.erb (0.1ms)
+  Rendered site/_footer.html.erb (0.0ms)
+  Rendered site/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"jobs"}
+  Rendered site/_header.html.erb (9.0ms)
+  Rendered site/_navbar.html.erb (0.9ms)
+  Rendered site/_jobs.html.erb (0.3ms)
+  Rendered site/_footer.html.erb (0.1ms)
+  Rendered site/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"projects"}
+  Rendered site/_header.html.erb (9.0ms)
+  Rendered site/_navbar.html.erb (1.2ms)
+  Rendered site/_projects.html.erb (0.5ms)
+  Rendered site/_footer.html.erb (0.1ms)
+  Rendered site/index.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"bio"}
+  Rendered site/_header.html.erb (24.9ms)
+  Rendered site/_navbar.html.erb (1.0ms)
+  Rendered site/_bio.html.erb (0.4ms)
+  Rendered site/_footer.html.erb (0.0ms)
+  Rendered site/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"home"}
+  Rendered site/_header.html.erb (73.0ms)
+  Rendered site/_navbar.html.erb (1.1ms)
+  Rendered site/_home.html.erb (1.2ms)
+  Rendered site/_footer.html.erb (0.1ms)
+  Rendered site/index.html.erb within layouts/application (81.1ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
