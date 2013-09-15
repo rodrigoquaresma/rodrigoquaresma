@@ -12,7 +12,7 @@
 //$gray-darker:            lighten(#000, 13.5%) !default; // #222
 //$gray-dark:              lighten(#000, 20%) !default;   // #333
 //$gray:                   lighten(#000, 33.5%) !default; // #555
-//$gray-light:             lighten(#000, 60%) !default;   // #999
+$gray-light:             lighten(#000, 60%) !default;   // #999
 //$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 //
 //// Brand colors
@@ -195,41 +195,41 @@ $font-size-base:          14px !default;
 //$zindex-navbar-fixed:      1030 !default;
 //$zindex-modal-background:  1040 !default;
 //$zindex-modal:             1050 !default;
-//
-//// Media queries breakpoints
-//// --------------------------------------------------
-//
-//// Extra small screen / phone
-//$screen-xs:                  480px !default;
-//$screen-phone:               $screen-xs !default;
-//
-//// Small screen / tablet
-//$screen-sm:                  768px !default;
-//$screen-tablet:              $screen-sm !default;
-//
-//// Medium screen / desktop
-//$screen-md:                  992px !default;
-//$screen-desktop:             $screen-md !default;
-//
-//// Large screen / wide desktop
-//$screen-lg:                  1200px !default;
-//$screen-lg-desktop:          $screen-lg !default;
-//
-//// So media queries don't overlap when required, provide a maximum
-//$screen-xs-max:              ($screen-sm - 1) !default;
-//$screen-sm-max:              ($screen-md - 1) !default;
-//$screen-md-max:              ($screen-lg - 1) !default;
-//
-//
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+$screen-xs:                  480px !default;
+$screen-phone:               $screen-xs !default;
+
+// Small screen / tablet
+$screen-sm:                  768px !default;
+$screen-tablet:              $screen-sm !default;
+
+// Medium screen / desktop
+$screen-md:                  992px !default;
+$screen-desktop:             $screen-md !default;
+
+// Large screen / wide desktop
+$screen-lg:                  1200px !default;
+$screen-lg-desktop:          $screen-lg !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm - 1) !default;
+$screen-sm-max:              ($screen-md - 1) !default;
+$screen-md-max:              ($screen-lg - 1) !default;
+
+
 //// Grid system
 //// --------------------------------------------------
 //
 //// Number of columns in the grid system
-//$grid-columns:              12 !default;
+$grid-columns:              12 !default;
 //// Padding, to be divided by two and applied to the left and right of all columns
-//$grid-gutter-width:         30px !default;
+$grid-gutter-width:         30px !default;
 //// Point at which the navbar stops collapsing
-//$grid-float-breakpoint:     $screen-tablet !default;
+$grid-float-breakpoint:     $screen-tablet !default;
 //
 //
 //// Navbar
@@ -268,21 +268,21 @@ $font-size-base:          14px !default;
 //// Inverted navbar
 ////
 //// Reset inverted navbar basics
-//$navbar-inverse-color:                      $gray-light !default;
-//$navbar-inverse-bg:                         #222 !default;
-//$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-color:                      $gray-light !default;
+$navbar-inverse-bg:                         #222 !default;
+$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
 //
 //// Inverted navbar links
-//$navbar-inverse-link-color:                 $gray-light !default;
-//$navbar-inverse-link-hover-color:           #fff !default;
+$navbar-inverse-link-color:                 $gray-light !default;
+$navbar-inverse-link-hover-color:           #fff !default;
 //$navbar-inverse-link-hover-bg:              transparent !default;
-//$navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
+$navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
 //$navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 10%) !default;
 //$navbar-inverse-link-disabled-color:        #444 !default;
 //$navbar-inverse-link-disabled-bg:           transparent !default;
 //
 //// Inverted navbar brand label
-//$navbar-inverse-brand-color:                $navbar-inverse-link-color !default;
+$navbar-inverse-brand-color:                $navbar-inverse-link-active-color !default;
 //$navbar-inverse-brand-hover-color:          #fff !default;
 //$navbar-inverse-brand-hover-bg:             transparent !default;
 //
@@ -611,10 +611,10 @@ $font-size-base:          14px !default;
 //// --------------------------------------------------
 //
 //// Small screen / tablet
-//$container-tablet:            ((720px + $grid-gutter-width)) !default;
+$container-tablet:            ((720px + $grid-gutter-width)) !default;
 //
 //// Medium screen / desktop
-//$container-desktop:           ((940px + $grid-gutter-width)) !default;
+$container-desktop:           ((940px + $grid-gutter-width)) !default;
 //
 //// Large screen / wide desktop
-//$container-lg-desktop:        ((1140px + $grid-gutter-width)) !default;
+$container-lg-desktop:        ((1140px + $grid-gutter-width)) !default;
