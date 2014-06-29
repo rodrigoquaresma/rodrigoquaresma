@@ -1,75 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
-
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<title>rodrigo quaresma - ux designer - portfolio</title>
-
-<meta name="description" content="Portifolio de Rodrigo Quaresma - UX Designer" />
-
-<meta name="keywords" content="UX, design, portfolio, rodrigo quaresma" />
-
-<meta name="author" content="Rodrigo Quaresma" />
-
-<link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon" />
-
-<link rel="stylesheet" href="css/style-dark.css" type="text/css" media="screen" />
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18762296-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-</head>
-
-<body>
-<!-- ClickTale Top part -->
-<script type="text/javascript">
-var WRInitTime=(new Date()).getTime();
-</script>
-<!-- ClickTale end of Top part -->
-
-
-
 <div class="main <%= @visu %>">
-
-<div id="content">
-
-<div class="topbar">
-
-<h2><%= @area %></h2>
-
+  <div id="content">
+    <div class="topbar">
+      <h2><%= @area %></h2>
+    </div>
+    <%= render partial: "#{@area}" %>
+  </div>
+  <%= render partial: "menu" %>
 </div>
-
-<%= erb :"#{@area}" %>
-
-</div>
-
-<%= erb :menu %>
-
-</div>
-
-<!-- ClickTale Bottom part -->
-<div id="ClickTaleDiv" style="display: none;"></div>
-<script type="text/javascript">
-if(document.location.protocol!='https:')
-  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRe0.js'%20type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-if(typeof ClickTale=='function') ClickTale(7762,1,"www08");
-</script>
-<!-- ClickTale end of Bottom part -->
-
-</body>
-
-</html>
