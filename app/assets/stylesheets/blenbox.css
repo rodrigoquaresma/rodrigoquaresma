@@ -1,0 +1,252 @@
+html, body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:1.2;
+}
+html {
+	height:100%;
+}
+body {
+	background-color:#101010;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+div.raiz {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: table;
+	height: 100%;
+	padding: 0;
+	width: 100%;
+	min-height:320px;
+}
+
+div#content {
+	width:968px;
+	height:620px;
+	margin:0 auto;
+	left:50%;
+	margin-left:-486px;
+	top:50%;
+	margin-top:-310px;
+	position:absolute;
+	background-color:#1a1a1a;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	box-shadow:2px 2px 4px #000;
+	bottom: 0;
+	content: "";
+	display: block;
+	background-color:#e5e5e5;
+}
+
+div#scroll-h {
+	width:762px;
+	height:44px;
+	left:194px;
+	top:32px;
+	background-color:#CC6;
+	position:absolute;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+div#scroll-h div#foco-lineup {
+	width:74px;
+	height:40px;
+	left:2px;
+	top:2px;
+	background-color:#C9C;
+	position:relative;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+div#atalho-lineup
+{
+	width:760px;
+	height:20px;
+	left:194px;
+	top:12px;
+	position:absolute;
+	padding:0 1px;
+	background-color:#C69;
+}
+div#atalho-lineup p
+{
+	display:block;
+	text-align:center;
+	width:74px;
+	height:18px;
+	padding:2px 0 0;
+	background-color:#CF6;
+	margin:0 1px;
+	float:left;
+}
+div#atalho-lineup p span
+{
+	display:block;
+	font-weight:bold;
+}
+
+div#scroll-v {
+	width:40px;
+	height:446px;
+	left:96px;
+	top:158px;
+	background-color:#CC6;
+	position:absolute;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	padding:2px;
+}
+div#scroll-v div#foco-dia {
+	width:40px;
+	height:62px;
+	background-color:#9C0;
+	position:relative;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+div#atalho-dia
+{
+	width:96px;
+	height:448px;
+	left:0px;
+	top:158px;
+	position:absolute;
+	padding:1px 0;
+	background-color:#C69;
+}
+div#atalho-dia p
+{
+	display:block;
+	text-align:right;
+	width:88px;
+	height:46px;
+	float:left;
+	clear:both;
+	padding:16px 4px 0 4px;
+	background-color:#CF6;
+	margin:1px 0;
+}
+div#atalho-dia p span
+{
+	display:block;
+}
+
+
+div#horas
+{
+	width:56px;
+	height:458px;
+	left:140px;
+	top:96px;
+	position:absolute;
+	padding:54px 0 0 0;
+	overflow:hidden;
+}
+div#horas p
+{
+	display:block;
+	text-align:right;
+	width:48px;
+	height:60px;
+	float:left;
+	clear:both;
+	padding:0 4px;
+	margin:0;
+}
+
+
+div#grade {
+	width:762px;
+	height:520px;
+	left:194px;
+	top:88px;
+	background-color:#CC6;
+	position:absolute;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	overflow:hidden;
+}
+
+div#grade div#carrossel {
+	width:762px;
+	height:70px;
+	overflow:hidden;
+	background-image:url(icons/bg-canal.jpg);
+	background-repeat:repeat-x;
+
+}
+div#grade div#carrossel div.canal {
+	width:120px;
+	height:70px;
+	margin:0 16px;
+	float:left;
+	background-position:0 8px;
+	background-repeat:no-repeat;
+}
+div#grade div#carrossel div.canal span {
+	display:block;
+	margin:52px 0 0 0;
+	width:120px;
+	height:18px;
+	text-align:center;
+	color:#b2b2b2;
+	font-size:0.8em;
+}
+div#grade div#guia {
+	width:762px;
+	height:450px;
+	background-color:#999;
+	overflow:hidden;
+}
+/*a semana é o container da coluna do canal*/
+div#grade div#guia div.semana {
+	float:left;
+	width:152px;
+	height:20160px;
+	background-image:url(icons/bg-semana.gif);
+	background-repeat:repeat-y;
+}
+div#grade div#guia div.semana div.dia {
+	width:120px;
+	height:2880px;
+	display:block;
+	margin:0 16px;
+}
+div#grade div#guia div.semana div.dia div.programa {
+	width:120px;
+	height:60px;
+	display:block;
+	background-image:url(icons/bg-programa.gif);
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+div#grade div#guia div.semana div.dia div.programa span.titulo {
+	display:block;
+	padding:4px 0 0 0;
+	font-weight:bold;
+	line-height:1.1;
+}
+div#grade div#guia div.semana div.dia div.programa span.horario {
+	display:block;
+	line-height:1.1;
+	font-size:0.8em;
+}
+
+/*ids dos canais*/
+div#grade div#carrossel div#ch020 {background-image:url(logos/020.png);}
+div#grade div#carrossel div#ch021 {background-image:url(logos/021.png);}
+div#grade div#carrossel div#ch022 {background-image:url(logos/022.png);}
+div#grade div#carrossel div#ch023 {background-image:url(logos/023.png);}
+div#grade div#carrossel div#ch024 {background-image:url(logos/024.png);}
+div#grade div#carrossel div#ch025 {background-image:url(logos/025.png);}
+

@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>blenbox</title>
+<link rel="stylesheet" href="css/blenbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/dragdealer.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+
+<script type="text/javascript" src="javascripts/dragdealer.js"></script>
+<script type="text/javascript" src="javascripts/jquery-1.9.1.js"></script>
+
+<script type="text/javascript" src="javascripts/ui/1.10.2/jquery-ui.js"></script>
+
+
+
+<script type="text/javascript">
+
+window.onload = function()
+{
+	// Simple slider
+	
+//	new Dragdealer('simple-slider');
+
+	// Vertical
+	
+//	var mask = document.getElementById('scroll-mask');
+//	var content = document.getElementById('scroll-content');
+//
+//	new Dragdealer('scroll-bar',
+//	{
+//		horizontal: false,
+//		vertical: true,
+//		yPrecision: content.offsetHeight,
+//		animationCallback: function(x, y)
+//		{
+//			var margin = y * (content.offsetHeight - mask.offsetHeight);
+//			content.style.marginTop = String(-margin) + 'px';
+//		}
+//	});
+
+	// horizontal
+/*	
+	var mask = document.getElementById('grade');
+	var content = document.getElementById('grid_container');
+
+	new Dragdealer('scroll-bar',
+	{
+		horizontal: true,
+		vertical: false,
+		yPrecision: content.offsetHeight,
+		xPrecision: content.offsetWIdth,
+		animationCallback: function(x, y)
+		{
+			var marginy = y * (content.offsetHeight - mask.offsetHeight);
+			var marginx = x * (content.offsetWidth - mask.offsetWidth);
+			content.style.marginTop = String(-marginy) + 'px';
+			content.style.marginLeft = String(marginx) + 'px';
+		}
+	});
+*/
+	// Magnifier
+
+	var mask = document.getElementById('grade');
+	var content = document.getElementById('grid_container');
+	var semana = document.getElementById('grade_semana');
+	
+	var list = document.getElementsByClassName("grade-semana");
+	
+	    // list[i] is a node with the desired class name
+
+/*	*/
+	new Dragdealer('horizontal',
+	{
+		steps: 10,
+		snap: true,
+		animationCallback: function(x, y)
+		{
+			var marginx = x * (15840 - 1584);
+			
+			$("#grid_container").animate({
+				marginLeft: String(-marginx) + 'px'
+			}, 400 );
+			
+			//content.style.marginLeft = String(-marginx) + 'px';
+			
+		}
+	});
+	
+	new Dragdealer('vertical',
+	{
+		steps: 7,
+		snap: true,
+		animationCallback: function(x, y)
+		{
+			var marginy = y * (20160 - 2880);
+			
+			
+			for (var i = 0; i < list.length; i++) {
+				
+				$(list[i]).animate({
+					marginTop: String(-marginy) + 'px'
+				}, 400 );
+				
+				
+				//list[i].style.marginTop = String(-marginy) + 'px';
+			}
+		}
+	});
+}
+
+$(function() {
+	//$( "#grid_container" ).draggable();
+	$( "#draggable" ).draggable({ scroll: true, scrollSpeed: 100 });
+});
+
+</script>
+
+<style>
+#draggable { background-color:#0099ff; }
+</style>
+
+</head>
+<body>
+<div class="raiz">
+	<div id="content">
+		<div id="scroll-v">
+			<div id="vertical" class="dragdealer">
+				<div class="handle vertical"></div>
+			</div>
+		</div>
+		<div id="atalho-dia">
+			<p id="magnifying-text"><span>Hoje</span><span>17/01</span></p>
+			<p><span>Amanhã</span><span>18/01</span></p>
+			<p><span>Quinta-feira</span><span>19/01</span></p>
+			<p><span>Sexta-feira</span><span>20/01</span></p>
+			<p><span>Sábado</span><span>21/01</span></p>
+			<p><span>Domingo</span><span>22/01</span></p>
+			<p><span>Segunda</span><span>23/01</span></p>
+		</div>
+		
+		<div id="scroll-h">
+			<%= erb :'blenbox/scroll-h' %>
+		</div>
+		
+		<div id="atalho-lineup">
+			<p><span>A&E - BOO</span></p>
+			<p><span>Can - Dis</span></p>
+			<p><span>Dis - FOX</span></p>
+			<p><span>FOX - HBO</span></p>
+			<p><span>HBO - MAX</span></p>
+			<p><span>MAX - Pre</span></p>
+			<p><span>Pre - Rec</span></p>
+			<p><span>SBT - Stu</span></p>
+			<p><span>TBS - TNT</span></p>
+			<p><span>Too - War</span></p>
+		</div>
+		<div id="horas">
+			<p>00:00</p>
+			<p>00:30</p>
+			<p>01:00</p>
+			<p>01:30</p>
+			<p>02:00</p>
+			<p>02:30</p>
+			<p>03:00</p>
+			<p>03:30</p>
+			<p>04:00</p>
+			<p>04:30</p>
+			<p>05:00</p>
+			<p>05:30</p>
+			<p>06:00</p>
+			<p>06:30</p>
+			<p>07:00</p>
+			<p>07:30</p>
+			<p>08:00</p>
+			<p>08:30</p>
+			<p>09:00</p>
+			<p>09:30</p>
+			<p>10:00</p>
+			<p>10:30</p>
+			<p>11:00</p>
+			<p>11:30</p>
+			<p>12:00</p>
+			<p>12:30</p>
+			<p>13:00</p>
+			<p>13:30</p>
+			<p>14:00</p>
+			<p>14:30</p>
+			<p>15:00</p>
+			<p>15:30</p>
+			<p>14:00</p>
+			<p>14:30</p>
+			<p>15:00</p>
+			<p>15:30</p>
+			<p>16:00</p>
+			<p>16:30</p>
+			<p>17:00</p>
+			<p>17:30</p>
+			<p>18:00</p>
+			<p>18:30</p>
+			<p>19:00</p>
+			<p>19:30</p>
+			<p>20:00</p>
+			<p>20:30</p>
+			<p>21:00</p>
+			<p>21:30</p>
+			<p>22:00</p>
+			<p>22:30</p>
+			<p>23:00</p>
+			<p>23:30</p>
+		</div>
+		<div id="filtro-canal">
+		</div>
+		
+		<div id="grade">
+			<section id="grid_container">
+				<%= erb :'blenbox/grid' %>
+			</section>
+		</div>
+		
+
+	</div>
+</div>
+</body>
+</html>
