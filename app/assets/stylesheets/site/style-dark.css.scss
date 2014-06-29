@@ -37,7 +37,7 @@ div#content {
 	top:0px;
 	padding:0 0 40px 0;
 }
-div#content div.topbar {	
+div#content div.topbar {
 	background-repeat:repeat-y;
 	height:80px;
 	padding:12px 0 0 40px;
@@ -54,7 +54,7 @@ div#content div.topbar h2 {
 
 
 div#content div.menubar {
-	float:left;	
+	float:left;
 	padding:57px 0 20px 40px;
 	clear:both;
 }
@@ -229,7 +229,7 @@ div#content div.columns div.full p a
 	color:#3366bb;
 	background:url("../icon/external-link-ltr-icon.png") no-repeat scroll right center transparent;
 	padding:0 13px 0 0;
-	
+
 }
 div#content div.columns div.left p.box,
 div#content div.columns div.right p.box,
@@ -270,7 +270,7 @@ div#menu p.skills {
 	padding:0 0 52px 0;
 	text-transform:uppercase;
 	font-weight:bold;
-	text-rendering:optimizeLegibility;
+	// text-rendering:optimizeLegibility;
 }
 div.main.display div#menu p.skills {color:#404080;}
 div.main.tv      div#menu p.skills {color:#808040;}
@@ -284,7 +284,7 @@ div#menu h1 {
 	font-weight:normal;
 	text-transform:uppercase;
 	line-height:0.9;
-	text-rendering:optimizeLegibility;
+	// text-rendering:optimizeLegibility;
 }
 
 div#menu ul.categorias {
@@ -309,7 +309,7 @@ div#menu ul.categorias li a {
 	overflow:hidden;
 	text-indent:-3px;
 	line-height:1.5;
-	text-rendering:optimizeLegibility;
+	// text-rendering:optimizeLegibility;
 }
 
 div#menu ul.categorias li a.display,
@@ -321,7 +321,7 @@ div#menu ul.categorias li a.brands
 	background-color:#666;
 	background-position:-40px 0;
 	clear:both;
-	text-rendering:optimizeLegibility;
+	// text-rendering:optimizeLegibility;
 }
 
 div#menu ul.categorias li a.display.linkado,
@@ -338,7 +338,7 @@ div#menu ul.categorias li a.brands:hover  {background-color:#41607f;background-i
 div#menu p.email,
 div#menu p.local
 {
-	
+
 }
 
 div#menu p a img {
@@ -381,5 +381,3 @@ div.main.display div#menu dl.contact dd a:hover {color:#7f3e7e;}
 div.main.tv      div#menu dl.contact dd a:hover {color:#408141;}
 div.main.paper   div#menu dl.contact dd a:hover {color:#826142;}
 div.main.brands  div#menu dl.contact dd a:hover {color:#41607f;}
-
-
