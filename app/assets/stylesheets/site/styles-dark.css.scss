@@ -37,7 +37,7 @@ div#content {
 	top:0px;
 	padding:0 0 40px 0;
 }
-div#content div.topbar {	
+div#content div.topbar {
 	background-repeat:repeat-y;
 	height:80px;
 	padding:12px 0 0 40px;
@@ -53,7 +53,7 @@ div#content div.topbar h2 {
 
 
 div#content div.menubar {
-	float:left;	
+	float:left;
 	padding:57px 0 20px 40px;
 	clear:both;
 }
@@ -83,25 +83,29 @@ div#content div.menubar ul.submenu li a.item {
 	line-height:1.5;
 	overflow:hidden;
 	background-position:-40px 0;
-	
+
 }
 
 /*display*/
+div.main.display div#menu h1,
 div.main.display div#content div.topbar,
 div.main.display div#content div.menubar ul.submenu li a.item:hover,
 div.main.display div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(../icon/bg-bar-display.jpg);   background-color:#7f3e7e;}
 
 /*tv*/
+div.main.tv			div#menu h1,
 div.main.tv      div#content div.topbar,
 div.main.tv      div#content div.menubar ul.submenu li a.item:hover,
 div.main.tv      div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(../icon/bg-bar-tv.jpg);    background-color:#408141;}
 
 /*paper*/
+div.main.paper	 div#menu h1,
 div.main.paper   div#content div.topbar,
 div.main.paper   div#content div.menubar ul.submenu li a.item:hover,
 div.main.paper   div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(../icon/bg-bar-paper.jpg); background-color:#826142;}
 
 /*brands*/
+div.main.brands	div#menu h1,
 div.main.brands  div#content div.topbar,
 div.main.brands  div#content div.menubar ul.submenu li a.item:hover,
 div.main.brands  div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(../icon/bg-bar-brands.jpg);background-color:#41607f;}
@@ -328,7 +332,7 @@ div#menu ul.categorias li a.brands:hover  {background-color:#41607f;background-i
 div#menu p.email,
 div#menu p.local
 {
-	
+
 }
 
 div#menu p a img {
@@ -371,5 +375,3 @@ div.main.display div#menu dl.contact dd a:hover {color:#7f3e7e;}
 div.main.tv      div#menu dl.contact dd a:hover {color:#408141;}
 div.main.paper   div#menu dl.contact dd a:hover {color:#826142;}
 div.main.brands  div#menu dl.contact dd a:hover {color:#41607f;}
-
-
