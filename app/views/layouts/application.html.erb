@@ -7,7 +7,7 @@
     <meta name="keywords" content="UX, design, portfolio, rodrigo quaresma" />
     <meta name="author" content="Rodrigo Quaresma" />
     <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon" />
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag    'application', media: 'all' => true %>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-18762296-1']);
@@ -20,14 +20,14 @@
     </script>
     <%= csrf_meta_tags %>
   </head>
-  <body>
+  <body data-no-turbolink>
     <!-- ClickTale Top part -->
     <script type="text/javascript">
     var WRInitTime=(new Date()).getTime();
     </script>
     <!-- ClickTale end of Top part -->
     <%= yield %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application' %>
     <!-- ClickTale Bottom part -->
     <div id="ClickTaleDiv" style="display: none;"></div>
     <script type="text/javascript">
