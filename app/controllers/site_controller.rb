@@ -4,32 +4,32 @@ class SiteController < ApplicationController
   def index
     @area = 'now'
     @visu = 'display'
-    render 'index'
+    render 'site/index'
   end
 
   def now
     @area = 'now'
     @visu = 'display'
-    render :index
+    render 'site/index'
   end
 
-  def clicesportes
-    @area = 'clicesportes'
-    @visu = 'tv'
-    render :index
-  end
+  # def clicesportes
+  #   @area = 'clicesportes'
+  #   @visu = 'tv'
+  #   render 'site/index'
+  # end
 
-  def refap
-    @area = 'refap'
-    @visu = 'brands'
-    render :index
-  end
+  # def refap
+  #   @area = 'refap'
+  #   @visu = 'brands'
+  #   render :index
+  # end
 
-  def clicrbs
-    @area = 'clicrbs'
-    @visu = 'paper'
-    render :index
-  end
+  # def clicrbs
+  #   @area = 'clicrbs'
+  #   @visu = 'paper'
+  #   render :index
+  # end
 
   def facebook_gvt_tv
     @area = 'facebook_gvt_tv'

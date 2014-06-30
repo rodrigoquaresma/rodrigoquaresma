@@ -24,10 +24,10 @@ div.main {
 	background-repeat:repeat-x;
 	background-position:0 0;
 }
-div.main.display {background-image:url(../icon/bg-body-display.gif);}
-div.main.tv      {background-image:url(../icon/bg-menu-tv.gif);}
-div.main.paper   {background-image:url(../icon/bg-menu-paper.gif);}
-div.main.brands  {background-image:url(../icon/bg-menu-brands.gif);}
+div.main.display {background-image:url(bg-body-display.gif);}
+div.main.tv      {background-image:url(bg-menu-tv.gif);}
+div.main.paper   {background-image:url(bg-menu-paper.gif);}
+div.main.brands  {background-image:url(bg-menu-brands.gif);}
 
 
 div#content {
@@ -90,25 +90,25 @@ div#content div.menubar ul.submenu li a.item {
 div.main.display div#menu h1,
 div.main.display div#content div.topbar,
 div.main.display div#content div.menubar ul.submenu li a.item:hover,
-div.main.display div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(../icon/bg-bar-display.jpg);   background-color:#7f3e7e;}
+div.main.display div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(bg-bar-display.jpg);   background-color:#7f3e7e;}
 
 /*tv*/
 div.main.tv			div#menu h1,
 div.main.tv      div#content div.topbar,
 div.main.tv      div#content div.menubar ul.submenu li a.item:hover,
-div.main.tv      div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(../icon/bg-bar-tv.jpg);    background-color:#408141;}
+div.main.tv      div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(bg-bar-tv.jpg);    background-color:#408141;}
 
 /*paper*/
 div.main.paper	 div#menu h1,
 div.main.paper   div#content div.topbar,
 div.main.paper   div#content div.menubar ul.submenu li a.item:hover,
-div.main.paper   div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(../icon/bg-bar-paper.jpg); background-color:#826142;}
+div.main.paper   div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(bg-bar-paper.jpg); background-color:#826142;}
 
 /*brands*/
 div.main.brands	div#menu h1,
 div.main.brands  div#content div.topbar,
 div.main.brands  div#content div.menubar ul.submenu li a.item:hover,
-div.main.brands  div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(../icon/bg-bar-brands.jpg);background-color:#41607f;}
+div.main.brands  div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(bg-bar-brands.jpg);background-color:#41607f;}
 
 
 
@@ -147,7 +147,7 @@ div#content p {
 }
 div#content p a {
 	color:#3366bb;
-	background:url("../icon/external-link-ltr-icon.png") no-repeat scroll right center transparent;
+	background:url("external-link-ltr-icon.png") no-repeat scroll right center transparent;
 	padding:0 13px 0 0;
 }
 div#content dl.notes {
@@ -185,7 +185,7 @@ div#content dl.notes dd {
 div#content dl.notes dt a,
 div#content dl.notes dd a {
 	color:#3366bb;
-	background:url("../icon/external-link-ltr-icon.png") no-repeat scroll right center transparent;
+	background:url("external-link-ltr-icon.png") no-repeat scroll right center transparent;
 	padding:0 13px 0 0;
 }
 
@@ -226,7 +226,7 @@ div#content div.columns div.right p a,
 div#content div.columns div.full p a
 {
 	color:#3366bb;
-	background:url("../icon/external-link-ltr-icon.png") no-repeat scroll right center transparent;
+	background:url("external-link-ltr-icon.png") no-repeat scroll right center transparent;
 	padding:0 13px 0 0;
 }
 div#content div.columns div.left p.box,
@@ -257,10 +257,10 @@ div#menu {
 	margin:0;
 	background-repeat:repeat-x;
 }
-div.main.display div#menu {background-image:url(../icon/bg-menu-display.gif);}
-div.main.tv      div#menu {background-image:url(../icon/bg-body-tv.gif);}
-div.main.paper   div#menu {background-image:url(../icon/bg-body-paper.gif);}
-div.main.brands  div#menu {background-image:url(../icon/bg-body-brands.gif);}
+div.main.display div#menu {background-image:url(bg-menu-display.gif);}
+div.main.tv      div#menu {background-image:url(bg-body-tv.gif);}
+div.main.paper   div#menu {background-image:url(bg-body-paper.gif);}
+div.main.brands  div#menu {background-image:url(bg-body-brands.gif);}
 
 div#menu p.skills {
 	font-size:24px;
@@ -319,13 +319,13 @@ div#menu ul.categorias li a.brands
 }
 
 div#menu ul.categorias li a.display.linkado,
-div#menu ul.categorias li a.display:hover {background-color:#7f3e7e;background-image:url(../icon/bg-bar-display.jpg);}
+div#menu ul.categorias li a.display:hover {background-color:#7f3e7e;background-image:url(bg-bar-display.jpg);}
 div#menu ul.categorias li a.tv.linkado,
-div#menu ul.categorias li a.tv:hover      {background-color:#408141;background-image:url(../icon/bg-bar-tv.jpg);}
+div#menu ul.categorias li a.tv:hover      {background-color:#408141;background-image:url(bg-bar-tv.jpg);}
 div#menu ul.categorias li a.paper.linkado,
-div#menu ul.categorias li a.paper:hover   {background-color:#826142;background-image:url(../icon/bg-bar-paper.jpg);}
+div#menu ul.categorias li a.paper:hover   {background-color:#826142;background-image:url(bg-bar-paper.jpg);}
 div#menu ul.categorias li a.brands.linkado,
-div#menu ul.categorias li a.brands:hover  {background-color:#41607f;background-image:url(../icon/bg-bar-brands.jpg);}
+div#menu ul.categorias li a.brands:hover  {background-color:#41607f;background-image:url(bg-bar-brands.jpg);}
 
 
 
