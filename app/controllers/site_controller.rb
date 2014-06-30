@@ -4,7 +4,7 @@ class SiteController < ApplicationController
   def index
     @area = 'now'
     @visu = 'display'
-    render :index
+    render 'index'
   end
 
   def now
