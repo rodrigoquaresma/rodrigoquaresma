@@ -24,15 +24,15 @@ div.main {
 	background-repeat:repeat-x;
 	background-position:0 0;
 }
-div.main.display {background-image:url(bg-body-display.gif);}
-div.main.tv      {background-image:url(bg-menu-tv.gif);}
-div.main.paper   {background-image:url(bg-menu-paper.gif);}
-div.main.brands  {background-image:url(bg-menu-brands.gif);}
+// div.main.display {background-image:url(bg-body-display.gif);}
+// div.main.tv      {background-image:url(bg-menu-tv.gif);}
+// div.main.paper   {background-image:url(bg-menu-paper.gif);}
+// div.main.brands  {background-image:url(bg-menu-brands.gif);}
 
 
 div#content {
 	position:absolute;
-	width:600px;
+	width:auto;
 	left:360px;
 	top:0px;
 	padding:0 0 40px 0;
@@ -90,25 +90,25 @@ div#content div.menubar ul.submenu li a.item {
 div.main.display div#menu h1,
 div.main.display div#content div.topbar,
 div.main.display div#content div.menubar ul.submenu li a.item:hover,
-div.main.display div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(bg-bar-display.jpg);   background-color:#7f3e7e;}
+div.main.display div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-color:#7f3e7e;}
 
 /*tv*/
 div.main.tv			div#menu h1,
 div.main.tv      div#content div.topbar,
 div.main.tv      div#content div.menubar ul.submenu li a.item:hover,
-div.main.tv      div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(bg-bar-tv.jpg);    background-color:#408141;}
+div.main.tv      div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-color:#408141;}
 
 /*paper*/
 div.main.paper	 div#menu h1,
 div.main.paper   div#content div.topbar,
 div.main.paper   div#content div.menubar ul.submenu li a.item:hover,
-div.main.paper   div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(bg-bar-paper.jpg); background-color:#826142;}
+div.main.paper   div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-color:#826142;}
 
 /*brands*/
 div.main.brands	div#menu h1,
 div.main.brands  div#content div.topbar,
 div.main.brands  div#content div.menubar ul.submenu li a.item:hover,
-div.main.brands  div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-image:url(bg-bar-brands.jpg);background-color:#41607f;}
+div.main.brands  div#content div.menubar ul.submenu li a.item.linkado {color:#1a1a1a;background-color:#41607f;}
 
 
 
@@ -251,22 +251,22 @@ div#content div.columns div.full p.box strong
 
 
 div#menu {
-	width:280px;
-	padding:0 40px 0 40px;
+	width:320px;
+	padding:0 40px 0 0;
 	left:0px;
 	top:0px;
 	margin:0;
 	background-repeat:repeat-x;
 }
-div.main.display div#menu {background-image:url(bg-menu-display.gif);}
-div.main.tv      div#menu {background-image:url(bg-body-tv.gif);}
-div.main.paper   div#menu {background-image:url(bg-body-paper.gif);}
-div.main.brands  div#menu {background-image:url(bg-body-brands.gif);}
+// div.main.display div#menu {background-image:url(bg-menu-display.gif);}
+// div.main.tv      div#menu {background-image:url(bg-body-tv.gif);}
+// div.main.paper   div#menu {background-image:url(bg-body-paper.gif);}
+// div.main.brands  div#menu {background-image:url(bg-body-brands.gif);}
 
 div#menu p.skills {
 	font-size:24px;
 	color:#666;
-	padding:0 0 52px 0;
+	padding:0 0 52px 40px;
 	text-transform:uppercase;
 	font-weight:bold;
 }
@@ -278,7 +278,7 @@ div.main.brands  div#menu p.skills {color:#3f805e;}
 div#menu h1 {
 	font-size:32px;
 	color:#1a1a1a;
-	padding:14px 0 0 0;
+	padding:14px 0 0 40px;
 	font-weight:normal;
 	text-transform:uppercase;
 	line-height:0.9;
@@ -306,6 +306,7 @@ div#menu ul.categorias li a {
 	overflow:hidden;
 	text-indent:-1px;
 	line-height:1.3;
+	padding-left:40px;
 }
 
 div#menu ul.categorias li a.display,
@@ -320,13 +321,13 @@ div#menu ul.categorias li a.brands
 }
 
 div#menu ul.categorias li a.display.linkado,
-div#menu ul.categorias li a.display:hover {background-color:#7f3e7e;background-image:url(bg-bar-display.jpg);}
+div#menu ul.categorias li a.display:hover {background-color:#7f3e7e;}
 div#menu ul.categorias li a.tv.linkado,
-div#menu ul.categorias li a.tv:hover      {background-color:#408141;background-image:url(bg-bar-tv.jpg);}
+div#menu ul.categorias li a.tv:hover      {background-color:#408141;}
 div#menu ul.categorias li a.paper.linkado,
-div#menu ul.categorias li a.paper:hover   {background-color:#826142;background-image:url(bg-bar-paper.jpg);}
+div#menu ul.categorias li a.paper:hover   {background-color:#826142;}
 div#menu ul.categorias li a.brands.linkado,
-div#menu ul.categorias li a.brands:hover  {background-color:#41607f;background-image:url(bg-bar-brands.jpg);}
+div#menu ul.categorias li a.brands:hover  {background-color:#41607f;}
 
 
 
@@ -345,7 +346,7 @@ div#menu dl.contact {
 	clear:both;
 	display:block;
 	width:280px;
-	padding:0 0 52px 0;
+	padding:0 0 52px 40px;
 }
 div#menu dl.contact dt,
 div#menu dl.contact dd {
