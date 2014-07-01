@@ -65,7 +65,7 @@ get 'refap' => 'site#refap'
 get 'clicrbs' => 'site#clicrbs'
 get 'facebook-gvt-tv' => 'site#facebook_gvt_tv'
 get 'instagvt' => 'site#instagvt'
-get 'guia-de-tv-tablet' => 'site#guia_de_tv_tablet'
+get 'guia-de-tv' => 'site#guia_de_tv'
 get 'menu-de-apps' => 'site#menu_de_apps'
 
 

@@ -5,4 +5,10 @@ Rails.application.config.assets.version = '1.0'
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-# Rails.application.config.assets.precompile += %w( search.js )
+
+base_css   = %w( blenbox/blenbox.css )
+base_js    = %w( blenbox/blenbox.js )
+vendor_css = %w( dragdealer.css )
+vendor_js  = %w( dragdealer.js )
+
+Rails.application.config.assets.precompile += [ base_css, base_js, vendor_css, vendor_js ].flatten

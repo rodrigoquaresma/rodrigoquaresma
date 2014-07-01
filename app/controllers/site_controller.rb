@@ -4,13 +4,13 @@ class SiteController < ApplicationController
   def index
     @area = 'now'
     @visu = 'display'
-    render 'site/index'
+    render :index
   end
 
   def now
     @area = 'now'
     @visu = 'display'
-    render 'site/index'
+    render :index
   end
 
   # def clicesportes
@@ -43,8 +43,8 @@ class SiteController < ApplicationController
     render :index
   end
 
-  def guia_de_tv_tablet
-    @area = 'guia_de_tv_tablet'
+  def guia_de_tv
+    @area = 'guia_de_tv'
     @visu = 'brands'
     render :index
   end
