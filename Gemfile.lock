@@ -47,7 +47,6 @@ GEM
     jbuilder (2.1.1)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
-    jquery-mobile-rails-assets (1.4.2)
     jquery-rails (3.1.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
@@ -132,7 +131,6 @@ DEPENDENCIES
   bootstrap-sass (~> 3.2.0)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
-  jquery-mobile-rails-assets
   jquery-rails
   jquery-ui-rails
   jquery_mobile_rails

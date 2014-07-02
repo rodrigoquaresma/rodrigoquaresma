@@ -34081,3 +34081,102 @@ Started GET "/assets/blenbox/logos/023.png" for 127.0.0.1 at 2014-07-01 23:22:29
 
 
 Started GET "/assets/blenbox/logos/035.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/blenbox" for 127.0.0.1 at 2014-07-01 23:27:46 -0300
+Processing by BlenboxController#index as HTML
+  Rendered blenbox/_scroll_h.html.erb (0.7ms)
+  Rendered blenbox/_semana.html.erb (1.3ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_grid.html.erb (39.0ms)
+  Rendered blenbox/index.html.erb within layouts/blenbox (548.8ms)
+Completed 200 OK in 634ms (Views: 600.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blenbox/blenbox.css?body=1" for 127.0.0.1 at 2014-07-01 23:27:47 -0300
+
+
+Started GET "/assets/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2014-07-01 23:27:48 -0300
+
+
+Started GET "/assets/jquery.mobile.js?body=1" for 127.0.0.1 at 2014-07-01 23:27:48 -0300
+
+
+Started GET "/assets/dragdealer.js?body=1" for 127.0.0.1 at 2014-07-01 23:27:48 -0300
+
+
+Started GET "/assets/blenbox/blenbox.js?body=1" for 127.0.0.1 at 2014-07-01 23:27:48 -0300
+
+
+Started GET "/assets/ui/1.10.2/jquery-ui.js?body=1" for 127.0.0.1 at 2014-07-01 23:27:48 -0300
+
+
+Started GET "/blenbox" for 127.0.0.1 at 2014-07-01 23:30:38 -0300
+Processing by BlenboxController#index as HTML
+  Rendered blenbox/_scroll_h.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_grid.html.erb (47.5ms)
+  Rendered blenbox/index.html.erb within layouts/blenbox (375.8ms)
+Completed 200 OK in 413ms (Views: 407.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blenbox/blenbox.css?body=1" for 127.0.0.1 at 2014-07-01 23:30:38 -0300
+
+
+Started GET "/assets/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2014-07-01 23:30:38 -0300
+
+
+Started GET "/assets/ui/1.10.2/jquery-ui.js?body=1" for 127.0.0.1 at 2014-07-01 23:30:38 -0300
+
+
+Started GET "/assets/blenbox/blenbox.js?body=1" for 127.0.0.1 at 2014-07-01 23:30:38 -0300
+
+
+Started GET "/assets/dragdealer.js?body=1" for 127.0.0.1 at 2014-07-01 23:30:38 -0300
