@@ -6,9 +6,9 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 
-base_css   = %w( site/styles-dark.css blenbox/blenbox.css )
 base_js    = %w( site/site.js blenbox/blenbox.js )
+vendor_js  = %w( dragdealer.js jquery-1.9.1.js ui/1.10.2/jquery-ui.js )
+base_css   = %w( site/styles-dark.css blenbox/blenbox.css )
 vendor_css = %w( dragdealer.css )
-vendor_js  = %w( dragdealer.js jquery-1.9.1 ui/1.10.2/jquery-ui.js )
 
 Rails.application.config.assets.precompile += [ base_css, base_js, vendor_css, vendor_js ].flatten
