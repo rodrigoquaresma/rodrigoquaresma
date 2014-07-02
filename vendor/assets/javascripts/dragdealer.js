@@ -107,7 +107,7 @@ Dragdealer.prototype =
 		
 		this.disabled = this.getOption('disabled', false);
 		this.horizontal = this.getOption('horizontal', true);
-		this.vertical = this.getOption('vertical', false);
+		this.vertical = this.getOption('vertical', true);
 		this.slide = this.getOption('slide', true);
 		this.steps = this.getOption('steps', 0);
 		this.snap = this.getOption('snap', false);

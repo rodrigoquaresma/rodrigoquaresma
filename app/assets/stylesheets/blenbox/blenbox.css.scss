@@ -1,4 +1,4 @@
-@import 'jquery.mobile';
+@import 'dragdealer';
 
 html, body {
 	font-family:Arial, Helvetica, sans-serif;
@@ -42,7 +42,8 @@ div#content {
 	bottom: 0;
 	content: "";
 	display: block;
-	background-color:#e5e5e5;
+	background-image:image-url('blenbox/bg.jpg');
+	background-repeat:no-repeat;
 }
 
 div#scroll-h {
@@ -50,22 +51,21 @@ div#scroll-h {
 	height:44px;
 	left:194px;
 	top:32px;
-	background-color:#CC6;
 	position:absolute;
 	border-radius:8px;
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
 }
+
 div#scroll-h div#foco-lineup {
 	width:74px;
 	height:40px;
 	left:2px;
 	top:2px;
-	background-color:#C9C;
 	position:relative;
-	border-radius:8px;
-	-moz-border-radius:8px;
-	-webkit-border-radius:8px;
+	background-image:image-url('blenbox/botao-h.png');
+	background-repeat:no-repeat;
+	cursor:pointer;
 }
 div#atalho-lineup
 {
@@ -75,7 +75,6 @@ div#atalho-lineup
 	top:12px;
 	position:absolute;
 	padding:0 1px;
-	background-color:#C69;
 }
 div#atalho-lineup p
 {
@@ -84,9 +83,10 @@ div#atalho-lineup p
 	width:74px;
 	height:18px;
 	padding:2px 0 0;
-	background-color:#CF6;
 	margin:0 1px;
 	float:left;
+	color:#e5e5e5;
+	font-size:12px;
 }
 div#atalho-lineup p span
 {
@@ -99,7 +99,6 @@ div#scroll-v {
 	height:446px;
 	left:96px;
 	top:158px;
-	background-color:#CC6;
 	position:absolute;
 	border-radius:8px;
 	-moz-border-radius:8px;
@@ -109,11 +108,9 @@ div#scroll-v {
 div#scroll-v div#foco-dia {
 	width:40px;
 	height:62px;
-	background-color:#9C0;
 	position:relative;
-	border-radius:8px;
-	-moz-border-radius:8px;
-	-webkit-border-radius:8px;
+	background-image:image-url('blenbox/botao-v.png');
+	background-repeat:no-repeat;
 }
 div#atalho-dia
 {
@@ -123,19 +120,18 @@ div#atalho-dia
 	top:158px;
 	position:absolute;
 	padding:1px 0;
-	background-color:#C69;
 }
 div#atalho-dia p
 {
 	display:block;
 	text-align:right;
 	width:88px;
-	height:46px;
+	height:48px;
 	float:left;
 	clear:both;
-	padding:16px 4px 0 4px;
-	background-color:#CF6;
+	padding:14px 4px 0 4px;
 	margin:1px 0;
+	color:#e5e5e5;
 }
 div#atalho-dia p span
 {
@@ -161,17 +157,19 @@ div#horas p
 	height:60px;
 	float:left;
 	clear:both;
-	padding:0 4px;
+	padding:0 8px 0 0;
 	margin:0;
+	color:#e5e5e5;
+	font-size:0.9em;
 }
 
 
 div#grade {
-	width:762px;
+	width:746px;
 	height:520px;
 	left:194px;
 	top:88px;
-	background-color:#CC6;
+	padding:0 8px;
 	position:absolute;
 	border-radius:8px;
 	-moz-border-radius:8px;
@@ -179,75 +177,128 @@ div#grade {
 	overflow:hidden;
 }
 
-div#grade div#carrossel {
-	width:762px;
-	height:70px;
-	overflow:hidden;
-	background-image:url(icons/bg-canal.jpg);
-	background-repeat:repeat-x;
+div#grade section {
+	display:block;
+	float:left;
+	top:0;
+	left:0;
+	position:relative;
+	width:15696px;
+	height:20230px;
+}
+
+div#grade hgroup {
+	width:144px;
+	height:20230px;
+	display:block;
+	float:left;
+	padding:0;
+	margin:0;
 
 }
-div#grade div#carrossel div.canal {
-	width:120px;
-	height:70px;
-	margin:0 16px;
+div#grade hgroup h2 {
 	float:left;
-	background-position:0 8px;
-	background-repeat:no-repeat;
-}
-div#grade div#carrossel div.canal span {
 	display:block;
-	margin:52px 0 0 0;
+	clear:both;
 	width:120px;
 	height:18px;
+	padding:52px 12px 0;
+	margin:0;
 	text-align:center;
 	color:#b2b2b2;
 	font-size:0.8em;
+	background-position:16px 8px;
+	background-repeat:no-repeat;
 }
-div#grade div#guia {
-	width:762px;
-	height:450px;
-	background-color:#999;
-	overflow:hidden;
-}
-/*a semana é o container da coluna do canal*/
-div#grade div#guia div.semana {
+
+div#grade hgroup div#grade_semana {
 	float:left;
-	width:152px;
+	top:120px;
+	width:746px;
+	height:450px;
+	background-color:#009900;
+	margin-top:-120px;
+}
+
+div#grade hgroup ul.semana {
+	float:left;
+	display:block;
+	clear:both;
+	width:144px;
 	height:20160px;
-	background-image:url(icons/bg-semana.gif);
+	margin:0;
+	padding:0;
+	background-image:image-url('blenbox/bg-week.gif');
 	background-repeat:repeat-y;
 }
-div#grade div#guia div.semana div.dia {
+div#grade hgroup ul.semana li.dia {
+	float:left;
+	display:block;
+	clear:both;
+	width:144px;
+	height:2880px;
+	margin:0;
+	padding:0;
+}
+
+div#grade hgroup ul.semana li.dia ul {
+	float:left;
+	display:block;
+	clear:both;
 	width:120px;
 	height:2880px;
-	display:block;
-	margin:0 16px;
+	margin:0 12px;
+	padding:0;
 }
-div#grade div#guia div.semana div.dia div.programa {
+
+div#grade hgroup ul.semana li.dia ul li {
+	float:left;
+	display:block;
+	clear:both;
 	width:120px;
-	height:60px;
-	display:block;
-	background-image:url(icons/bg-programa.gif);
-	background-repeat:no-repeat;
+	height:120px;
+	margin:0;
+	padding:0;
 	overflow:hidden;
+	background-image:image-url('blenbox/bg-event.png');
+	background-repeat:no-repeat;
 }
-div#grade div#guia div.semana div.dia div.programa span.titulo {
+
+div#grade hgroup ul.semana li.dia ul li h3 {
 	display:block;
+	margin:0;
 	padding:4px 0 0 0;
+	font-size:1.0em;
 	font-weight:bold;
 	line-height:1.1;
 }
-div#grade div#guia div.semana div.dia div.programa span.horario {
+div#grade hgroup ul.semana li.dia ul li p {
 	display:block;
 	line-height:1.1;
 	font-size:0.8em;
+	margin:0;
+	padding:0;
 }
 
+
+
+
+
+
 /*ids dos canais*/
-div#grade div#carrossel div#ch020 {background-image:url(logos/020.png);}
-div#grade div#carrossel div#ch021 {background-image:url(logos/021.png);}
-div#grade div#carrossel div#ch022 {background-image:url(logos/022.png);}
-div#grade div#carrossel div#ch023 {background-image:url(logos/023.png);}
-div#grade div#carrossel div#ch024 {background-image:url(logos/024.png);}
-div#grade div#carrossel div#ch025 {background-image:url(logos/025.png);}
+div#grade hgroup#ch001 h2 {background-image:image-url('blenbox/logos/021.png');}
+div#grade hgroup#ch002 h2 {background-image:image-url('blenbox/logos/022.png');}
+div#grade hgroup#ch003 h2 {background-image:image-url('blenbox/logos/023.png');}
+div#grade hgroup#ch004 h2 {background-image:image-url('blenbox/logos/024.png');}
+div#grade hgroup#ch005 h2 {background-image:image-url('blenbox/logos/025.png');}
+div#grade hgroup#ch006 h2 {background-image:image-url('blenbox/logos/026.png');}
+div#grade hgroup#ch007 h2 {background-image:image-url('blenbox/logos/027.png');}
+div#grade hgroup#ch008 h2 {background-image:image-url('blenbox/logos/028.png');}
+div#grade hgroup#ch009 h2 {background-image:image-url('blenbox/logos/034.png');}
+div#grade hgroup#ch010 h2 {background-image:image-url('blenbox/logos/035.png');}
+
+
+div#grade hgroup ul.semana {
+	position:relative;
+	top:0px;
+}

@@ -1,153 +1,111 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>blenbox</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>blenbox</title>
+		<%= stylesheet_link_tag    'blenbox/blenbox', media: 'all' %>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css">
+		<style>
+		#draggable { background-color:#0099ff; }
+		</style>
+	</head>
+	<body>
+		<div class="raiz">
+			<div id="content">
+				<div id="scroll-v">
+					<div id="vertical" class="dragdealer">
+						<div class="handle vertical"></div>
+					</div>
+				</div>
+				<div id="atalho-dia">
+					<p id="magnifying-text"><span>Hoje</span><span>17/01</span></p>
+					<p><span>Amanhã</span><span>18/01</span></p>
+					<p><span>Quinta-feira</span><span>19/01</span></p>
+					<p><span>Sexta-feira</span><span>20/01</span></p>
+					<p><span>Sábado</span><span>21/01</span></p>
+					<p><span>Domingo</span><span>22/01</span></p>
+					<p><span>Segunda</span><span>23/01</span></p>
+				</div>
 
-<%= stylesheet_link_tag    'blenbox/blenbox', media: 'all' %>
-<%= stylesheet_link_tag    'dragdealer', media: 'all' %>
-<%= stylesheet_link_tag    'jquery-ui', media: 'all' %>
-<!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" /> -->
-<style>
-#draggable { background-color:#0099ff; }
-</style>
+				<div id="scroll-h">
+					<%= render :partial => 'scroll_h' %>
+				</div>
 
-</head>
-<body>
-<div class="raiz">
-	<div id="content">
-		<div id="scroll-v">
-			<div id="vertical" class="dragdealer">
-				<div class="handle vertical"></div>
+				<div id="atalho-lineup">
+					<p><span>A&E - BOO</span></p>
+					<p><span>Can - Dis</span></p>
+					<p><span>Dis - FOX</span></p>
+					<p><span>FOX - HBO</span></p>
+					<p><span>HBO - MAX</span></p>
+					<p><span>MAX - Pre</span></p>
+					<p><span>Pre - Rec</span></p>
+					<p><span>SBT - Stu</span></p>
+					<p><span>TBS - TNT</span></p>
+					<p><span>Too - War</span></p>
+				</div>
+				<div id="horas">
+					<p>00:00</p>
+					<p>00:30</p>
+					<p>01:00</p>
+					<p>01:30</p>
+					<p>02:00</p>
+					<p>02:30</p>
+					<p>03:00</p>
+					<p>03:30</p>
+					<p>04:00</p>
+					<p>04:30</p>
+					<p>05:00</p>
+					<p>05:30</p>
+					<p>06:00</p>
+					<p>06:30</p>
+					<p>07:00</p>
+					<p>07:30</p>
+					<p>08:00</p>
+					<p>08:30</p>
+					<p>09:00</p>
+					<p>09:30</p>
+					<p>10:00</p>
+					<p>10:30</p>
+					<p>11:00</p>
+					<p>11:30</p>
+					<p>12:00</p>
+					<p>12:30</p>
+					<p>13:00</p>
+					<p>13:30</p>
+					<p>14:00</p>
+					<p>14:30</p>
+					<p>15:00</p>
+					<p>15:30</p>
+					<p>14:00</p>
+					<p>14:30</p>
+					<p>15:00</p>
+					<p>15:30</p>
+					<p>16:00</p>
+					<p>16:30</p>
+					<p>17:00</p>
+					<p>17:30</p>
+					<p>18:00</p>
+					<p>18:30</p>
+					<p>19:00</p>
+					<p>19:30</p>
+					<p>20:00</p>
+					<p>20:30</p>
+					<p>21:00</p>
+					<p>21:30</p>
+					<p>22:00</p>
+					<p>22:30</p>
+					<p>23:00</p>
+					<p>23:30</p>
+				</div>
+				<div id="filtro-canal">
+				</div>
+				<div id="grade">
+					<section id="grid_container">
+						<%= render :partial => 'grid' %>
+					</section>
+				</div>
 			</div>
 		</div>
-		<div id="atalho-dia">
-			<p id="magnifying-text"><span>Hoje</span><span>17/01</span></p>
-			<p><span>Amanhã</span><span>18/01</span></p>
-			<p><span>Quinta-feira</span><span>19/01</span></p>
-			<p><span>Sexta-feira</span><span>20/01</span></p>
-			<p><span>Sábado</span><span>21/01</span></p>
-			<p><span>Domingo</span><span>22/01</span></p>
-			<p><span>Segunda</span><span>23/01</span></p>
-		</div>
-
-		<div id="scroll-h">
-			<%= render :partial => 'scroll_h' %>
-		</div>
-
-		<div id="atalho-lineup">
-			<p><span>A&E - BOO</span></p>
-			<p><span>Can - Dis</span></p>
-			<p><span>Dis - FOX</span></p>
-			<p><span>FOX - HBO</span></p>
-			<p><span>HBO - MAX</span></p>
-			<p><span>MAX - Pre</span></p>
-			<p><span>Pre - Rec</span></p>
-			<p><span>SBT - Stu</span></p>
-			<p><span>TBS - TNT</span></p>
-			<p><span>Too - War</span></p>
-		</div>
-		<div id="horas">
-			<p>00:00</p>
-			<p>00:30</p>
-			<p>01:00</p>
-			<p>01:30</p>
-			<p>02:00</p>
-			<p>02:30</p>
-			<p>03:00</p>
-			<p>03:30</p>
-			<p>04:00</p>
-			<p>04:30</p>
-			<p>05:00</p>
-			<p>05:30</p>
-			<p>06:00</p>
-			<p>06:30</p>
-			<p>07:00</p>
-			<p>07:30</p>
-			<p>08:00</p>
-			<p>08:30</p>
-			<p>09:00</p>
-			<p>09:30</p>
-			<p>10:00</p>
-			<p>10:30</p>
-			<p>11:00</p>
-			<p>11:30</p>
-			<p>12:00</p>
-			<p>12:30</p>
-			<p>13:00</p>
-			<p>13:30</p>
-			<p>14:00</p>
-			<p>14:30</p>
-			<p>15:00</p>
-			<p>15:30</p>
-			<p>14:00</p>
-			<p>14:30</p>
-			<p>15:00</p>
-			<p>15:30</p>
-			<p>16:00</p>
-			<p>16:30</p>
-			<p>17:00</p>
-			<p>17:30</p>
-			<p>18:00</p>
-			<p>18:30</p>
-			<p>19:00</p>
-			<p>19:30</p>
-			<p>20:00</p>
-			<p>20:30</p>
-			<p>21:00</p>
-			<p>21:30</p>
-			<p>22:00</p>
-			<p>22:30</p>
-			<p>23:00</p>
-			<p>23:30</p>
-		</div>
-		<div id="filtro-canal">
-		</div>
-		<div id="grade">
-			<section id="grid_container">
-				<%= render :partial => 'grid' %>
-			</section>
-		</div>
-	</div>
-</div>
-<%= javascript_include_tag 'blenbox/blenbox' %>
-<%= javascript_include_tag 'dragdealer' %>
-<%= javascript_include_tag 'jquery-1.9.1' %>
-<%= javascript_include_tag 'jquery-ui' %>
-<script type="text/javascript">
-window.onload = function() {
-	// Magnifier
-	var mask = document.getElementById('grade');
-	var content = document.getElementById('grid_container');
-	var semana = document.getElementById('grade_semana');
-	var list = document.getElementsByClassName("grade-semana");
-	new Dragdealer('horizontal', {
-		steps: 10,
-		snap: true,
-		animationCallback: function(x, y)
-		{
-			var marginx = x * (15840 - 1584);
-			$("#grid_container").animate({
-				marginLeft: String(-marginx) + 'px'
-			}, 400 );
-		}
-	});
-	new Dragdealer('vertical', {
-		steps: 7,
-		snap: true,
-		animationCallback: function(x, y) {
-			var marginy = y * (20160 - 2880);
-			for (var i = 0; i < list.length; i++) {
-				$(list[i]).animate({
-					marginTop: String(-marginy) + 'px'
-				}, 400 );
-			}
-		}
-	});
-}
-$(function() {
-	$( "#draggable" ).draggable({ scroll: true, scrollSpeed: 100 });
-});
-</script>
-</body>
+		<%= javascript_include_tag 'blenbox/blenbox' %>
+	</body>
 </html>

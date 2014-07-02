@@ -1,0 +1,48 @@
+/**
+ * Dragdealer JS v0.9.5
+ * http://code.ovidiu.ch/dragdealer-js
+ *
+ * Copyright (c) 2010, Ovidiu Chereches
+ * MIT License
+ * http://legal.ovidiu.ch/licenses/MIT
+ */
+
+
+div#scroll-h .dragdealer {
+	width:auto;
+	height:44px;
+	position:relative;
+}
+div#scroll-h .dragdealer .handle {
+	position:absolute;
+	cursor:pointer;
+}
+div#scroll-h .dragdealer .horizontal {
+	width:74px;
+	height:40px;
+	left:2px;
+	top:2px;
+	background-image:image-url('blenbox/botao-h.png');
+	background-repeat:no-repeat;
+}
+
+
+div#scroll-v .dragdealer {
+	width:40px;
+	height:446px;
+	position:relative;
+}
+div#scroll-v .dragdealer .handle {
+	position:absolute;
+	cursor:pointer;
+}
+div#scroll-v .dragdealer .vertical {
+	width:40px;
+	height:62px;
+	background-image:image-url('blenbox/botao-v.png');
+	background-repeat:no-repeat;
+}
+
+.dragdealer .disabled {
+	background: #898989;
+}
