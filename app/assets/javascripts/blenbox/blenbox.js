@@ -1,5 +1,4 @@
 //= require jquery.mobile
-
 //= require dragdealer
 //= require jquery-1.9.1
 //= require ui/1.10.2/jquery-ui.js

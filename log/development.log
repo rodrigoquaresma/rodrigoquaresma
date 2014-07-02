@@ -33985,3 +33985,99 @@ Started GET "/assets/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2014-07-01 23:10:1
 
 
 Started GET "/assets/jquery.mobile.js?body=1" for 127.0.0.1 at 2014-07-01 23:10:13 -0300
+
+
+Started GET "/blenbox" for 127.0.0.1 at 2014-07-01 23:22:27 -0300
+Processing by BlenboxController#index as HTML
+  Rendered blenbox/_scroll_h.html.erb (0.6ms)
+  Rendered blenbox/_semana.html.erb (0.7ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.2ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_grid.html.erb (38.0ms)
+  Rendered blenbox/index.html.erb within layouts/blenbox (1454.0ms)
+Completed 200 OK in 1550ms (Views: 1516.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blenbox/blenbox.css?body=1" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/dragdealer.js?body=1" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/ui/1.10.2/jquery-ui.js?body=1" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/blenbox.js?body=1" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/botao-h.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/bg.jpg" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/botao-v.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/bg-event.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/bg-week.gif" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/022.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/025.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/026.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/027.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/jquery.mobile.js?body=1" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/034.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/028.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/021.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/024.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/023.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
+
+
+Started GET "/assets/blenbox/logos/035.png" for 127.0.0.1 at 2014-07-01 23:22:29 -0300
