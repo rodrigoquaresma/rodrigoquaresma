@@ -33934,3 +33934,54 @@ Started GET "/assets/blenbox/blenbox.js?body=1" for 127.0.0.1 at 2014-07-01 22:5
 
 
 Started GET "/assets/dragdealer.js?body=1" for 127.0.0.1 at 2014-07-01 22:59:53 -0300
+
+
+Started GET "/blenbox" for 127.0.0.1 at 2014-07-01 23:10:12 -0300
+Processing by BlenboxController#index as HTML
+  Rendered blenbox/_scroll_h.html.erb (0.5ms)
+  Rendered blenbox/_semana.html.erb (1.2ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.1ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_semana.html.erb (0.0ms)
+  Rendered blenbox/_grid.html.erb (51.2ms)
+  Rendered blenbox/index.html.erb within layouts/blenbox (264.5ms)
+Completed 200 OK in 351ms (Views: 327.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blenbox/blenbox.css?body=1" for 127.0.0.1 at 2014-07-01 23:10:13 -0300
+
+
+Started GET "/assets/blenbox/blenbox.js?body=1" for 127.0.0.1 at 2014-07-01 23:10:13 -0300
+
+
+Started GET "/assets/dragdealer.js?body=1" for 127.0.0.1 at 2014-07-01 23:10:13 -0300
+
+
+Started GET "/assets/ui/1.10.2/jquery-ui.js?body=1" for 127.0.0.1 at 2014-07-01 23:10:13 -0300
+
+
+Started GET "/assets/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2014-07-01 23:10:13 -0300
+
+
+Started GET "/assets/jquery.mobile.js?body=1" for 127.0.0.1 at 2014-07-01 23:10:13 -0300
