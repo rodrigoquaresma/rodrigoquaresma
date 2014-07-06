@@ -59,6 +59,8 @@ root 'site#index'
 
 get 'blenbox' => 'blenbox#index'
 
+get 'oxys' => 'oxys#index'
+
 get 'now' => 'site#now'
 get 'clicesportes' => 'site#clicesportes'
 get 'refap' => 'site#refap'
