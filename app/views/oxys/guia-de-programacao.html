@@ -1,0 +1,1928 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Guia de Programa��o</title>
+<style type="text/css">
+html, body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	line-height:1.2;
+}
+html {
+	height:100%;
+}
+body {
+	margin:0;
+	width:100%;
+	height:100%;
+	background-image:url(images/090-warner-hd-friends.jpg); 
+}
+div.raiz {
+    position:absolute;
+    top:0px;
+}
+
+div#conteudo {
+    position:absolute;
+    top:0px;
+}
+
+
+div#grade {
+	width:1280px;
+	height:576px;
+	left:0px;
+	top:144px;
+	padding:0;
+	overflow:hidden;
+	position:absolute;
+	background-image:url(images/guia-bg-grade.png);
+	background-repeat:repeat-x;
+}
+
+div#grade hgroup {
+	width:240px;
+	height:576px;
+	display:block;
+	float:left;
+	margin:0;
+	padding:48px 0 0 0;
+}
+div#grade hgroup.semana.foco {
+	width:320px;
+	margin:0 -16px 0 -16px;
+	padding:16px 16px 0 16px;
+	background-image:url(images/guia-bg-foco.png);
+	background-repeat:no-repeat;
+}
+
+div#grade hgroup h2 {
+	float:left;
+	display:block;
+	clear:both;
+	width:208px;
+	height:32px;
+	padding:96px 16px 0px 16px;
+	margin:0;
+	text-align:center;
+	color:#3f3f3f;
+	font-size:0.9em;
+	background-position:16px 18px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+div#grade hgroup.semana.foco h2 {
+	width:288px;
+	height:34px;
+	padding:110px 16px 16px 16px;
+	background-position:16px 16px;
+	font-size:1.3em;
+	color:#333333;
+}
+
+div#grade hgroup ul.semana {
+	float:left;
+	display:block;
+	clear:both;
+	width:240px;
+	margin:0;
+	padding:0;
+}
+div#grade hgroup.semana.foco ul.semana {width:320px;}
+
+div#grade hgroup ul.semana li.dia {
+	float:left;
+	display:block;
+	clear:both;
+	width:240px;
+	margin:0;
+	padding:0;
+}
+div#grade hgroup.semana.foco ul.semana li.dia {width:320px;}
+
+div#grade hgroup ul.semana li.dia ul {
+	float:left;
+	display:block;
+	clear:both;
+	width:240px;
+	margin:0;
+	padding:0;
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul {width:320px;}
+
+div#grade hgroup ul.semana li.dia ul li {
+	float:left;
+	display:block;
+	clear:both;
+	width:240px;
+	height:32px;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li {
+	width:320px;
+	height:40px;
+}
+
+div#grade hgroup ul.semana li.dia ul li h3 {
+	display:block;
+	float:right;
+	width:160px;
+	height:26px;
+	overflow:hidden;
+	margin:0;
+	padding:6px 12px 0 0;
+	font-weight:bold;
+	line-height:1.1;
+	font-size:0.8em;
+	color:#3f3f3f;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li h3 {
+	font-size:1.0em;
+	color:#333333;
+	width:220px;
+	height:32px;
+	padding:8px 12px 0 0;
+}
+
+div#grade hgroup ul.semana li.dia ul li p {
+	display:block;
+	float:left;
+	width:48px;
+	height:26px;
+	overflow:hidden;
+	margin:0;
+	padding:6px 0 0 12px;
+	line-height:1.1;
+	font-size:0.8em;
+	color:#3f3f3f;
+	text-align:right;
+
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li p {
+	font-size:1.0em;
+	color:#333333;
+	width:60px;
+	height:32px;
+	padding:8px 0 0 12px;
+}
+
+/*item em foco*/
+div#grade hgroup ul.semana li.dia ul li.foco {
+	height:120px;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li.foco {
+	height:160px;
+	padding:0 0 24px 0;
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li.foco.selecionado {
+	margin:-16px 0 0 -16px;
+	width:320px;
+	height:182px;
+	padding:16px 16px 2px 16px;
+	background-image:url(images/foco-programa.png);
+	background-repeat:no-repeat;
+}
+
+div#grade hgroup ul.semana li.dia ul li.foco h3 {
+	float:left;
+	width:208px;
+	height:74px;
+	padding:0;
+	line-height:1.2;
+	font-size:0.9em;
+	position:absolute;
+	top:36px;
+	left:16px;
+	white-space:normal;
+	text-overflow: -o-ellipsis-lastline;
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li.foco h3 {
+	font-size:1.3em;
+	width:288px;
+	height:104px;
+	top:43px;
+	left:16px;
+	text-align:left;
+	padding:0;
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li.foco.selecionado h3 {
+	top:59px;
+	left:32px;
+	color:#e5e5e5;
+}
+
+div#grade hgroup ul.semana li.dia ul li.foco p {
+	width:208px;
+	height:18px;
+	margin:0;
+	padding:0;
+	line-height:1.2;
+	font-size:0.8em;
+	position:absolute;
+	top:12px;
+	left:16px;
+	text-align:left;
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li.foco p {
+	font-size:1.0em;
+	width:288px;
+	height:24px;
+	top:12px;
+	left:16px;
+	text-align:left;
+	padding:0;
+}
+div#grade hgroup.semana.foco ul.semana li.dia ul li.foco.selecionado p {
+	top:28px;
+	left:32px;
+	color:#e5e5e5;
+}
+
+
+.fullVideo {
+    position:absolute;
+    top:0px;
+	left:0px;
+}
+.tinyVideo {
+    position:absolute;
+    top:0px;
+	left:400px;
+}
+
+
+ul.filtro {
+	display:block;
+	position:absolute;
+	margin:0;
+	padding:0;
+	top:34px;
+	left:482px;
+	width:316px;
+	height:60px;
+	border-radius:8px;
+	background-color:#e6e6e6;
+	box-shadow: 1px 1px 2px #000;
+	background-image:url(images/filtro.png);
+	background-repeat:no-repeat;
+}
+ul.filtro li {
+	display:none;
+}
+ul.filtro li.foco {
+	display:block;
+	width:316px;
+	height:48px;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:32px;
+	color:#808080;
+	padding:12px 0 0 0;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+ul.filtro.selecionado li.foco {
+	display:block;
+	margin:-10px;
+	width:336px;
+	height:58px;
+	padding:22px 0 0 0;
+
+	border-radius:8px;
+	background-color:#4f80d2;
+	box-shadow: 1px 1px 2px #000;
+	
+	background-image:url(images/filtro-selecionado.png);
+	background-repeat:no-repeat;
+	
+	text-align:center;
+	text-transform:uppercase;
+	font-size:36px;
+	color:#e5e5e5;
+
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+ul.filtro.selecionado {
+	z-index:3;
+}
+
+ul.filtro.selecionado.direita li.foco {
+	background-image:url(images/filtro-selecionado-left.png);
+}           
+
+ul.filtro.selecionado.esquerda li.foco {
+	background-image:url(images/filtro-selecionado-right.png);
+}
+
+ul#filtroCategorias {top:34px;left:482px;}
+ul#filtroDias {top:98px;left:482px;}
+html, body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	line-height:1.2;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+html {}
+body {}
+
+div.raiz {
+	position:absolute;
+	width:1280px;
+	height:720px;
+	margin:0;
+	padding:0;
+}
+
+header
+{
+	position:absolute;
+	display:block;
+	float:left;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	width:400px;
+	height:240px;
+	background-image:url(images/header-bg.png);
+	background-repeat:no-repeat;
+}
+header h1 {
+	position:absolute;
+	top:72px;
+	left:64px;
+	margin:0;
+	padding:0;
+	width:154px;
+	height:86px;
+	background-image:url(images/logo-gvt.png);
+	background-repeat:no-repeat;
+	text-indent:-999px;
+}
+header time {
+	position:absolute;
+	top:160px;
+	left:272px;
+	margin:0;
+	padding:0;
+	width:128px;
+	height:80px;
+}
+header time span.dia {
+	display:block;
+	clear:both;
+	color:#e5e5e5;
+	font-size:16px;
+	font-weight:bold;
+}
+header time span.hor {
+	display:block;
+	clear:both;
+	color:#e5e5e5;
+	font-size:32px;
+	font-weight:bold;
+
+}
+
+
+.video {
+	position:absolute;
+	display:block;
+	float:left;
+	top:0px;
+	left:400;
+	margin:0;
+	padding:0;
+	width:352px;
+	height:264px;
+	background-color:#1a1a1a;
+}
+
+/*textos de info do evento*/
+
+dl.evento dt,
+dl.evento dd
+{
+	position:absolute;
+	display:block;
+	float:left;
+	padding:0 0 0 0;
+	margin:0;
+	font-size:20px;
+	color:#1a1a1a;
+	display:none;
+	font-weight:bold;
+	white-space:normal;
+	text-overflow: -o-ellipsis-lastline;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+dl.evento dd.title			{width:768px;	height:040px;	display:block;	font-size:32px;}
+dl.evento dd.additional		{width:768px;	height:024px;	display:block;}
+dl.evento dd.production		{width:544px;	height:024px;	display:block;}
+dl.evento dd.description	{width:352px;	height:120px;	display:block;}
+dl.evento dd.actor			{width:352px;	height:072px;	display:block;	font-weight:normal;}
+dl.evento dd.director		{width:352px;	height:024px;	display:block;}
+dl.evento dt.language		{width:224px;	height:024px;	display:block;	font-weight:normal;}
+dl.evento dd.language		{width:224px;	height:024px;	display:block;}
+dl.evento dt.subtitle		{width:224px;	height:024px;	display:block;	font-weight:normal;}
+dl.evento dd.subtitle		{width:224px;	height:024px;	display:block;}
+dl.evento dd.channel		{width:224px;	height:024px;	display:block;}
+dl.evento dd.schedule		{width:224px;	height:024px;	display:block;}
+dl.evento dd.image			{width:162px;	height:240px;	display:block;}
+dl.evento dd.rating			{width:032px;	height:032px;	display:block;	text-indent:-999px;}
+
+dl.evento dd.rating			{display:block;	width:032px;	height:032px;	text-indent:-999px;}
+dl.evento dd.videoq,
+dl.evento dd.audioq,
+dl.evento dd.videof,
+dl.evento dd.reminder,
+dl.evento dd.record,
+dl.evento dd.blockade,
+dl.evento dd.ppv,
+dl.evento dd.likes,
+dl.evento dd.twitter {
+	display:block;
+	width:032px;
+	height:032px;
+	text-indent:-999px;
+	float:left;
+	position:relative;
+	top:0;
+	left:-4px;
+}
+
+dl.evento dd.rating.r-er	{background-image:url(icons/c-er.png);}
+dl.evento dd.rating.r-l		{background-image:url(icons/c-l.png);}
+dl.evento dd.rating.r-10	{background-image:url(icons/c-10.png);}
+dl.evento dd.rating.r-12	{background-image:url(icons/c-12.png);}
+dl.evento dd.rating.r-14	{background-image:url(icons/c-14.png);}
+dl.evento dd.rating.r-16	{background-image:url(icons/c-16.png);}
+dl.evento dd.rating.r-18	{background-image:url(icons/c-18.png);}
+dl.evento dd.videoq.hd		{background-image:url(icons/qv-hd.png);}
+dl.evento dd.videoq.sd		{background-image:url(icons/qv-sd.png);}
+dl.evento dd.audioq.st		{background-image:url(icons/qa-s.png);}
+dl.evento dd.audioq.db		{background-image:url(icons/qa-d.png);}
+dl.evento dd.videof.sd		{background-image:url(icons/f-43.png);}
+dl.evento dd.videof.hd		{background-image:url(icons/f-169.png);}
+dl.evento dd.reminder		{background-image:url(icons/l.png);}
+dl.evento dd.record.r-a		{background-image:url(icons/r-a.png);}
+dl.evento dd.record.r-e		{background-image:url(icons/r-e.png);}
+dl.evento dd.record.r-f		{background-image:url(icons/r-f.png);}
+dl.evento dd.record.r-p		{background-image:url(icons/r-p.png);}
+dl.evento dd.blockade		{background-image:url(icons/b.png);}
+dl.evento dd.ppv			{background-image:url(icons/ppv.png);}
+dl.evento dd.likes			{background-image:url(icons/fb.png);}
+dl.evento dd.twitter		{background-image:url(icons/tw.png);}
+
+
+
+section#detalhe {
+    z-index:4;
+	position:absolute;
+	display:block;
+	float:left;
+	top:240px;
+	left:656px;
+	margin:0;
+	padding:0;
+	width:896px;
+	height:480px;
+	background-image:url(images/bg-info.png);
+	background-repeat:no-repeat;
+}
+section#detalhe dl.evento {
+	position:relative;
+	display:block;
+	float:left;
+	top:0;
+	left:0;
+	margin:48px 0 0 64px;
+	padding:0;
+	width:768px;
+	height:352px;
+}
+
+section#detalhe dl.evento dd.title			{top:040px;	left:000px;}
+section#detalhe dl.evento dd.additional		{top:080px;	left:000px;}
+section#detalhe dl.evento dd.production		{top:112px;	left:032px;}
+section#detalhe dl.evento dd.description	{top:144px;	left:240px;}
+section#detalhe dl.evento dd.actor			{top:264px;	left:240px;}
+section#detalhe dl.evento dd.director		{top:336px;	left:240px;}
+section#detalhe dl.evento dt.language		{top:144px;	left:000px;}
+section#detalhe dl.evento dd.language		{top:168px;	left:000px;}
+section#detalhe dl.evento dt.subtitle		{top:216px;	left:000px;}
+section#detalhe dl.evento dd.subtitle		{top:240px;	left:000px;}
+section#detalhe dl.evento dd.channel		{top:288px;	left:000px;}
+section#detalhe dl.evento dd.schedule		{top:312px;	left:000px;}
+section#detalhe dl.evento dd.image			{top:116px;	left:608px;}
+section#detalhe dl.evento dd.rating			{top:108px;	left:-04px;}
+/*
+section#detalhe dl.evento dd.videoq			{top:004px;	left:-04px;}
+section#detalhe dl.evento dd.audioq			{top:004px;	left:036px;}
+section#detalhe dl.evento dd.videof			{top:004px;	left:076px;}
+section#detalhe dl.evento dd.reminder		{top:004px;	left:116px;}
+section#detalhe dl.evento dd.record			{top:004px;	left:156px;}
+section#detalhe dl.evento dd.blockade		{top:004px;	left:196px;}
+section#detalhe dl.evento dd.ppv			{top:004px;	left:236px;}
+section#detalhe dl.evento dd.likes			{top:004px;	left:276px;}
+section#detalhe dl.evento dd.twitter		{top:004px;	left:316px;}
+*/
+
+section#rolando {
+	position:absolute;
+	display:block;
+	float:left;
+	top:0;
+	left:400px;
+	margin:0;
+	padding:0;
+	width:880px;
+	height:240px;
+	background-image:url(images/rolando-bg.png);
+	background-repeat:no-repeat;
+}
+
+section#rolando dl.evento {
+	position:relative;
+	display:block;
+	float:left;
+	top:0;
+	left:0;
+	margin:48px 0 0 400px;
+	padding:0;
+	width:416px;
+	height:168px;
+}
+
+section#rolando dl.evento dd,
+section#rolando dl.evento dt {color:#e5e5e5;}
+
+section#rolando dl.evento dd.title			{top:040px;	left:000px;	width:416px;}
+section#rolando dl.evento dd.additional		{top:080px;	left:000px;	width:416px;}
+section#rolando dl.evento dd.production		{top:112px;	left:032px;	width:368px;}
+section#rolando dl.evento dd.description	{top:144px;	left:240px;	display:none;}
+section#rolando dl.evento dd.actor			{top:264px;	left:240px;	display:none;}
+section#rolando dl.evento dd.director		{top:336px;	left:240px;	display:none;}
+section#rolando dl.evento dt.language		{top:216px;	left:000px;	display:none;}
+section#rolando dl.evento dd.language		{top:240px;	left:000px;	display:none;}
+section#rolando dl.evento dt.subtitle		{top:288px;	left:000px;	display:none;}
+section#rolando dl.evento dd.subtitle		{top:312px;	left:000px;	display:none;}
+section#rolando dl.evento dd.channel		{top:144px;	left:000px;}
+section#rolando dl.evento dd.schedule		{
+	top:144px;
+	left:240px;
+	width:176px;
+	background-image:url(images/progress.png);
+	background-repeat:no-repeat;
+	text-indent:-999px;
+	background-position:0 4px;
+}
+
+
+section#rolando dl.evento dd.image			{top:116px;	left:608px;	display:none;}
+section#rolando dl.evento dd.rating			{top:108px;	left:-04px;}
+/*
+section#rolando dl.evento dd.videoq			{top:004px;	left:-04px;}
+section#rolando dl.evento dd.audioq			{top:004px;	left:036px;}
+section#rolando dl.evento dd.videof			{top:004px;	left:076px;}
+section#rolando dl.evento dd.reminder		{top:004px;	left:116px;}
+section#rolando dl.evento dd.record			{top:004px;	left:156px;}
+section#rolando dl.evento dd.blockade		{top:004px;	left:196px;}
+section#rolando dl.evento dd.ppv			{top:004px;	left:236px;}
+section#rolando dl.evento dd.likes			{top:004px;	left:276px;}
+section#rolando dl.evento dd.twitter		{top:004px;	left:316px;}
+*/
+
+ul, li {list-style:none;}
+
+
+ul.menu {
+	position:absolute;
+	display:block;
+	float:left;
+	top:240px;
+	left:0;
+	margin:0;
+	width:672px;
+	height:480px;
+	padding:0;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-image:url(images/bg-menu.png);
+}
+
+ul.menu li.item {
+	position:absolute;
+	display:block;
+	left:0;
+	margin:0;
+	padding:0;
+	width:672px;
+	height:64px;
+	font-size:28px;
+	border:none;
+	text-align:left;
+	text-transform:uppercase;
+	color:#e5e5e5;
+	background:none;
+	background-repeat:no-repeat;
+	background-position:80px 15px;
+}
+ul.menu li.item span {display:block;padding:15px 0 0 128px;}
+
+ul.menu li.item.focado {font-weight:bold;}
+
+
+ul.menu li.item.gravar 			{background-image:url(icons/r-a.png);}
+ul.menu li.item.lembrete		{background-image:url(icons/l.png);}
+ul.menu li.item.curtir			{background-image:url(icons/fb.png);}
+ul.menu li.item.compartilhar	{background-image:url(icons/fb.png);}
+ul.menu li.item.tuitar			{background-image:url(icons/tw.png);}
+
+
+ul.menu				{}
+ul.menu li.item		{width:672px;padding:0;}
+ul.menu li.item span	{}
+
+ul.menu li.item ul.submenu	{
+    z-index:3;
+	position:absolute;
+	display:none;
+	left:272px;
+	top:-128px;
+	width:672px;
+	height:480px;
+	padding:0;
+	background-image:url(images/bg-submenu.png);
+	background-repeat:no-repeat;
+	background-position:112px 0;
+}
+ul.menu li.item ul.submenu li.subitem {
+	position:absolute;
+	width:512px;
+	padding:15px 0 0 144px;
+	height:49px;
+	font-weight:normal;
+}
+ul.menu li.item ul.submenu li.subitem.focado {font-weight:bold;color:#4d4d4d;}
+
+ul.menu.fechado	li.item ul.submenu	{background-image:url(images/bg-submenu-fechado.png);}
+ul.menu.aberto	li.item ul.submenu	{background-image:url(images/bg-submenu.png);}
+
+section#detalhe.aberto {left:656px;}
+section#detalhe.fechado {left:384px;}
+
+</style>
+    <script type="text/javascript">
+        var dayFilterIndex = 0;
+        var catFilterIndex = 0;
+        var detailItemsIndex = 0;
+        var hRegIndex = 0;
+        var regIndex = 0;
+        var regIndexJump = 0;
+        var dayRegIndex = 0;
+        var layerIndex = 0;
+    </script>
+    <script src="js/shortcut.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var content = null;
+        var isLoading = false;
+        var amanha = new Date();
+        var numDias = 0;
+        
+        var dias = [
+                    {
+                        timeStamp: new Date(),
+                        title: "hoje"
+                    },
+                    {
+                        timeStamp: getDay(1),
+                        title: "amanhã"
+                    },
+                    {
+                        timeStamp: getDay(2),
+                        title: formatWeekDay(getDay(2))
+                    },
+                    {
+                        timeStamp: getDay(3),
+                        title: formatWeekDay(getDay(3))
+                    },
+                    {
+                        timeStamp: getDay(4),
+                        title: formatWeekDay(getDay(4))
+                    },
+                    {
+                        timeStamp: getDay(5),
+                        title: formatWeekDay(getDay(5))
+                    },
+                    {
+                        timeStamp: getDay(6),
+                        title: formatWeekDay(getDay(6))
+                    },
+                    {
+                        timeStamp: getDay(7),
+                        title: formatWeekDay(getDay(7))
+                    }
+                ];
+        
+        var itensMenuDias = [
+                    {
+                        id: "",
+                        title: "",
+                        itens: []
+                    },
+                    {
+                        id: "voltar",
+                        title: "Voltar",
+                        itens: []
+                    },
+                    {
+                        id: "gravar",
+                        title: "Gravar",
+                        itens: [
+                                "Gravar episódio",
+                                "Gravar temporada",
+                                "Gravar série"
+                            ]
+                    },
+                    {
+                        id: "lembrete",
+                        title: "Lembrete",
+                        itens: []
+                    },
+                    {
+                        id: "curtir",
+                        title: "Curtir",
+                        itens: []
+                    },
+                    {
+                        id: "compartilhar",
+                        title: "Compartilhar",
+                        itens: []
+                    },
+                    {
+                        id: "tuitar",
+                        title: "Tuitar",
+                        itens: []
+                    },
+                    {
+                        id: "horarios",
+                        title: "+ horários",
+                        itens: [
+                                "Hoje, às 20:30, no canal 90 Warner HD",
+                                "Amanhã, às 17:30, no canal 90 Warner HD",
+                                "Amanhã, às 20:30, no canal 90 Warner HD",
+                                "Segunda 30/10, às 17:30, no canal 90 Warner HD",
+                                "Segunda 30/10, às 20:30, no canal 90 Warner HD",
+                                "Terça 31/10, às 17:30, no canal 90 Warner HD",
+                                "Terça 31/10, às 20:30, no canal 90 Warner HD",
+                                "Quarta 1/11, às 17:30, no canal 90 Warner HD",
+                                "Quarta 1/11, às 20:30, no canal 90 Warner HD",
+                                "Quinta 2/11, às 17:30, no canal 90 Warner HD",
+                                "Quinta 2/11, às 20:30, no canal 90 Warner HD",
+                                "Sexta 3/11, às 17:30, no canal 90 Warner HD",
+                                "Sexta 3/11, às 20:30, no canal 90 Warner HD"
+                            ]
+                    },
+                    {
+                        id: "elenco",
+                        title: "Elenco",
+                        itens: [
+                                "Jennifer Aniston",
+                                "Courteney Cox",
+                                "Lisa Kudrow",
+                                "Matt LeBlanc",
+                                "Matthew PerryDavid Schwimmer",
+                                "Mary Kay Place"
+                            ]
+                    },
+                    {
+                        id: "resumo",
+                        title: "Resumo",
+                        itens: []
+                    }
+                    ];
+                    
+                    
+        
+        
+        var categorias = [ /* https://epg.gvt.com.br/metadados/channelCategories */
+                            {
+                                uid: 0,
+                                value: "todos",
+                                active: true
+                            },
+                            {
+                                uid: 5,
+                                value: "Filmes",
+                                active: true
+                            },
+                            {
+                                uid: 11,
+                                value: "Séries",
+                                active: true
+                            }
+                        ];
+            
+        function addDay() {
+            numDias++;
+            amanha.setDate(amanha.getDate() + 1);
+            amanha.setHours(0);
+            amanha.setMinutes(0);
+            amanha.setSeconds(0);
+            amanha.setMilliseconds(0);
+            
+        }
+        
+        function formatWeekDay(data) {
+       //Qua 10/10 
+            var semana=new Array(6);
+            semana[0]='Dom';
+            semana[1]='Seg';
+            semana[2]='Ter';
+            semana[3]='Qua';
+            semana[4]='Qui';
+            semana[5]='Sex';
+            semana[6]='Sáb';
+            return semana[data.getDay()] + " " + formatForDate(data.getDate()) + "/" + formatForDate(data.getMonth()+1);
+        }
+        
+        function getDay(cont){
+            var dia = new Date();
+            dia.setDate(dia.getDate() + cont);
+            dia.setHours(0);
+            dia.setMinutes(0);
+            dia.setSeconds(0);
+            dia.setMilliseconds(0);
+            return dia;
+        }
+        
+        function init() {
+            shortcut.add("enter", function() {
+                if(!isLoading) {
+                    if(layerIndex==0) {
+                        buildDetailLayer();
+                        layerIndex=1;
+                    } else if(layerIndex==1) {
+                        if(detailItemsIndex==0) {
+                            layerIndex=0;
+                            detailItemsIndex=0;
+                            hideDetailLayer();
+                        } else {
+                            checkDetailMenuAction();
+                        }
+                    } else if(layerIndex==2) {
+                        checkDetailSubmenuAction();
+                    }
+                }
+            });
+            
+            shortcut.add("left", function() {
+                if(!isLoading) {
+                    if(layerIndex==0) {
+                        navigate(-1);
+                     }
+                }
+                
+            });
+            
+            shortcut.add("right", function() {
+                if(!isLoading) {
+                    if(layerIndex==0) {
+                        navigate(1);
+                    } else if(layerIndex==1) {
+                        if(detailItemsIndex==0) {
+                            layerIndex=0;
+                            detailItemsIndex=0;
+                            hideDetailLayer();
+                        } else {
+                            checkDetailMenuAction();
+                        }
+                    } else if(layerIndex==2) {
+                        checkDetailSubmenuAction();
+                    }
+                }
+            });
+            
+            shortcut.add("up", function() {
+                if(!isLoading) {
+                    if(layerIndex==0)
+                        verticalNavigate(-1);
+                    else if(layerIndex==1)
+                        detailMenuNavigate(-1);
+                    else 
+                        detailMenuOptionsNavigate(-1);
+                }
+            });
+            
+            shortcut.add("down", function() {
+                if(!isLoading) {
+                    if(layerIndex==0)
+                        verticalNavigate(1);
+                    else if(layerIndex==1)
+                        detailMenuNavigate(1);
+                    else 
+                        detailMenuOptionsNavigate(1);
+                }
+            });
+            
+            fillCategorias(); 
+            fillDias();
+            
+            requestData("https://epg.gvt.com.br/metadados/programmeGuide", 5000, successCallBack, failureCallback, filterFunc);
+        }
+        
+        function checkDetailMenuAction() {
+            if(itensMenuDias[detailItemsIndex+1].itens.length>0) {
+            
+                layerIndex = 2;
+                changeClass("menuDetalhe", "menu aberto");
+                exibeSubmenu();
+                
+            } else {
+                doAction()
+            }
+        }
+        
+        function checkDetailSubmenuAction() {
+            /*if(itensMenuDias[detailItemsIndex+1].itens.length>0) {
+            
+                layerIndex = 2;
+                changeClass("menuDetalhe", "menu aberto");
+                exibeSubmenu();
+                
+            } else {
+                alert("realizando a seguinte ação: " + itensMenuDias[detailItemsIndex+1].id); 
+            }*/
+            doAction();
+            layerIndex = 1;
+            changeClass("menuDetalhe", "menu fechado");
+            escondeSubmenu();
+        }
+        
+        function doAction() {
+            var tempIco = document.getElementById(itensMenuDias[detailItemsIndex+1].id+"Ico");
+            if(tempIco!=null) {
+                if(tempIco.style.display=="none") {
+                    tempIco.style.display="block";
+                } else {
+                    tempIco.style.display="none";
+                } 
+            }
+        }
+        
+        function buildDetailLayer() {
+            document.getElementById("navigationLayer").style.visibility = "hidden";
+            document.getElementById("videoSource").style.width =  '352px';
+            document.getElementById("videoSource").style.height =  '240px';
+            changeClass("videoLayer", "tinyVideo"); 
+            detailMenuNavigate(1);
+        }
+        
+        function hideDetailLayer() {
+            document.getElementById("navigationLayer").style.visibility = "visible";
+            document.getElementById("videoSource").style.width =  '1280px';
+            document.getElementById("videoSource").style.height =  '720px';
+            changeClass("videoLayer", "fullVideo"); 
+        }
+        
+        function fillItensMenuDias(startIndex) {
+            var container = document.getElementById('menuDetalhe');
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+            
+            var contadorAltura=64;
+            for(var i=startIndex;i<itensMenuDias.length;i++) {
+                var cat = document.createElement('li');
+                cat.setAttribute("class", "item " + itensMenuDias[i].id);
+                cat.setAttribute("style", "top:" + contadorAltura + "px;");
+                contadorAltura+=64;
+                var sp = document.createElement('span');
+                sp.innerHTML = itensMenuDias[i].title;
+                cat.appendChild(sp);
+                
+                if(i==(startIndex+1)) {
+                    cat.setAttribute("class", "item focado " + itensMenuDias[i].id);
+                    if(itensMenuDias[i].itens.length>0) {
+                        var itens = document.createElement('ul');
+                        itens.setAttribute("class", "submenu");
+                        itens.setAttribute("style", "display:block; left:260px;");
+                        itens.setAttribute("id", "submenu");
+                        contadorAlturaSubitem = 128;
+                        for(var j=0;j<itensMenuDias[i].itens.length; j++) {
+                            var item = document.createElement('li');
+                            item.innerHTML = itensMenuDias[i].itens[j];
+                            item.setAttribute("class", "subitem");
+                            item.setAttribute("style", "top:"+contadorAlturaSubitem+"px");
+                            contadorAlturaSubitem+=64;
+                            if(j==0) {
+                                item.setAttribute("class", "subitem focado");
+                                item.setAttribute("id", "itemAbrir");
+                            }
+                            itens.appendChild(item);
+                        }
+                        cat.appendChild(itens);
+                    }
+                }
+                container.appendChild(cat);
+            }
+        }
+        
+        function fillCategorias() {
+        
+            requestData("https://epg.gvt.com.br/metadados/channelCategories", 5000, successCategoryCallBack, failureCallback, filterCategories);
+            
+        }
+        
+        function filterCategories(data) {
+            var ret = new Array();
+            ret.push( {
+                            uid: 0,
+                            value: "todos",
+                            active: true
+                        });
+                        
+            for(var i=0; i< data.length;i++) {
+                if(data[i].active==true) ret.push(data[i]);
+            }
+            return ret;
+        }
+        
+       function successCategoryCallBack(data) {
+            categorias = data;
+            
+            for(var i=0;i<categorias.length;i++){
+                var cat = document.createElement('li');
+                cat.setAttribute("id", "filterCat"+i);
+                if(i==0) cat.setAttribute("class","foco");
+                cat.innerHTML = decodeURIComponent(categorias[i].value).replace(/\+/g, " ");
+                document.getElementById("filtroCategorias").appendChild(cat);
+            }
+       } 
+        
+        function fillDias() {
+            for(var i=0;i<dias.length;i++){
+                var dia = document.createElement('li');
+                dia.setAttribute("id", "filterDay"+i);
+                if(i==0) dia.setAttribute("class","foco");
+                dia.innerHTML = dias[i].title;
+                document.getElementById("filtroDias").appendChild(dia);
+
+            }
+        }
+        
+        function filterFunc(data) {
+            var ret = new Array();           
+           for(var i=0;i<data.length;i++) {
+                switch(data[i].channelNumber) {
+                    case 90:
+                    case 91:
+                    case 111:
+                    case 112:
+                    case 113:
+                    case 114:
+                    case 115:
+                    case 116:
+                    case 120:
+                    case 121:
+                    case 122:
+                    case 123:
+                    case 124:
+                    case 125:
+                    case 126:
+                    case 127:
+                    case 128:
+                    case 129:
+                    case 130:
+                        ret.push(data[i]);
+                    break;
+                    default: break;
+                }
+            }
+            return ret;
+
+            //return data;
+        }
+        
+        function addNextPage() {
+        
+            if((!isLoading) && (numDias<7)) {
+                addDay();
+                
+                isLoading = true;
+                requestData("https://epg.gvt.com.br/metadados/programmeGuide?date=" + amanha.getTime(), 5000, successPageCallBack, failureCallback, filterFunc);
+            }
+        }
+        
+        function addSecondPage() {
+        
+            if(!isLoading) {
+                addDay();
+                
+                isLoading = true;
+                requestData("https://epg.gvt.com.br/metadados/programmeGuide?date=" + amanha.getTime(), 5000, secondPageCallBack, failureCallback, filterFunc);
+            }
+        }
+        
+        
+        function secondPageCallBack(data) {
+            for(var i=0; i<content.length; i++) {
+                if(i<data.length) {
+                    if(content[i].channelNumber==data[i].channelNumber) {
+                        var tempArr = data[i].programmes.slice(0);
+                        
+                        if((content[i].programmes[content[i].programmes.length-1].programmeUid == tempArr[0].programmeUid)
+                            && (content[i].programmes[content[i].programmes.length-1].programmeStart == tempArr[0].programmeStart)) content[i].programmes.pop();
+                        
+                        for(var j=0;j<tempArr.length;j++) {
+                            content[i].programmes.push(tempArr[j]);
+                        }
+                    }
+                }
+            }
+            addNextPage();
+            isLoading = false;
+            navigate(0);
+        }
+        
+        function successPageCallBack(data) {
+            for(var i=0; i<content.length; i++) {
+                if(i<data.length) {
+                    if(content[i].channelNumber==data[i].channelNumber) {
+                        var tempArr = data[i].programmes.slice(0);
+                        
+                        if((content[i].programmes[content[i].programmes.length-1].programmeUid == tempArr[0].programmeUid)
+                            && (content[i].programmes[content[i].programmes.length-1].programmeStart == tempArr[0].programmeStart)) content[i].programmes.pop();
+                        
+                        for(var j=0;j<tempArr.length;j++) {
+                            content[i].programmes.push(tempArr[j]);
+                        }
+                    }
+                }
+            }
+            isLoading = false;
+        }
+        
+        function successCallBack(data) {
+            content = data;
+            addSecondPage();
+        }
+        
+        function failureCallback(data) {
+            navigate(0);
+            for(obj in data)
+                alert("erro " + obj + ": " + data[obj]);  
+        }
+        
+        function cleanChannelGuide(index) {
+            document.getElementById("channelTitle" + index).innerText = "";
+            document.getElementById("channelTitle" + index).style.backgroundImage = "url('')";
+            
+            var node = document.getElementById('guideDay' + index);
+            while (node.hasChildNodes()) {
+                node.removeChild(node.lastChild);
+            }
+        }
+           
+        var requestData = function requestData(sURL, timeout, fCallback, errorCallback, filter) {
+            var aPassArgs = Array.prototype.slice.call(arguments, 2), oReq = new XMLHttpRequest();
+            oReq.ontimeout = function() {
+                errorCallback(oReq);     
+            }
+            
+            var checkTimeout = function(){
+                
+                if(request!=undefined && request!=null){
+                    if (request.readyState != 4 && request.status != 200){
+                        log.error("::: Timeout.... will abort network request");
+                        request.abort();
+                        delete request;
+                        errorCallback();	
+                    }
+                } else {log.error("request esta null");}
+            }
+            
+            var timeout =  setTimeout(checkTimeout,timeout);
+            
+            oReq.onreadystatechange = function(){
+                if (oReq.readyState === 4){
+                    clearTimeout(timeout)
+                    if (oReq.status === 200) {
+                        var resultObject = eval('(' + oReq.responseText + ')');
+                        if(filter){
+                            fCallback(filter(resultObject));
+                        } else{
+                            fCallback(resultObject);
+                        }        
+                    }else{
+                        var resultObject = eval('(' + oReq.responseText + ')');
+                        errorCallback(resultObject);     
+                    }
+                }
+            };
+            oReq.open("GET", sURL, true);
+            oReq.timeout = timeout;
+            oReq.send(null);
+        };
+
+        function formatChannelNumber(num) {
+            var ret = num + "";
+            if(ret.length==1) return "00"+ret;
+            else if(ret.length==2) return "0"+ret;
+            else return ret;
+        }
+
+        function buildChannelGuide(index, item) {
+        
+            try{
+                document.getElementById("channelTitle" + index).innerText = item.channelNumber + " " + decodeURIComponent(item.channelName).replace(/\+/g, " ");
+                
+                document.getElementById("channelTitle" + index).style.backgroundImage = "url('"+ ((index==3)?"logos/" + formatChannelNumber(item.channelNumber) +".png":"logos/" + formatChannelNumber(item.channelNumber) +"-s.png") + "')";
+                var hoje = new Date();
+                var ts = Math.round((new Date()).getTime());
+
+                /*for(var i=0; i< item.programmes.length;i++) { // dias dentro da programacao
+                    try{
+                        var data = item.guide[i].date.split('-');
+                        if((parseInt(data[0],10)==hoje.getFullYear()) 
+                            && (parseInt(data[2],10)==hoje.getDate())
+                            && (parseInt(data[1],10)==(hoje.getMonth()+1))) {
+                            
+                            dayRegIndex = i;*/
+                            buildDayGuide(index, 0, item);
+                        /*}
+                    } catch(e){alert(e.message);}
+                }*/
+            } catch(e){ alert(e.message); return false;}
+           return true;
+        }
+        
+        function buildDayGuide(index, horaInicio, item){
+            var dia = document.createElement('ul');
+            dia.setAttribute("id", "dayGuideList" + index + "-" + horaInicio);
+            var isToday = false;
+            var hoje = new Date();
+            var agora = hoje.getTime();
+            
+            for(var j=horaInicio; j< item.programmes.length;j++){
+                if(agora<item.programmes[j].programmeStop) {
+                    var prog = document.createElement('li');
+                    var programmeStart = new Date(item.programmes[j].programmeStart);
+                    var programmeStop = new Date(item.programmes[j].programmeStop);
+                    
+                    var horaIni = formatForDate(programmeStart.getHours()) + ":" + formatForDate(programmeStart.getMinutes());
+                    var horaFim = formatForDate(programmeStop.getHours()) + ":" + formatForDate(programmeStop.getMinutes());
+                    var hora = horaIni + " - " + horaFim;
+                    
+                    if(agora<item.programmes[j].programmeStop && agora>item.programmes[j].programmeStart) {
+                        hora = "AGORA";
+                    }
+                    if(j==horaInicio) {
+                        if(index==3) {
+                            prog.setAttribute("id", "programacaoSelecionada");
+                            prog.setAttribute("class", "foco selecionado");
+                        } else  prog.setAttribute("class", "foco");
+                    } else {
+                        prog.setAttribute("class", "");
+                    }
+                    prog.innerHTML = "<h3>" + decodeURIComponent(item.programmes[j].programmeName).replace(/\+/g, " ") + "</h3> <p class='horario'>" + hora + "</p>";
+                    dia.appendChild(prog);
+                } else {
+                    item.programmes.splice(j,1);
+                    j--;
+                }
+            }
+            document.getElementById('guideDay' + index).appendChild(dia);
+
+        }
+        
+        function exibeSubmenu() {
+            isLoading = true;
+            var movimento = setTimeout("exibeSubmenu()");
+            var speed = 10;
+            var divContainer = document.getElementById("detalhe").style;
+            var divContainer2 = document.getElementById("submenu").style;
+            
+            var avancaDIV = parseInt(divContainer.left)+speed;
+            var recuaDIV = parseInt(divContainer2.left)-speed;
+            
+            if(avancaDIV==654) {
+                clearTimeout(movimento);
+                isLoading = false;
+                return false;
+            }
+        
+            divContainer.left = avancaDIV+"px";
+            divContainer2.left = recuaDIV+"px";
+        }
+        
+        function escondeSubmenu() {
+            isLoading = true;
+            var movimento = setTimeout("escondeSubmenu()");
+            var speed = 10;
+            var divContainer = document.getElementById("detalhe").style;
+            var divContainer2 = document.getElementById("submenu").style;
+            
+            var avancaDIV = parseInt(divContainer.left)-speed;
+            var recuaDIV = parseInt(divContainer2.left)+speed;
+            
+            if(avancaDIV==374) {
+                clearTimeout(movimento);
+                isLoading = false;
+                return false;
+            }
+        
+            divContainer.left = avancaDIV+"px";
+            divContainer2.left = recuaDIV+"px";
+        }
+        
+        function buildDayPreview(index, horaInicio, item){
+            var dia = document.createElement('ul');
+            dia.setAttribute("id", "dayGuideList" + index + "-" + horaInicio);
+            var isToday = false;
+            var hoje = new Date();
+            var agora = hoje.getTime();
+            
+            for(var j=horaInicio; j< item.programmes.length;j++){
+                if(agora<item.programmes[j].programmeStop) {
+                    var prog = document.createElement('li');
+                    var programmeStart = new Date(item.programmes[j].programmeStart);
+                    var programmeStop = new Date(item.programmes[j].programmeStop);
+                    
+                    var horaIni = formatForDate(programmeStart.getHours()) + ":" + formatForDate(programmeStart.getMinutes());
+                    var horaFim = formatForDate(programmeStop.getHours()) + ":" + formatForDate(programmeStop.getMinutes());
+                    var hora = horaIni + " - " + horaFim;
+                    
+                    if(agora<item.programmes[j].programmeStop && agora>item.programmes[j].programmeStart) {
+                        hora = "AGORA";
+                    }
+                    if(j==horaInicio) {
+                        prog.setAttribute("id", "programacaoSelecionada");
+                        prog.setAttribute("class", "foco");
+                    } else {
+                        prog.setAttribute("class", "");
+                    }
+                    prog.innerHTML = "<h3>" + decodeURIComponent(item.programmes[j].programmeName).replace(/\+/g, " ") + "</h3> <p class='horario'>" + hora + "</p>";
+                    dia.appendChild(prog);
+                } else {
+                    item.programmes.splice(j,1);
+                    j--;
+                }
+            }
+            document.getElementById('guideDay' + index).appendChild(dia);
+
+        }
+        
+        function formatForDate(num) {
+            if(num<10) return "0"+num;
+            else return num + "";
+        }
+        
+        function detailMenuNavigate(value) {
+            detailItemsIndex = detailItemsIndex+value;            
+            if(detailItemsIndex<0) detailItemsIndex=0;
+            else if(detailItemsIndex>=(itensMenuDias.length-1)) detailItemsIndex=itensMenuDias.length-2;
+            fillItensMenuDias(detailItemsIndex);
+        }
+        
+        function detailMenuOptionsNavigate(value) {
+            
+        }
+        
+        function verticalNavigate(value) {
+            if(value<=0) regIndexJump=0;
+            regIndex=regIndex+value+regIndexJump;
+            regIndexJump=0;
+            addNextPage();
+            
+            
+            if(regIndex >= 0) {
+                document.getElementById("conteudo").style.top = "0px";
+                changeClass("filtroCategorias", "filtro");
+                changeClass("filtroDias", "filtro");
+                
+                if(getContent()[hRegIndex].programmes.length>regIndex) {
+                    var node = document.getElementById('guideDay3');
+                    while (node.hasChildNodes()) {
+                        node.removeChild(node.lastChild);
+                    }
+                    checkDayFilter();
+                    buildDayGuide(3, regIndex, getContent()[hRegIndex]);
+                } else regIndex--;
+            } else {
+                if(regIndex==-2) {
+                    document.getElementById("conteudo").style.top = "64px";
+                    changeClass("filtroCategorias", "filtro selecionado");
+                    changeClass("filtroDias", "filtro");
+                    changeClass("programacaoSelecionada", "foco");
+                } else if(regIndex<-2) regIndex++;
+                else if(regIndex==-1){
+                    document.getElementById("conteudo").style.top = "0px";
+                    changeClass("filtroCategorias", "filtro");
+                    changeClass("filtroDias", "filtro selecionado");
+                    changeClass("programacaoSelecionada", "foco");
+                }
+            }
+            
+        }
+        
+        function checkDayFilter() {
+            var newIndex = 0;
+            for(var i=0;i<dias.length;i++) {
+                if((dias[i].timeStamp.getTime()>getContent()[hRegIndex].programmes[regIndex].programmeStart) ){
+                    newIndex = i-dayFilterIndex-1;
+                    i=dias.length;
+                }
+            }
+            oldOne = dayFilterIndex;
+            dayFilterIndex=dayFilterIndex+newIndex;
+            if(dias[dias.length-1].timeStamp.getTime()<=getContent()[hRegIndex].programmes[regIndex].programmeStart) dayFilterIndex = dias.length-1;
+            
+            if(dayFilterIndex<0) dayFilterIndex=0;
+            else if(dayFilterIndex>=dias.length) dayFilterIndex=dias.length-1;
+            else {
+            
+                changeClass("filterDay"+oldOne, "");
+                changeClass("filterDay"+dayFilterIndex, "foco");
+            }
+        }
+        
+        function getContent() {
+            if(catFilterIndex==0) return content;
+            else {
+                var ret = new Array();
+                for(var i=0;i<content.length;i++) {
+                    if(content[i].channelCategoryUid==categorias[catFilterIndex].uid) ret.push(content[i]);  
+                }
+                return ret;
+            }
+        }
+        
+        function navigate(value) {
+            if(regIndex>=0) {
+                regIndex = 0;
+                dayRegIndex = 0;
+                changeClass("filterDay"+dayFilterIndex, "");
+                changeClass("filterDay0", "foco");
+                
+                cleanChannelGuide(1);
+                cleanChannelGuide(2);
+                cleanChannelGuide(3);
+                cleanChannelGuide(4);
+                cleanChannelGuide(5);
+               
+                if(((hRegIndex+value) < getContent().length) && ((hRegIndex+value)>=0)) hRegIndex = hRegIndex+value;
+                else if((hRegIndex+value) == getContent().length) hRegIndex = 0;
+                else hRegIndex = getContent().length-1;
+                
+                
+                buildFullContent();
+                verticalNavigate(0);
+            } else if(regIndex==-1) {
+                dayFilterNavigate(value);
+            } else {
+                catFilterNavigate(value); 
+            }
+        }
+        
+        function buildFullContent() {
+            if(getContent().length>0) {
+                for(var i=1; i< 6; i++) {
+                    var index = hRegIndex;
+                    switch(i) {
+                        case 1:
+                            if(hRegIndex>1) index = hRegIndex-2;
+                            else index = getContent().length-2+hRegIndex;
+                        break;
+                        case 2:
+                            if(hRegIndex>0) index = hRegIndex-1;
+                            else index = getContent().length-1;
+                        break;
+                        case 3:
+                            index = hRegIndex;
+                        break;
+                        case 4:
+                            if(hRegIndex<(getContent().length-1)) index = hRegIndex+1;
+                            else index = 0;
+                        break;
+                        case 5:
+                            if((hRegIndex+2)<getContent().length) index = hRegIndex+2;
+                            else index = hRegIndex-getContent().length+2;
+                        break;
+                        
+                        default: index = 0;
+                    }
+                    
+                    if((index>=0) && (index<getContent().length))
+                        buildChannelGuide(i, getContent()[index]);
+                }
+            }
+        }
+        
+        function dayFilterNavigate(value) {
+            if(value>0)
+                changeClass("filtroDias", "filtro selecionado esquerda");
+            else if(value<0)
+                changeClass("filtroDias", "filtro selecionado direita");
+            addNextPage();
+            
+            dayFilterIndex = dayFilterIndex+value;
+            if(dayFilterIndex<0) dayFilterIndex=0;
+            else if(dayFilterIndex>=dias.length) dayFilterIndex=dias.length-1;
+            else {
+                changeClass("filterDay"+(dayFilterIndex-value), "");
+                changeClass("filterDay"+dayFilterIndex, "foco");
+                if(dayFilterIndex==0) {
+                    var node = document.getElementById('guideDay3');
+                    while (node.hasChildNodes()) {
+                        node.removeChild(node.lastChild);
+                    }
+                    buildDayPreview(3, 0, getContent()[hRegIndex]);
+                    regIndexJump=0;
+                } else {
+                    var index = 0;
+                    for(var j=0;j<getContent()[hRegIndex].programmes.length;j++) {
+                        if(dias[dayFilterIndex].timeStamp.getTime()<getContent()[hRegIndex].programmes[j].programmeStart) {
+                            regIndexJump = j-regIndex-1;
+                            j = getContent()[hRegIndex].programmes.length;
+                        }
+                    }
+                    var node = document.getElementById('guideDay3');
+                    while (node.hasChildNodes()) {
+                        node.removeChild(node.lastChild);
+                    }
+                    buildDayPreview(3, regIndexJump, getContent()[hRegIndex]);
+                }
+            }
+            setTimeout(function () { changeClass("filtroDias", "filtro selecionado"); }, 100);
+        }
+        
+        function catFilterNavigate(value) {
+            if(value>0)
+                changeClass("filtroCategorias", "filtro selecionado esquerda");
+            else if(value<0)
+                changeClass("filtroCategorias", "filtro selecionado direita");
+                
+            catFilterIndex = catFilterIndex+value;
+            if(catFilterIndex<0) catFilterIndex=0;
+            else if(catFilterIndex>=categorias.length) catFilterIndex=categorias.length-1;
+            else {
+                changeClass("filterCat"+(catFilterIndex-value), "");
+                changeClass("filterCat"+catFilterIndex, "foco");
+                hRegIndex = 0;
+                cleanChannelGuide(1);
+                cleanChannelGuide(2);
+                cleanChannelGuide(3);
+                cleanChannelGuide(4);
+                cleanChannelGuide(5);
+                buildFullContent();
+            }
+            
+            setTimeout(function () { changeClass("filtroCategorias", "filtro selecionado"); }, 100);
+        }
+        
+        function changeClass (elementID, newClass) {
+            try{
+                var element = document.getElementById(elementID);
+                
+                element.setAttribute("class", newClass); //For Most Browsers
+            } catch(e){alert(elementID + " : " + newClass + " : " + e.message);}
+        }
+    </script>
+
+</head>
+<body onload="init()">
+<div  id="detailLayer" class="raiz">
+
+	<header>
+		<h1>GVT</h1>
+		<time><span class="dia">Qui, 26/10</span><span class="hor">22:33</span></time>
+	</header>
+	
+	<section id="rolando">
+		
+		<dl class="evento">
+			<dt class="type" class="labeltype">Type</dt>
+			<dd class="type">Movie (vod), TV Show, TV Episode, PPV</dd>
+			
+			<dt class="title">Title</dt>
+			<dd class="title">Friends</dd>
+			
+			<dt class="additional">Original Title / Season, Episode number: Episode name</dt>
+			<dd class="additional">Temp. 2, ep. 8: Aquele com a lista</dd>
+			
+			<dt class="description">Description</dt>
+			<dd class="description">Ross tendo que decidir entre Rachel e Julie, faz uma lista de prós e contras e Rachel a lê. Chandler compra um computador.</dd>
+			<dt class="image">Image</dt>
+			<dd class="image"><img src="images/poster-friends.jpg" width="162" height="240" /></dd>
+			<dt class="url">URL</dt>
+			<dd class="url">URL</dd>
+			<dt class="actor">Actor</dt>
+			<dd class="actor">Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer</dd>
+			<dt class="director">Director</dt>
+			<dd class="director">Mary Kay Place</dd>
+			<dt class="writer">Writer</dt>
+			<dd class="writer">David Crane, Marta Kauffman</dd>
+			<dt class="duration">Duration (seconds)</dt>
+			<dd class="duration">22 min</dd>
+			<dt class="year">Release Date</dt>
+			<dd class="year">DateTime</dd>
+			<dt class="tag">Tag</dt>
+			<dd class="tag">String[]</dd>
+			
+			<!--linha atributos de produção-->
+			<dt class="production">Tag (gener) / Release Date / Country / Duration (seconds > minutes)</dt>
+			<dd class="production">Séries, Comédia | 1995 | EUA</dd>
+			<dt class="rating">Rating</dt>
+			<dd class="rating r-12">12 anos</dd>
+			
+			<!--languages-->
+			<dt class="language">Audio</dt>
+			<dd class="language">Inglês, Português</dd>
+			<dt class="subtitle">Legenda</dt>
+			<dd class="subtitle">Português</dd>
+			
+			<!--atributos do video-->
+			<dt class="videoq">Video quality</dt>
+			<dd class="videoq hd">Alta Definição</dd>
+			<dt class="audioq">Audio quality</dt>
+			<dd class="audioq db">Dolby</dd>
+			<dt class="videof">Video format</dt>
+			<dd class="videof hd">16:9</dd>
+			
+			<!--atributos de ação-->
+			<dt class="record">Gravação</dt>
+			<dd class="record r-a">Boolean</dd>
+			<dt class="reminder">Lembrete</dt>
+			<dd class="reminder">Boolean</dd>
+			<dt class="blockade">Bloqueio</dt>
+			<dd class="blockade">Boolean</dd>
+			<dt class="likes">Likes</dt>
+			<dd class="likes">Integer</dd>
+			<dt class="twitter">Twitter</dt>
+			<dd class="twitter">Integer</dd>
+
+			<!--atributos de negocio-->
+			<dt class="ppv">Pay-Per-View</dt>
+			<dd class="ppv">Image[]</dd>
+			<dt class="price">Price</dt>
+			<dd class="price">Integer</dd>
+			<dt class="expiration">Expiration Date</dt>
+			<dd class="expiration">DateTime</dd>
+			
+			<!--atributos de origen-->
+			<dt class="channel">Channel</dt>
+			<dd class="channel">90 Warner HD</dd>
+			<dt class="schedule">Start Time / End Time</dt>
+			<dd class="schedule">17:00 - 17:30</dd>
+			
+		</dl>
+	</section>
+	
+	<!--trocar a classe fechado/aberto para abrir o submenu-->
+	<ul id="menuDetalhe" class="menu fechado">
+		<!--
+		<li style="top:64px;" class="item voltar">
+			<span>Voltar</span>
+		</li>
+		<li style="top:128px;" class="item focado gravar">
+			<span>Gravar</span>
+			<ul class="submenu" style="display:block;">
+				<li style="top:128px;" class="subitem focado">Gravar episódio</li>
+				<li style="top:192px;" class="subitem">Gravar temporada</li>
+				<li style="top:256px;" class="subitem">Gravar série</li>
+			</ul>
+		</li>
+		<li style="top:192px;" class="item lembrete">
+			<span>Lembrete</span>
+		</li>
+		<li style="top:256px;" class="item curtir">
+			<span>Curtir</span>
+		</li>
+		<li style="top:320px;" class="item compartilhar">
+			<span>Compartilhar</span>
+		</li>
+		<li style="top:384px;" class="item tuitar">
+			<span>Tuitar</span>
+		</li>
+		<li style="top:448px;" class="item horarios">
+			<span>+ horários</span>
+			<ul class="submenu">
+				<li class="subitem">Hoje, às 20:30, no canal 90 Warner HD</li>
+				<li class="subitem">Amanhã, às 17:30, no canal 90 Warner HD</li>
+				<li class="subitem">Amanhã, às 20:30, no canal 90 Warner HD</li>
+				<li class="subitem">Segunda 30/10, às 17:30, no canal 90 Warner HD</li>
+				<li class="subitem">Segunda 30/10, às 20:30, no canal 90 Warner HD</li>
+				<li class="subitem">Terça 31/10, às 17:30, no canal 90 Warner HD</li>
+				<li class="subitem">Terça 31/10, às 20:30, no canal 90 Warner HD</li>
+				<li class="subitem">Quarta 1/11, às 17:30, no canal 90 Warner HD</li>
+				<li class="subitem">Quarta 1/11, às 20:30, no canal 90 Warner HD</li>
+				<li class="subitem">Quinta 2/11, às 17:30, no canal 90 Warner HD</li>
+				<li class="subitem">Quinta 2/11, às 20:30, no canal 90 Warner HD</li>
+				<li class="subitem">Sexta 3/11, às 17:30, no canal 90 Warner HD</li>
+				<li class="subitem">Sexta 3/11, às 20:30, no canal 90 Warner HD</li>
+			</ul>
+		</li>
+		<li style="top:512px;" class="item elenco">
+			<span>Elenco</span>
+			<ul class="submenu">
+				<li class="subitem">Jennifer Aniston</li>
+				<li class="subitem">Courteney Cox</li>
+				<li class="subitem">Lisa Kudrow</li>
+				<li class="subitem">Matt LeBlanc</li>
+				<li class="subitem">Matthew PerryDavid Schwimmer</li>
+				<li class="subitem">Mary Kay Place</li>
+			</ul>
+		</li>
+		<li style="top:576px;" class="item resumo">
+			<span>Resumo</span>
+		</li>
+
+	    -->
+        
+	</ul>
+	<section id="detalhe" class="fechado" style="left:384px">
+		
+		<dl class="evento">
+			<dt class="type" class="labeltype">Type</dt>
+			<dd class="type">Movie (vod), TV Show, TV Episode, PPV</dd>
+			
+			<dt class="title">Title</dt>
+			<dd class="title">Friends</dd>
+			
+			<dt class="additional">Original Title / Season, Episode number: Episode name</dt>
+			<dd class="additional">Temp. 2, ep. 8: Aquele com a lista</dd>
+			
+			<dt class="description">Description</dt>
+			<dd class="description">Ross tendo que decidir entre Rachel e Julie, faz uma lista de prós e contras e Rachel a lê. Chandler compra um computador.</dd>
+			<dt class="image">Image</dt>
+			<dd class="image"><img src="images/poster-friends.jpg" width="162" height="240" /></dd>
+			<dt class="url">URL</dt>
+			<dd class="url">URL</dd>
+			<dt class="actor">Actor</dt>
+			<dd class="actor">Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer</dd>
+			<dt class="director">Director</dt>
+			<dd class="director">Mary Kay Place</dd>
+			<dt class="writer">Writer</dt>
+			<dd class="writer">David Crane, Marta Kauffman</dd>
+			<dt class="duration">Duration (seconds)</dt>
+			<dd class="duration">22 min</dd>
+			<dt class="year">Release Date</dt>
+			<dd class="year">DateTime</dd>
+			<dt class="tag">Tag</dt>
+			<dd class="tag">String[]</dd>
+			
+			<!--linha atributos de produção-->
+			<dt class="production">Tag (gener) / Release Date / Country / Duration (seconds > minutes)</dt>
+			<dd class="production">Séries, Comédia | 1995 | EUA | 30 min</dd>
+			<dt class="rating">Rating</dt>
+			<dd class="rating r-12">12 anos</dd>
+			
+			<!--languages-->
+			<dt class="language">Audio</dt>
+			<dd class="language">Inglês, Português</dd>
+			<dt class="subtitle">Legenda</dt>
+			<dd class="subtitle">Português</dd>
+			
+			<!--atributos do video-->
+			<dt class="videoq">Video quality</dt>
+			<dd class="videoq hd">Alta Definição</dd>
+			<dt class="audioq">Audio quality</dt>
+			<dd class="audioq db">Dolby</dd>
+			<dt class="videof">Video format</dt>
+			<dd class="videof hd">16:9</dd>
+			
+			<!--atributos de ação-->
+			<dt class="record">Gravação</dt>
+			<dd class="record r-a" id="gravarIco" style="display:none;">Boolean</dd>
+			<dt class="reminder">Lembrete</dt>
+			<dd class="reminder" id="lembreteIco" style="display:none;">Boolean</dd>
+			<dt class="blockade">Bloqueio</dt>
+			<dd class="blockade" style="display:none;">Boolean</dd>
+			<dt class="likes">Likes</dt>
+			<dd class="likes" id="curtirIco" style="display:none;">Integer</dd>
+			<dt class="twitter">Twitter</dt>
+			<dd class="twitter" id="tuitarIco" style="display:none;">Integer</dd>
+            
+			<!--atributos de negocio-->
+			<dt class="ppv">Pay-Per-View</dt>
+			<dd class="ppv" style="display:none;">Image[]</dd>
+			<dt class="price">Price</dt>
+			<dd class="price" style="display:none;">Integer</dd>
+			<dt class="expiration">Expiration Date</dt>
+			<dd class="expiration" style="display:none;">DateTime</dd>
+			
+			<!--atributos de origen-->
+			<dt class="channel">Channel</dt>
+			<dd class="channel">90 Warner HD</dd>
+			<dt class="schedule">Start Time / End Time</dt>
+			<dd class="schedule">17:00 - 17:30</dd>
+			
+		</dl>
+			
+	</section>
+
+</div>
+<div id="videoLayer" class="fullVideo" style="z-index:5;">
+    <!--<iframe id="videoSource" width="1280" height="720" src="http://www.youtube.com/embed/n2jI1xlzjCo?autoplay=0" frameborder="0" allowfullscreen></iframe>-->
+    <iframe id="videoSource" src="http://player.vimeo.com/video/17439665?title=0&amp;byline=0&amp;badge=0&amp;color=f0000c&amp;autoplay=1&amp;loop=1" width="1280" height="720" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+<div id="navigationLayer" class="raiz" style="z-index:6;">
+	<div id="conteudo">
+		<div id="grade">
+			
+			<hgroup class="semana" id="ch020">
+				<h2 id="channelTitle1"></h2>
+				<ul class="semana" id="guide1">
+					<li class="dia" id="guideDay1">
+						<ul id="dayGuideList1">
+						</ul>
+					</li>
+				</ul>
+			</hgroup>
+			
+			<hgroup class="semana" id="ch021">
+				<h2 id="channelTitle2"></h2>
+				<ul class="semana" id="guide2">
+					<li class="dia" id="guideDay2">
+						<ul id="dayGuideList2">
+						</ul>
+					</li>
+				</ul>
+			</hgroup>
+			
+			<hgroup class="semana foco" id="ch022">
+				<h2 id="channelTitle3"></h2>
+				<ul class="semana" id="guide3">
+					<li class="dia" id="guideDay3">
+						<ul id="dayGuideList3">
+						</ul>
+					</li>
+				</ul>
+			</hgroup>
+			
+			<hgroup class="semana" id="ch023">
+				<h2 id="channelTitle4"></h2>
+				<ul class="semana" id="guide4">
+					<li class="dia" id="guideDay4">
+						<ul id="dayGuideList4">
+						</ul>
+					</li>
+				</ul>
+			</hgroup>
+			
+			<hgroup class="semana" id="ch024">
+				<h2 id="channelTitle5"></h2>
+				<ul class="semana" id="guide5">
+					<li class="dia" id="guideDay5">
+					</li>
+				</ul>
+			</hgroup>
+			
+		</div>
+		
+		<ul id="filtroDias" class="filtro">
+			<!--<li class="foco">hoje</li>
+			<li>amanhã</li>
+			<li>Qua 10/10</li>
+			<li>Qui 11/10</li>
+			<li>Sex 12/10</li>
+			<li>Sáb 13/10</li>
+			<li>Dom 14/10</li>
+		--></ul>
+		
+		<ul id="filtroCategorias" class="filtro ">
+		</ul>
+		
+
+		
+		
+		
+	</div>
+	
+	
+	
+</div>
+
+</body>
+</html>

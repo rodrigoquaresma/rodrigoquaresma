@@ -1,0 +1,239 @@
+
+div.raiz.lista {
+	position:absolute;
+	width:1280px;
+	height:720px;
+	margin:0;
+	padding:0;
+	background-image:url(../images/lista-bg.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+
+div.raiz.lista header.mini
+{
+	position:absolute;
+	display:block;
+	float:left;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	width:400px;
+	height:160px;
+
+}
+div.raiz.lista header.mini h1 {
+	position:absolute;
+	top:36px;
+	left:64px;
+	margin:0;
+	padding:0;
+	width:154px;
+	height:86px;
+	background-image:url(../images/logo-gvt.png);
+	background-repeat:no-repeat;
+	text-indent:-999px;
+}
+div.raiz.lista header.mini time {
+	position:absolute;
+	top:42px;
+	left:272px;
+	margin:0;
+	padding:0;
+	width:128px;
+	height:80px;
+}
+div.raiz.lista header.mini time span.dia {
+	display:block;
+	clear:both;
+	color:#e5e5e5;
+	font-size:16px;
+	font-weight:bold;
+}
+div.raiz.lista header.mini time span.hor {
+	display:block;
+	clear:both;
+	color:#e5e5e5;
+	font-size:32px;
+	font-weight:bold;
+
+}
+
+
+
+/*textos de info do evento*/
+
+div.raiz.lista dl.evento dt,
+div.raiz.lista dl.evento dd
+{
+	position:absolute;
+	display:block;
+	float:left;
+	padding:0 0 0 0;
+	margin:0;
+	font-size:20px;
+	color:#e5e5e5;
+	display:none;
+	font-weight:bold;
+	white-space:normal;
+	text-overflow: -o-ellipsis-lastline;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+div.raiz.lista dl.evento dd.title		{width:528px;	height:040px;	display:block;	font-size:32px;}
+div.raiz.lista dl.evento dd.additional	{width:528px;	height:024px;	display:block;}
+div.raiz.lista dl.evento dd.production	{width:496px;	height:024px;	display:block;}
+div.raiz.lista dl.evento dt.language	{width:224px;	height:024px;	display:block;	font-weight:normal;}
+div.raiz.lista dl.evento dd.language	{width:224px;	height:024px;	display:block;}
+div.raiz.lista dl.evento dt.subtitle	{width:224px;	height:024px;	display:block;	font-weight:normal;}
+div.raiz.lista dl.evento dd.subtitle	{width:224px;	height:024px;	display:block;}
+div.raiz.lista dl.evento dd.channel		{width:224px;	height:024px;	display:block;}
+div.raiz.lista dl.evento dd.schedule	{width:224px;	height:024px;	display:block;}
+div.raiz.lista dl.evento dd.rating		{width:032px;	height:032px;	display:block;	text-indent:-999px;}
+
+div.raiz.lista dl.evento dd.rating,
+div.raiz.lista dl.evento dd.videoq,
+div.raiz.lista dl.evento dd.audioq,
+div.raiz.lista dl.evento dd.videof,
+div.raiz.lista dl.evento dd.reminder,
+div.raiz.lista dl.evento dd.record,
+div.raiz.lista dl.evento dd.blockade,
+div.raiz.lista dl.evento dd.ppv,
+div.raiz.lista dl.evento dd.likes,
+div.raiz.lista dl.evento dd.twitter
+{display:block;	width:032px;	height:032px;	text-indent:-999px;}
+
+div.raiz.lista dl.evento dd.rating.r-er	{background-image:url(../icons/c-er.png);}
+div.raiz.lista dl.evento dd.rating.r-l	{background-image:url(../icons/c-l.png);}
+div.raiz.lista dl.evento dd.rating.r-10	{background-image:url(../icons/c-10.png);}
+div.raiz.lista dl.evento dd.rating.r-12	{background-image:url(../icons/c-12.png);}
+div.raiz.lista dl.evento dd.rating.r-14	{background-image:url(../icons/c-14.png);}
+div.raiz.lista dl.evento dd.rating.r-16	{background-image:url(../icons/c-16.png);}
+div.raiz.lista dl.evento dd.rating.r-18	{background-image:url(../icons/c-18.png);}
+div.raiz.lista dl.evento dd.videoq.hd	{background-image:url(../icons/qv-hd.png);}
+div.raiz.lista dl.evento dd.videoq.sd	{background-image:url(../icons/qv-sd.png);}
+div.raiz.lista dl.evento dd.audioq.st	{background-image:url(../icons/qa-s.png);}
+div.raiz.lista dl.evento dd.audioq.db	{background-image:url(../icons/qa-d.png);}
+div.raiz.lista dl.evento dd.videof.sd	{background-image:url(../icons/f-43.png);}
+div.raiz.lista dl.evento dd.videof.hd	{background-image:url(../icons/f-169.png);}
+div.raiz.lista dl.evento dd.reminder	{background-image:url(../icons/l.png);}
+div.raiz.lista dl.evento dd.record.r-a	{background-image:url(../icons/r-a.png);}
+div.raiz.lista dl.evento dd.record.r-e	{background-image:url(../icons/r-e.png);}
+div.raiz.lista dl.evento dd.record.r-f	{background-image:url(../icons/r-f.png);}
+div.raiz.lista dl.evento dd.record.r-p	{background-image:url(../icons/r-p.png);}
+div.raiz.lista dl.evento dd.blockade	{background-image:url(../icons/b.png);}
+div.raiz.lista dl.evento dd.ppv			{background-image:url(../icons/ppv.png);}
+div.raiz.lista dl.evento dd.likes		{background-image:url(../icons/fb.png);}
+div.raiz.lista dl.evento dd.twitter		{background-image:url(../icons/tw.png);}
+
+
+div.raiz.lista section#detalhe {
+	position:absolute;
+	display:block;
+	float:left;
+	top:512px;
+	left:400px;
+	margin:0;
+	padding:0;
+	width:880px;
+	height:480px;
+	background-color:#1a1a1a;
+	opacity:0.90;
+}
+
+div.raiz.lista section#detalhe dl.evento {
+	position:relative;
+	display:block;
+	float:left;
+	top:0;
+	left:0;
+	margin:24px 32px;
+	padding:0;
+	width:768px;
+	height:352px;
+}
+
+div.raiz.lista section#detalhe dl.evento dd.title		{top:040px;	left:000px;}
+div.raiz.lista section#detalhe dl.evento dd.additional	{top:080px;	left:000px;}
+div.raiz.lista section#detalhe dl.evento dd.production	{top:112px;	left:032px;}
+div.raiz.lista section#detalhe dl.evento dd.description	{top:144px;	left:240px;}
+div.raiz.lista section#detalhe dl.evento dd.actor		{top:264px;	left:240px;}
+div.raiz.lista section#detalhe dl.evento dd.director	{top:336px;	left:240px;}
+div.raiz.lista section#detalhe dl.evento dt.language	{top:088px;	left:544px;}
+div.raiz.lista section#detalhe dl.evento dd.language	{top:112px;	left:544px;}
+div.raiz.lista section#detalhe dl.evento dt.subtitle	{top:216px;	left:000px;}
+div.raiz.lista section#detalhe dl.evento dd.subtitle	{top:240px;	left:000px;}
+div.raiz.lista section#detalhe dl.evento dd.channel		{top:016px;	left:544px;}
+div.raiz.lista section#detalhe dl.evento dd.schedule	{top:040px;	left:544px;}
+div.raiz.lista section#detalhe dl.evento dd.image		{top:116px;	left:608px;}
+div.raiz.lista section#detalhe dl.evento dd.rating		{top:108px;	left:-04px;}
+div.raiz.lista section#detalhe dl.evento dd.videoq		{top:004px;	left:-04px;}
+div.raiz.lista section#detalhe dl.evento dd.audioq		{top:004px;	left:036px;}
+div.raiz.lista section#detalhe dl.evento dd.videof		{top:004px;	left:076px;}
+div.raiz.lista section#detalhe dl.evento dd.reminder	{top:004px;	left:116px;}
+div.raiz.lista section#detalhe dl.evento dd.record		{top:004px;	left:156px;}
+div.raiz.lista section#detalhe dl.evento dd.blockade	{top:004px;	left:196px;}
+div.raiz.lista section#detalhe dl.evento dd.ppv			{top:004px;	left:236px;}
+div.raiz.lista section#detalhe dl.evento dd.likes		{top:004px;	left:276px;}
+div.raiz.lista section#detalhe dl.evento dd.twitter		{top:004px;	left:316px;}
+
+
+div.raiz.lista ul.menu {
+	position:absolute;
+	display:block;
+	float:left;
+	top:240px;
+	left:0;
+	margin:0;
+	padding:0;
+	height:480px;
+	padding:64px 0 0 0;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+
+div.raiz.lista ul.menu li {
+	display:block;
+	float:left;
+	clear:both;
+	margin:0;
+	padding:0 16px 0 128px;
+	width:384px;
+	height:64px;
+	font-size:28px;
+	border:none;
+	text-align:left;
+	text-transform:uppercase;
+	color:#e5e5e5;
+	background:none;
+	background-repeat:no-repeat;
+	background-position:80px 15px;
+}
+div.raiz.lista ul.menu li span {display:block;padding:15px 0 0 0;}
+
+div.raiz.lista ul.menu li.focado {font-weight:bold;}
+
+div.raiz.lista ul.menu li.gravar 		{background-image:url(../icons/r-a.png);}
+div.raiz.lista ul.menu li.lembrete		{background-image:url(../icons/l.png);}
+div.raiz.lista ul.menu li.curtir		{background-image:url(../icons/fb.png);}
+div.raiz.lista ul.menu li.compartilhar	{background-image:url(../icons/fb.png);}
+div.raiz.lista ul.menu li.tuitar		{background-image:url(../icons/tw.png);}
+
+div.raiz.lista ul.menu.fechado			{width:400px;}
+div.raiz.lista ul.menu.fechado li ul	{display:none;}
+
+div.raiz.lista ul.menu.aberto			{width:672px;}
+div.raiz.lista ul.menu.aberto li		{width:672px;padding:0 0 0 104px;}
+div.raiz.lista ul.menu.aberto li span	{display:none;}
+
+div.raiz.lista ul.menu.aberto li ul	{width:512px;}
+div.raiz.lista ul.menu.aberto li ul li {
+	width:512px;
+	padding:16px 0 0 0;
+	height:50px;
+	font-weight:normal;
+}
+div.raiz.lista ul.menu.aberto li ul li.focado {font-weight:bold;color:#4d4d4d;}

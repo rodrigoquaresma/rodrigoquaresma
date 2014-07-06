@@ -1,0 +1,53 @@
+/*header*/
+
+
+div.raiz.main header.mini
+{
+	position:absolute;
+	display:block;
+	float:left;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	width:400px;
+	height:240px;
+	z-index:399;
+
+}
+div.raiz.main header.mini h1 {
+	position:absolute;
+	top:36px;
+	left:64px;
+	margin:0;
+	padding:0;
+	width:154px;
+	height:86px;
+	background-image:url(../images/logo-gvt.png);
+	background-repeat:no-repeat;
+	text-indent:-999px;
+}
+div.raiz.main header.mini time {
+	position:absolute;
+	top:42px;
+	left:336px;
+	margin:0;
+	padding:0;
+	width:128px;
+	height:80px;
+}
+div.raiz.main header.mini time span.dia {
+	display:block;
+	clear:both;
+	color:#e5e5e5;
+	font-size:16px;
+	font-weight:bold;
+}
+div.raiz.main header.mini time span.hor {
+	display:block;
+	clear:both;
+	color:#e5e5e5;
+	font-size:32px;
+	font-weight:bold;
+
+}

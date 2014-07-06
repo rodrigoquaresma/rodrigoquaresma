@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+section#covers {
+	display:block;
+	position:absolute;
+	top:0px;
+	width:1280px;
+	height:720px;
+	padding:0;
+	margin:0;
+	z-index:400;
+	background-repeat:no-repeat;
+}
+section#covers.fechado	{background-image:url(../images/menu-bg-layer-3-b.png);left:480px;}
+section#covers.aberto	{background-image:url(../images/menu-bg-layer-3-a.png);left:136px;}
+
+ul,
+ul li,
+dl,
+dl dt,
+dl dd
+{
+	display:block;
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+
+ul.categorias {
+	position:absolute;
+	top:-152px;
+	left:16px;
+	width:1280px;
+	overflow:hidden;
+}
+ul.categorias li.categoria {
+	float:left;
+	clear:both;
+	width:1280px;
+	height:296px;
+	margin:0 0 8px 24px;
+	overflow:hidden;
+	opacity:0.5;
+}
+ul.categorias li.categoria.focado {
+	height:320px;
+	margin:0 0 32px 24px;
+	opacity:1.0;
+}
+
+ul.categorias li.categoria h2 {
+	display:block;
+	clear:both;
+	top:0;
+	left:0;
+	width:1280px;
+	height:24px;
+	padding:0;
+	margin:0 0 0 16px;
+	font-size:32px;
+	color:#4b4b4b;
+}
+ul.categorias li.categoria.focado h2 {
+	height:48px;
+}
+
+ul.categorias li.categoria ul.eventos {
+	float:left;
+	width:1280px;
+	height:272px;
+}
+ul.categorias li.categoria ul.eventos li.evento {
+	position:relative;
+	float:left;
+	width:154px;
+	height:224px;
+	margin:24px 19px 24px 19px;
+	overflow:hidden;
+	background-color:#4b4b4b;
+	opacity:1.0;
+	box-shadow: 4px 4px 8px #808080;
+}
+ul.categorias li.categoria ul.eventos li.evento.focado {
+	width:176px;
+	height:256px;
+	margin:8px;
+}
+
+ul.categorias li.categoria ul.eventos li.evento h3 {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:12px 9px 0;
+	margin:0;
+	width:136px;
+	height:160px;
+	font-size:26px;
+	color:#e5e5e5;
+
+	overflow:hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+ul.categorias li.categoria ul.eventos li.evento.focado h3 {
+	padding:24px 12px 0;
+	width:152px;	
+	height:168px;
+	font-size:28px;
+}
+
+ul.categorias li.categoria ul.eventos li.evento dl {
+	position:absolute;
+	top:178px;
+	left:0;
+	width:154px;
+	height:48px;
+	float:left;
+	clear:both;
+	background-color:#1a1a1a;
+	opacity:0.9;
+	color:#e5e5e5;
+	font-size:20px;
+}
+ul.categorias li.categoria ul.eventos li.evento.focado dl {
+	top:208px;
+	left:0;
+	width:176px;
+	height:48px;
+}
+
+ul.categorias li.categoria ul.eventos li.evento dl dt,
+ul.categorias li.categoria ul.eventos li.evento dl dd
+{
+	position:absolute;
+	float:left;
+	font-size:20px;
+	color:#1a1a1a;
+	font-weight:bold;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space: nowrap;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	display:none;
+}
+
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating {
+	display:block;
+	top:6px;
+	left:6px;
+	width:032px;
+	height:032px;
+	text-indent:-999px;
+}
+ul.categorias li.categoria ul.eventos li.evento.focado dl dd.rating {
+	top:8px;
+	left:8px;
+	width:032px;
+	height:032px;
+}
+
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-er	{background-image:url(../icons/c-er.png);}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-l	{background-image:url(../icons/c-l.png);}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-10	{background-image:url(../icons/c-10.png);}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-12	{background-image:url(../icons/c-12.png);}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-14	{background-image:url(../icons/c-14.png);}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-16	{background-image:url(../icons/c-16.png);}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-18	{background-image:url(../icons/c-18.png);}
+
+ul.categorias li.categoria ul.eventos li.evento dl dd.genre {
+	display:block;
+	top:14px;
+	left:42px;
+	height:20px;
+	width:100px;
+	font-size:16px;
+	color:#e5e5e5;
+}
+ul.categorias li.categoria ul.eventos li.evento.focado dl dd.genre {
+	top:12px;
+	left:48px;
+	height:20px;
+	width:120px;
+	font-size:20px;
+}
+
+ul.categorias li.categoria ul.eventos li.evento img {
+	position:absolute;
+	top:0;
+	left:0;
+	width:154px;
+	height:224px;
+}
+ul.categorias li.categoria ul.eventos li.evento.focado img {
+	width:176px;
+	height:256px;
+}
+
+
+
+
+
+
+
+
