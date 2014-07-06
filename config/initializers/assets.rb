@@ -8,7 +8,7 @@ Rails.application.config.assets.version = '1.0'
 
 base_js    = %w( site/site.js blenbox/blenbox.js )
 vendor_js  = %w( dragdealer.js jquery-1.9.1.js shortcurt.js )
-base_css   = %w( site/styles-dark.css blenbox/blenbox.css )
+base_css   = %w( site/styles-dark.css blenbox/blenbox.css oxys/header.css oxys/mainmenu-geral.css oxys/mainmenu-covers.css )
 vendor_css = %w( dragdealer.css ui/1.10.2/themes/smoothness/jquery-ui.css )
 
 Rails.application.config.assets.precompile += [ base_css, base_js, vendor_css, vendor_js ].flatten

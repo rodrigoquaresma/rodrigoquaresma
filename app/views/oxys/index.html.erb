@@ -22,10 +22,9 @@ div.raiz.main {
 	overflow:hidden;
 }
 </style>
-<link rel="stylesheet" href="css/header.css" />
-<link rel="stylesheet" href="css/mainmenu-geral.css" />
-<link rel="stylesheet" href="css/mainmenu-covers.css" />
-<!--<link rel="stylesheet" href="css/ondemand-categorias.css" />-->
+<%= stylesheet_link_tag    'oxys/header', media: 'all' %>
+<%= stylesheet_link_tag    'oxys/mainmenu-geral', media: 'all' %>
+<%= stylesheet_link_tag    'oxys/mainmenu-covers', media: 'all' %>
 
 <script type="text/javascript">
     var dayFilterIndex = 0;
@@ -44,8 +43,8 @@ div.raiz.main {
     var isLoading = false;
     var amanha = new Date();
     var numDias = 0;
-    
-    
+
+
     var capas = [
             {
                 category: "",
@@ -540,7 +539,7 @@ div.raiz.main {
                 ]
             }
     ];
-   
+
        var itensMenu = [
             {
                 id: "canais-de-tv",
@@ -774,18 +773,18 @@ div.raiz.main {
                     }
                 ]
            }
-       ]; 
-       
+       ];
+
       function fillCapas(startIndex) {
             var container = document.getElementById('containerCapas');
             while (container.hasChildNodes()) {
                 container.removeChild(container.lastChild);
             }
-            
+
             if(startIndex==0) {
                 var templi = document.createElement('li');
                 templi.setAttribute("class","categoria");
-                
+
                 container.appendChild(templi);
             }
             for(var i=startIndex;i<itensMenu[regIndex].submenu.length;i++) { /* TODO: soh esta mostrando o numero de capas = total de itens do submenu */
@@ -819,36 +818,36 @@ div.raiz.main {
                 if(focado) {
                     if(j==regIndexCovers) liClass.setAttribute("class", "evento focado");
                     liClass.setAttribute("id", "capa"+j);
-                } 
+                }
 
                 var h3 = document.createElement('h3');
                 h3.innerHTML = capas[index].itens[j].title;
-                
+
                 var img = document.createElement('img');
                 img.setAttribute("src", capas[index].itens[j].img);
-                
+
                 var dl = document.createElement('dl');
-                
+
                 var dtr = document.createElement('dt');
                 dtr.setAttribute("class", "rating");
                 dtr.innerHTML = capas[index].itens[j].rating[0];
                 var ddr = document.createElement('dd');
                 ddr.setAttribute("class", "rating r-16");
                 ddr.innerHTML = capas[index].itens[j].rating[1];
-                
+
                 dl.appendChild(dtr);
                 dl.appendChild(ddr);
-                
+
                 var dtg = document.createElement('dt');
                 dtg.setAttribute("class", "genre");
                 dtg.innerHTML = capas[index].itens[j].genre[0];
                 var ddg = document.createElement('dd');
                 ddg.setAttribute("class", "genre");
                 ddg.innerHTML = capas[index].itens[j].genre[1];
-                
+
                 dl.appendChild(dtg);
                 dl.appendChild(ddg);
-                
+
                 liClass.appendChild(h3);
                 liClass.appendChild(img);
                 liClass.appendChild(dl);
@@ -856,51 +855,51 @@ div.raiz.main {
             }
             return ul;
         }
-       
+
         function fillSubMenu(startIndex) {
-        
+
             var container = document.getElementById('submenu');
             while (container.hasChildNodes()) {
                 container.removeChild(container.lastChild);
             }
-            
+
             var contadorAltura=304;
-            
+
             for(var j=startIndex;j<itensMenu[regIndex].submenu.length;j++) {
                 if(startIndex>0 && j==startIndex) {
                     var submenu = document.createElement('li');
                     submenu.setAttribute("class", "subitem");
                     submenu.setAttribute("style", "top:240px;");
-                    
+
                     var sp = document.createElement('span');
                     sp.innerHTML = itensMenu[regIndex].submenu[j-1].title;
                     submenu.appendChild(sp);
                     container.appendChild(submenu);
                 }
-                
+
                 var submenu = document.createElement('li');
                 if(j==startIndex)
-                    submenu.setAttribute("class", "subitem focado");   
+                    submenu.setAttribute("class", "subitem focado");
                 else
                     submenu.setAttribute("class", "subitem");
                 submenu.setAttribute("style", "top:" + contadorAltura + "px;");
                 contadorAltura+=64;
-                
+
                 var sp = document.createElement('span');
                 sp.innerHTML = itensMenu[regIndex].submenu[j].title;
                 submenu.appendChild(sp);
                 container.appendChild(submenu);
             }
         }
-        
+
         function fillMenu(startIndex) {
             var container = document.getElementById('menu');
             while (container.hasChildNodes()) {
                 container.removeChild(container.lastChild);
             }
-            
+
             var contadorAltura=304;
-            
+
             for(var i=startIndex;i<itensMenu.length;i++) {
                 if(startIndex>0 && i==startIndex) {
                     var cat = document.createElement('li');
@@ -918,22 +917,22 @@ div.raiz.main {
                 var sp = document.createElement('span');
                 sp.innerHTML = itensMenu[i].title;
                 cat.appendChild(sp);
-                
+
                 if(i==startIndex) {
                     cat.setAttribute("class", "item "+itensMenu[i].id+" focado");
                     var itens = document.createElement('ul');
                     itens.setAttribute("class", "submenu fechado");
                     itens.setAttribute("id", "submenu");
-                    	
+
                     cat.appendChild(itens);
-                    
+
                 }
                 container.appendChild(cat);
-                
+
             }
             fillSubMenu(0);
         }
-        
+
         function init() {
             shortcut.add("enter", function() {
                 if(!isLoading) {
@@ -941,22 +940,22 @@ div.raiz.main {
                         acessaSubMenu();
                     } else if(layerIndex==1) {
                         checkSubMenuAction();
-                        
+
                     } else if(layerIndex==2) {
                         checkCoversAction();
                     }
                 }
             });
-            
+
             shortcut.add("left", function() {
                 if(!isLoading) {
                     if(layerIndex==1) {
                         fechaSubMenu();
                      } else if(layerIndex==2) coverNavigate(-1);
                 }
-                
+
             });
-            
+
             shortcut.add("right", function() {
                 if(!isLoading) {
                     if(layerIndex==0) {
@@ -967,9 +966,9 @@ div.raiz.main {
                         coverNavigate(1);
                     }
                 }
-                
+
             });
-            
+
             shortcut.add("up", function() {
                 if(!isLoading) {
                     if(layerIndex==0)
@@ -978,7 +977,7 @@ div.raiz.main {
                         navigateSubmenu(-1);
                 }
             });
-            
+
             shortcut.add("down", function() {
                 if(!isLoading) {
                     if(layerIndex==0)
@@ -989,28 +988,28 @@ div.raiz.main {
             });
             navigate(0);
         }
-        
+
         function coverNavigate(value) {
             var oldIndex = regIndexCovers;
-            
+
             if(((regIndexCovers+value) < capas[regIndexSub].itens.length) && ((regIndexCovers+value)>=0)) regIndexCovers = regIndexCovers+value;
             else if((regIndexCovers+value) == (capas[regIndexSub].itens.length)) regIndexCovers = capas[regIndexSub].itens.length-1;
             else {
                 regIndexCovers = 0;
-                changeClass("covers", "fechado"); 
+                changeClass("covers", "fechado");
                 layerIndex = 1;
             }
-            
+
             changeClass("capa" + oldIndex, "evento ");
             changeClass("capa" + regIndexCovers, "evento focado");
-            
+
         }
-        
+
         function checkCoversAction() {
-           changeClass("covers", "fechado"); 
+           changeClass("covers", "fechado");
            layerIndex = 1;
         }
-        
+
         function checkSubMenuAction() {
             if(itensMenu[regIndex].submenu[regIndexSub].cover) {
                 layerIndex=2;
@@ -1020,13 +1019,13 @@ div.raiz.main {
                 else alert(itensMenu[regIndex].submenu[regIndexSub].title);
             }
         }
-        
+
         function acessaSubMenu() {
             changeClass("submenu", "submenu aberto");
             layerIndex = 1;
             checkMain();
         }
-        
+
         function checkMain() {
             if(itensMenu[regIndex].submenu[regIndexSub].cover) {
                 regIndexCovers = 0;
@@ -1034,7 +1033,7 @@ div.raiz.main {
                 document.getElementById("main").style.width = "1280px";
             } else document.getElementById("main").style.width = "480px";
         }
-        
+
         function fechaSubMenu() {
             changeClass("submenu", "submenu fechado");
             layerIndex = 0;
@@ -1042,34 +1041,34 @@ div.raiz.main {
             fillSubMenu(0);
             document.getElementById("main").style.width = "480px";
         }
-        
+
         function changeClass (elementID, newClass) {
             try{
                 var element = document.getElementById(elementID);
-                
+
                 element.setAttribute("class", newClass); //For Most Browsers
             } catch(e){alert(elementID + " : " + newClass + " : " + e.message);}
         }
-        
+
         function navigate(value) {
-        
+
             if(((regIndex+value) < itensMenu.length) && ((regIndex+value)>=0)) regIndex = regIndex+value;
             else if((regIndex+value) == (itensMenu.length)) regIndex = itensMenu.length-1;
             else regIndex = 0;
-            
+
             fillMenu(regIndex);
         }
-        
+
         function navigateSubmenu(value) {
-        
+
             if(((regIndexSub+value) < itensMenu[regIndex].submenu.length) && ((regIndexSub+value)>=0)) regIndexSub = regIndexSub+value;
             else if((regIndexSub+value) == (itensMenu[regIndex].submenu.length)) regIndexSub = itensMenu[regIndex].submenu.length-1;
             else regIndexSub = 0;
-            
+
             checkMain();
             fillSubMenu(regIndexSub);
         }
- 
+
 </script>
 </head>
 <body onload="init()">
@@ -1080,18 +1079,18 @@ div.raiz.main {
 		<h1>GVT</h1>
 		<time><span class="dia">Qui, 26/10</span><span class="hor">22:33</span></time>
 	</header>
-	
+
 	<ul id="menu" class="menu">
-		
+
 	</ul>
-	
-	
-	
+
+
+
 	<!--linhas de capas-->
 	<section id="covers" class="fechado">
-		
+
 		<ul class="categorias" id="containerCapas">
-			
+
 		</ul>
 	</section>
 
