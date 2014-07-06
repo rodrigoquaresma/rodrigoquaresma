@@ -37,7 +37,7 @@ div.raiz.main {
     var layerIndex = 0;
     var regIndexCovers = 0;
 </script>
-<script src="js/shortcut.js" type="text/javascript"></script>
+<%= javascript_include_tag 'shortcut' %>
 <script type="text/javascript">
     var content = null;
     var isLoading = false;
@@ -1072,31 +1072,22 @@ div.raiz.main {
 </script>
 </head>
 <body onload="init()">
-
 <div class="raiz main" id="main">
-
 	<header class="mini">
 		<h1>GVT</h1>
 		<time><span class="dia">Qui, 26/10</span><span class="hor">22:33</span></time>
 	</header>
-
 	<ul id="menu" class="menu">
-
 	</ul>
-
-
-
 	<!--linhas de capas-->
 	<section id="covers" class="fechado">
-
 		<ul class="categorias" id="containerCapas">
-
 		</ul>
 	</section>
-
 </div>
 
 <!--simulacao do video-->
-<img src="images/105-mgm-o-poderoso-chefao.jpg" />
+<%= img_tag 'oxys/105-mgm-o-poderoso-chefao.jpg' %>
+
 </body>
 </html>

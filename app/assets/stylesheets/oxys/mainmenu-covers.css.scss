@@ -13,8 +13,8 @@ section#covers {
 	z-index:400;
 	background-repeat:no-repeat;
 }
-section#covers.fechado	{background-image:url(../images/menu-bg-layer-3-b.png);left:480px;}
-section#covers.aberto	{background-image:url(../images/menu-bg-layer-3-a.png);left:136px;}
+section#covers.fechado	{background-image:image-url('oxys/menu-bg-layer-3-b.png');left:480px;}
+section#covers.aberto	{background-image:image-url('oxys/menu-bg-layer-3-a.png');left:136px;}
 
 ul,
 ul li,
@@ -109,7 +109,7 @@ ul.categorias li.categoria ul.eventos li.evento h3 {
 }
 ul.categorias li.categoria ul.eventos li.evento.focado h3 {
 	padding:24px 12px 0;
-	width:152px;	
+	width:152px;
 	height:168px;
 	font-size:28px;
 }
@@ -165,13 +165,13 @@ ul.categorias li.categoria ul.eventos li.evento.focado dl dd.rating {
 	height:032px;
 }
 
-ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-er	{background-image:url(../icons/c-er.png);}
-ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-l	{background-image:url(../icons/c-l.png);}
-ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-10	{background-image:url(../icons/c-10.png);}
-ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-12	{background-image:url(../icons/c-12.png);}
-ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-14	{background-image:url(../icons/c-14.png);}
-ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-16	{background-image:url(../icons/c-16.png);}
-ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-18	{background-image:url(../icons/c-18.png);}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-er	{background-image:image-url('oxys/icons/c-er.png');}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-l	 {background-image:image-url('oxys/icons/c-l.png');}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-10	{background-image:image-url('oxys/icons/c-10.png');}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-12	{background-image:image-url('oxys/icons/c-12.png');}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-14	{background-image:image-url('oxys/icons/c-14.png');}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-16	{background-image:image-url('oxys/icons/c-16.png');}
+ul.categorias li.categoria ul.eventos li.evento dl dd.rating.r-18	{background-image:image-url('oxys/icons/c-18.png');}
 
 ul.categorias li.categoria ul.eventos li.evento dl dd.genre {
 	display:block;
@@ -201,11 +201,3 @@ ul.categorias li.categoria ul.eventos li.evento.focado img {
 	width:176px;
 	height:256px;
 }
-
-
-
-
-
-
-
-

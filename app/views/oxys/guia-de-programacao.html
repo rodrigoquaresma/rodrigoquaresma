@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Guia de Programa��o</title>
+<title>Guia de Programação</title>
 <style type="text/css">
 html, body {
 	font-family:Arial, Helvetica, sans-serif;
@@ -17,7 +17,7 @@ body {
 	margin:0;
 	width:100%;
 	height:100%;
-	background-image:url(images/090-warner-hd-friends.jpg); 
+	background-image:url(images/090-warner-hd-friends.jpg);
 }
 div.raiz {
     position:absolute;
@@ -123,7 +123,7 @@ div#grade hgroup ul.semana li.dia ul li {
 	overflow:hidden;
 	margin:0;
 	padding:0;
-	
+
 }
 div#grade hgroup.semana.foco ul.semana li.dia ul li {
 	width:320px;
@@ -303,10 +303,10 @@ ul.filtro.selecionado li.foco {
 	border-radius:8px;
 	background-color:#4f80d2;
 	box-shadow: 1px 1px 2px #000;
-	
+
 	background-image:url(images/filtro-selecionado.png);
 	background-repeat:no-repeat;
-	
+
 	text-align:center;
 	text-transform:uppercase;
 	font-size:36px;
@@ -321,7 +321,7 @@ ul.filtro.selecionado {
 
 ul.filtro.selecionado.direita li.foco {
 	background-image:url(images/filtro-selecionado-left.png);
-}           
+}
 
 ul.filtro.selecionado.esquerda li.foco {
 	background-image:url(images/filtro-selecionado-right.png);
@@ -708,7 +708,7 @@ section#detalhe.fechado {left:384px;}
         var isLoading = false;
         var amanha = new Date();
         var numDias = 0;
-        
+
         var dias = [
                     {
                         timeStamp: new Date(),
@@ -743,7 +743,7 @@ section#detalhe.fechado {left:384px;}
                         title: formatWeekDay(getDay(7))
                     }
                 ];
-        
+
         var itensMenuDias = [
                     {
                         id: "",
@@ -821,10 +821,10 @@ section#detalhe.fechado {left:384px;}
                         itens: []
                     }
                     ];
-                    
-                    
-        
-        
+
+
+
+
         var categorias = [ /* https://epg.gvt.com.br/metadados/channelCategories */
                             {
                                 uid: 0,
@@ -842,7 +842,7 @@ section#detalhe.fechado {left:384px;}
                                 active: true
                             }
                         ];
-            
+
         function addDay() {
             numDias++;
             amanha.setDate(amanha.getDate() + 1);
@@ -850,11 +850,11 @@ section#detalhe.fechado {left:384px;}
             amanha.setMinutes(0);
             amanha.setSeconds(0);
             amanha.setMilliseconds(0);
-            
+
         }
-        
+
         function formatWeekDay(data) {
-       //Qua 10/10 
+       //Qua 10/10
             var semana=new Array(6);
             semana[0]='Dom';
             semana[1]='Seg';
@@ -865,7 +865,7 @@ section#detalhe.fechado {left:384px;}
             semana[6]='Sáb';
             return semana[data.getDay()] + " " + formatForDate(data.getDate()) + "/" + formatForDate(data.getMonth()+1);
         }
-        
+
         function getDay(cont){
             var dia = new Date();
             dia.setDate(dia.getDate() + cont);
@@ -875,7 +875,7 @@ section#detalhe.fechado {left:384px;}
             dia.setMilliseconds(0);
             return dia;
         }
-        
+
         function init() {
             shortcut.add("enter", function() {
                 if(!isLoading) {
@@ -895,16 +895,16 @@ section#detalhe.fechado {left:384px;}
                     }
                 }
             });
-            
+
             shortcut.add("left", function() {
                 if(!isLoading) {
                     if(layerIndex==0) {
                         navigate(-1);
                      }
                 }
-                
+
             });
-            
+
             shortcut.add("right", function() {
                 if(!isLoading) {
                     if(layerIndex==0) {
@@ -922,63 +922,63 @@ section#detalhe.fechado {left:384px;}
                     }
                 }
             });
-            
+
             shortcut.add("up", function() {
                 if(!isLoading) {
                     if(layerIndex==0)
                         verticalNavigate(-1);
                     else if(layerIndex==1)
                         detailMenuNavigate(-1);
-                    else 
+                    else
                         detailMenuOptionsNavigate(-1);
                 }
             });
-            
+
             shortcut.add("down", function() {
                 if(!isLoading) {
                     if(layerIndex==0)
                         verticalNavigate(1);
                     else if(layerIndex==1)
                         detailMenuNavigate(1);
-                    else 
+                    else
                         detailMenuOptionsNavigate(1);
                 }
             });
-            
-            fillCategorias(); 
+
+            fillCategorias();
             fillDias();
-            
+
             requestData("https://epg.gvt.com.br/metadados/programmeGuide", 5000, successCallBack, failureCallback, filterFunc);
         }
-        
+
         function checkDetailMenuAction() {
             if(itensMenuDias[detailItemsIndex+1].itens.length>0) {
-            
+
                 layerIndex = 2;
                 changeClass("menuDetalhe", "menu aberto");
                 exibeSubmenu();
-                
+
             } else {
                 doAction()
             }
         }
-        
+
         function checkDetailSubmenuAction() {
             /*if(itensMenuDias[detailItemsIndex+1].itens.length>0) {
-            
+
                 layerIndex = 2;
                 changeClass("menuDetalhe", "menu aberto");
                 exibeSubmenu();
-                
+
             } else {
-                alert("realizando a seguinte ação: " + itensMenuDias[detailItemsIndex+1].id); 
+                alert("realizando a seguinte ação: " + itensMenuDias[detailItemsIndex+1].id);
             }*/
             doAction();
             layerIndex = 1;
             changeClass("menuDetalhe", "menu fechado");
             escondeSubmenu();
         }
-        
+
         function doAction() {
             var tempIco = document.getElementById(itensMenuDias[detailItemsIndex+1].id+"Ico");
             if(tempIco!=null) {
@@ -986,31 +986,31 @@ section#detalhe.fechado {left:384px;}
                     tempIco.style.display="block";
                 } else {
                     tempIco.style.display="none";
-                } 
+                }
             }
         }
-        
+
         function buildDetailLayer() {
             document.getElementById("navigationLayer").style.visibility = "hidden";
             document.getElementById("videoSource").style.width =  '352px';
             document.getElementById("videoSource").style.height =  '240px';
-            changeClass("videoLayer", "tinyVideo"); 
+            changeClass("videoLayer", "tinyVideo");
             detailMenuNavigate(1);
         }
-        
+
         function hideDetailLayer() {
             document.getElementById("navigationLayer").style.visibility = "visible";
             document.getElementById("videoSource").style.width =  '1280px';
             document.getElementById("videoSource").style.height =  '720px';
-            changeClass("videoLayer", "fullVideo"); 
+            changeClass("videoLayer", "fullVideo");
         }
-        
+
         function fillItensMenuDias(startIndex) {
             var container = document.getElementById('menuDetalhe');
             while (container.hasChildNodes()) {
                 container.removeChild(container.lastChild);
             }
-            
+
             var contadorAltura=64;
             for(var i=startIndex;i<itensMenuDias.length;i++) {
                 var cat = document.createElement('li');
@@ -1020,7 +1020,7 @@ section#detalhe.fechado {left:384px;}
                 var sp = document.createElement('span');
                 sp.innerHTML = itensMenuDias[i].title;
                 cat.appendChild(sp);
-                
+
                 if(i==(startIndex+1)) {
                     cat.setAttribute("class", "item focado " + itensMenuDias[i].id);
                     if(itensMenuDias[i].itens.length>0) {
@@ -1047,13 +1047,13 @@ section#detalhe.fechado {left:384px;}
                 container.appendChild(cat);
             }
         }
-        
+
         function fillCategorias() {
-        
+
             requestData("https://epg.gvt.com.br/metadados/channelCategories", 5000, successCategoryCallBack, failureCallback, filterCategories);
-            
+
         }
-        
+
         function filterCategories(data) {
             var ret = new Array();
             ret.push( {
@@ -1061,16 +1061,16 @@ section#detalhe.fechado {left:384px;}
                             value: "todos",
                             active: true
                         });
-                        
+
             for(var i=0; i< data.length;i++) {
                 if(data[i].active==true) ret.push(data[i]);
             }
             return ret;
         }
-        
+
        function successCategoryCallBack(data) {
             categorias = data;
-            
+
             for(var i=0;i<categorias.length;i++){
                 var cat = document.createElement('li');
                 cat.setAttribute("id", "filterCat"+i);
@@ -1078,8 +1078,8 @@ section#detalhe.fechado {left:384px;}
                 cat.innerHTML = decodeURIComponent(categorias[i].value).replace(/\+/g, " ");
                 document.getElementById("filtroCategorias").appendChild(cat);
             }
-       } 
-        
+       }
+
         function fillDias() {
             for(var i=0;i<dias.length;i++){
                 var dia = document.createElement('li');
@@ -1090,9 +1090,9 @@ section#detalhe.fechado {left:384px;}
 
             }
         }
-        
+
         function filterFunc(data) {
-            var ret = new Array();           
+            var ret = new Array();
            for(var i=0;i<data.length;i++) {
                 switch(data[i].channelNumber) {
                     case 90:
@@ -1123,37 +1123,37 @@ section#detalhe.fechado {left:384px;}
 
             //return data;
         }
-        
+
         function addNextPage() {
-        
+
             if((!isLoading) && (numDias<7)) {
                 addDay();
-                
+
                 isLoading = true;
                 requestData("https://epg.gvt.com.br/metadados/programmeGuide?date=" + amanha.getTime(), 5000, successPageCallBack, failureCallback, filterFunc);
             }
         }
-        
+
         function addSecondPage() {
-        
+
             if(!isLoading) {
                 addDay();
-                
+
                 isLoading = true;
                 requestData("https://epg.gvt.com.br/metadados/programmeGuide?date=" + amanha.getTime(), 5000, secondPageCallBack, failureCallback, filterFunc);
             }
         }
-        
-        
+
+
         function secondPageCallBack(data) {
             for(var i=0; i<content.length; i++) {
                 if(i<data.length) {
                     if(content[i].channelNumber==data[i].channelNumber) {
                         var tempArr = data[i].programmes.slice(0);
-                        
+
                         if((content[i].programmes[content[i].programmes.length-1].programmeUid == tempArr[0].programmeUid)
                             && (content[i].programmes[content[i].programmes.length-1].programmeStart == tempArr[0].programmeStart)) content[i].programmes.pop();
-                        
+
                         for(var j=0;j<tempArr.length;j++) {
                             content[i].programmes.push(tempArr[j]);
                         }
@@ -1164,16 +1164,16 @@ section#detalhe.fechado {left:384px;}
             isLoading = false;
             navigate(0);
         }
-        
+
         function successPageCallBack(data) {
             for(var i=0; i<content.length; i++) {
                 if(i<data.length) {
                     if(content[i].channelNumber==data[i].channelNumber) {
                         var tempArr = data[i].programmes.slice(0);
-                        
+
                         if((content[i].programmes[content[i].programmes.length-1].programmeUid == tempArr[0].programmeUid)
                             && (content[i].programmes[content[i].programmes.length-1].programmeStart == tempArr[0].programmeStart)) content[i].programmes.pop();
-                        
+
                         for(var j=0;j<tempArr.length;j++) {
                             content[i].programmes.push(tempArr[j]);
                         }
@@ -1182,48 +1182,48 @@ section#detalhe.fechado {left:384px;}
             }
             isLoading = false;
         }
-        
+
         function successCallBack(data) {
             content = data;
             addSecondPage();
         }
-        
+
         function failureCallback(data) {
             navigate(0);
             for(obj in data)
-                alert("erro " + obj + ": " + data[obj]);  
+                alert("erro " + obj + ": " + data[obj]);
         }
-        
+
         function cleanChannelGuide(index) {
             document.getElementById("channelTitle" + index).innerText = "";
             document.getElementById("channelTitle" + index).style.backgroundImage = "url('')";
-            
+
             var node = document.getElementById('guideDay' + index);
             while (node.hasChildNodes()) {
                 node.removeChild(node.lastChild);
             }
         }
-           
+
         var requestData = function requestData(sURL, timeout, fCallback, errorCallback, filter) {
             var aPassArgs = Array.prototype.slice.call(arguments, 2), oReq = new XMLHttpRequest();
             oReq.ontimeout = function() {
-                errorCallback(oReq);     
+                errorCallback(oReq);
             }
-            
+
             var checkTimeout = function(){
-                
+
                 if(request!=undefined && request!=null){
                     if (request.readyState != 4 && request.status != 200){
                         log.error("::: Timeout.... will abort network request");
                         request.abort();
                         delete request;
-                        errorCallback();	
+                        errorCallback();
                     }
                 } else {log.error("request esta null");}
             }
-            
+
             var timeout =  setTimeout(checkTimeout,timeout);
-            
+
             oReq.onreadystatechange = function(){
                 if (oReq.readyState === 4){
                     clearTimeout(timeout)
@@ -1233,10 +1233,10 @@ section#detalhe.fechado {left:384px;}
                             fCallback(filter(resultObject));
                         } else{
                             fCallback(resultObject);
-                        }        
+                        }
                     }else{
                         var resultObject = eval('(' + oReq.responseText + ')');
-                        errorCallback(resultObject);     
+                        errorCallback(resultObject);
                     }
                 }
             };
@@ -1253,10 +1253,10 @@ section#detalhe.fechado {left:384px;}
         }
 
         function buildChannelGuide(index, item) {
-        
+
             try{
                 document.getElementById("channelTitle" + index).innerText = item.channelNumber + " " + decodeURIComponent(item.channelName).replace(/\+/g, " ");
-                
+
                 document.getElementById("channelTitle" + index).style.backgroundImage = "url('"+ ((index==3)?"logos/" + formatChannelNumber(item.channelNumber) +".png":"logos/" + formatChannelNumber(item.channelNumber) +"-s.png") + "')";
                 var hoje = new Date();
                 var ts = Math.round((new Date()).getTime());
@@ -1264,10 +1264,10 @@ section#detalhe.fechado {left:384px;}
                 /*for(var i=0; i< item.programmes.length;i++) { // dias dentro da programacao
                     try{
                         var data = item.guide[i].date.split('-');
-                        if((parseInt(data[0],10)==hoje.getFullYear()) 
+                        if((parseInt(data[0],10)==hoje.getFullYear())
                             && (parseInt(data[2],10)==hoje.getDate())
                             && (parseInt(data[1],10)==(hoje.getMonth()+1))) {
-                            
+
                             dayRegIndex = i;*/
                             buildDayGuide(index, 0, item);
                         /*}
@@ -1276,24 +1276,24 @@ section#detalhe.fechado {left:384px;}
             } catch(e){ alert(e.message); return false;}
            return true;
         }
-        
+
         function buildDayGuide(index, horaInicio, item){
             var dia = document.createElement('ul');
             dia.setAttribute("id", "dayGuideList" + index + "-" + horaInicio);
             var isToday = false;
             var hoje = new Date();
             var agora = hoje.getTime();
-            
+
             for(var j=horaInicio; j< item.programmes.length;j++){
                 if(agora<item.programmes[j].programmeStop) {
                     var prog = document.createElement('li');
                     var programmeStart = new Date(item.programmes[j].programmeStart);
                     var programmeStop = new Date(item.programmes[j].programmeStop);
-                    
+
                     var horaIni = formatForDate(programmeStart.getHours()) + ":" + formatForDate(programmeStart.getMinutes());
                     var horaFim = formatForDate(programmeStop.getHours()) + ":" + formatForDate(programmeStop.getMinutes());
                     var hora = horaIni + " - " + horaFim;
-                    
+
                     if(agora<item.programmes[j].programmeStop && agora>item.programmes[j].programmeStart) {
                         hora = "AGORA";
                     }
@@ -1315,64 +1315,64 @@ section#detalhe.fechado {left:384px;}
             document.getElementById('guideDay' + index).appendChild(dia);
 
         }
-        
+
         function exibeSubmenu() {
             isLoading = true;
             var movimento = setTimeout("exibeSubmenu()");
             var speed = 10;
             var divContainer = document.getElementById("detalhe").style;
             var divContainer2 = document.getElementById("submenu").style;
-            
+
             var avancaDIV = parseInt(divContainer.left)+speed;
             var recuaDIV = parseInt(divContainer2.left)-speed;
-            
+
             if(avancaDIV==654) {
                 clearTimeout(movimento);
                 isLoading = false;
                 return false;
             }
-        
+
             divContainer.left = avancaDIV+"px";
             divContainer2.left = recuaDIV+"px";
         }
-        
+
         function escondeSubmenu() {
             isLoading = true;
             var movimento = setTimeout("escondeSubmenu()");
             var speed = 10;
             var divContainer = document.getElementById("detalhe").style;
             var divContainer2 = document.getElementById("submenu").style;
-            
+
             var avancaDIV = parseInt(divContainer.left)-speed;
             var recuaDIV = parseInt(divContainer2.left)+speed;
-            
+
             if(avancaDIV==374) {
                 clearTimeout(movimento);
                 isLoading = false;
                 return false;
             }
-        
+
             divContainer.left = avancaDIV+"px";
             divContainer2.left = recuaDIV+"px";
         }
-        
+
         function buildDayPreview(index, horaInicio, item){
             var dia = document.createElement('ul');
             dia.setAttribute("id", "dayGuideList" + index + "-" + horaInicio);
             var isToday = false;
             var hoje = new Date();
             var agora = hoje.getTime();
-            
+
             for(var j=horaInicio; j< item.programmes.length;j++){
                 if(agora<item.programmes[j].programmeStop) {
                     var prog = document.createElement('li');
                     var programmeStart = new Date(item.programmes[j].programmeStart);
                     var programmeStop = new Date(item.programmes[j].programmeStop);
-                    
+
                     var horaIni = formatForDate(programmeStart.getHours()) + ":" + formatForDate(programmeStart.getMinutes());
                     var horaFim = formatForDate(programmeStop.getHours()) + ":" + formatForDate(programmeStop.getMinutes());
                     var hora = horaIni + " - " + horaFim;
-                    
+
                     if(agora<item.programmes[j].programmeStop && agora>item.programmes[j].programmeStart) {
                         hora = "AGORA";
                     }
@@ -1392,35 +1392,35 @@ section#detalhe.fechado {left:384px;}
             document.getElementById('guideDay' + index).appendChild(dia);
 
         }
-        
+
         function formatForDate(num) {
             if(num<10) return "0"+num;
             else return num + "";
         }
-        
+
         function detailMenuNavigate(value) {
-            detailItemsIndex = detailItemsIndex+value;            
+            detailItemsIndex = detailItemsIndex+value;
             if(detailItemsIndex<0) detailItemsIndex=0;
             else if(detailItemsIndex>=(itensMenuDias.length-1)) detailItemsIndex=itensMenuDias.length-2;
             fillItensMenuDias(detailItemsIndex);
         }
-        
+
         function detailMenuOptionsNavigate(value) {
-            
+
         }
-        
+
         function verticalNavigate(value) {
             if(value<=0) regIndexJump=0;
             regIndex=regIndex+value+regIndexJump;
             regIndexJump=0;
             addNextPage();
-            
-            
+
+
             if(regIndex >= 0) {
                 document.getElementById("conteudo").style.top = "0px";
                 changeClass("filtroCategorias", "filtro");
                 changeClass("filtroDias", "filtro");
-                
+
                 if(getContent()[hRegIndex].programmes.length>regIndex) {
                     var node = document.getElementById('guideDay3');
                     while (node.hasChildNodes()) {
@@ -1443,9 +1443,9 @@ section#detalhe.fechado {left:384px;}
                     changeClass("programacaoSelecionada", "foco");
                 }
             }
-            
+
         }
-        
+
         function checkDayFilter() {
             var newIndex = 0;
             for(var i=0;i<dias.length;i++) {
@@ -1457,54 +1457,54 @@ section#detalhe.fechado {left:384px;}
             oldOne = dayFilterIndex;
             dayFilterIndex=dayFilterIndex+newIndex;
             if(dias[dias.length-1].timeStamp.getTime()<=getContent()[hRegIndex].programmes[regIndex].programmeStart) dayFilterIndex = dias.length-1;
-            
+
             if(dayFilterIndex<0) dayFilterIndex=0;
             else if(dayFilterIndex>=dias.length) dayFilterIndex=dias.length-1;
             else {
-            
+
                 changeClass("filterDay"+oldOne, "");
                 changeClass("filterDay"+dayFilterIndex, "foco");
             }
         }
-        
+
         function getContent() {
             if(catFilterIndex==0) return content;
             else {
                 var ret = new Array();
                 for(var i=0;i<content.length;i++) {
-                    if(content[i].channelCategoryUid==categorias[catFilterIndex].uid) ret.push(content[i]);  
+                    if(content[i].channelCategoryUid==categorias[catFilterIndex].uid) ret.push(content[i]);
                 }
                 return ret;
             }
         }
-        
+
         function navigate(value) {
             if(regIndex>=0) {
                 regIndex = 0;
                 dayRegIndex = 0;
                 changeClass("filterDay"+dayFilterIndex, "");
                 changeClass("filterDay0", "foco");
-                
+
                 cleanChannelGuide(1);
                 cleanChannelGuide(2);
                 cleanChannelGuide(3);
                 cleanChannelGuide(4);
                 cleanChannelGuide(5);
-               
+
                 if(((hRegIndex+value) < getContent().length) && ((hRegIndex+value)>=0)) hRegIndex = hRegIndex+value;
                 else if((hRegIndex+value) == getContent().length) hRegIndex = 0;
                 else hRegIndex = getContent().length-1;
-                
-                
+
+
                 buildFullContent();
                 verticalNavigate(0);
             } else if(regIndex==-1) {
                 dayFilterNavigate(value);
             } else {
-                catFilterNavigate(value); 
+                catFilterNavigate(value);
             }
         }
-        
+
         function buildFullContent() {
             if(getContent().length>0) {
                 for(var i=1; i< 6; i++) {
@@ -1529,23 +1529,23 @@ section#detalhe.fechado {left:384px;}
                             if((hRegIndex+2)<getContent().length) index = hRegIndex+2;
                             else index = hRegIndex-getContent().length+2;
                         break;
-                        
+
                         default: index = 0;
                     }
-                    
+
                     if((index>=0) && (index<getContent().length))
                         buildChannelGuide(i, getContent()[index]);
                 }
             }
         }
-        
+
         function dayFilterNavigate(value) {
             if(value>0)
                 changeClass("filtroDias", "filtro selecionado esquerda");
             else if(value<0)
                 changeClass("filtroDias", "filtro selecionado direita");
             addNextPage();
-            
+
             dayFilterIndex = dayFilterIndex+value;
             if(dayFilterIndex<0) dayFilterIndex=0;
             else if(dayFilterIndex>=dias.length) dayFilterIndex=dias.length-1;
@@ -1576,13 +1576,13 @@ section#detalhe.fechado {left:384px;}
             }
             setTimeout(function () { changeClass("filtroDias", "filtro selecionado"); }, 100);
         }
-        
+
         function catFilterNavigate(value) {
             if(value>0)
                 changeClass("filtroCategorias", "filtro selecionado esquerda");
             else if(value<0)
                 changeClass("filtroCategorias", "filtro selecionado direita");
-                
+
             catFilterIndex = catFilterIndex+value;
             if(catFilterIndex<0) catFilterIndex=0;
             else if(catFilterIndex>=categorias.length) catFilterIndex=categorias.length-1;
@@ -1597,14 +1597,14 @@ section#detalhe.fechado {left:384px;}
                 cleanChannelGuide(5);
                 buildFullContent();
             }
-            
+
             setTimeout(function () { changeClass("filtroCategorias", "filtro selecionado"); }, 100);
         }
-        
+
         function changeClass (elementID, newClass) {
             try{
                 var element = document.getElementById(elementID);
-                
+
                 element.setAttribute("class", newClass); //For Most Browsers
             } catch(e){alert(elementID + " : " + newClass + " : " + e.message);}
         }
@@ -1618,19 +1618,19 @@ section#detalhe.fechado {left:384px;}
 		<h1>GVT</h1>
 		<time><span class="dia">Qui, 26/10</span><span class="hor">22:33</span></time>
 	</header>
-	
+
 	<section id="rolando">
-		
+
 		<dl class="evento">
 			<dt class="type" class="labeltype">Type</dt>
 			<dd class="type">Movie (vod), TV Show, TV Episode, PPV</dd>
-			
+
 			<dt class="title">Title</dt>
 			<dd class="title">Friends</dd>
-			
+
 			<dt class="additional">Original Title / Season, Episode number: Episode name</dt>
 			<dd class="additional">Temp. 2, ep. 8: Aquele com a lista</dd>
-			
+
 			<dt class="description">Description</dt>
 			<dd class="description">Ross tendo que decidir entre Rachel e Julie, faz uma lista de prós e contras e Rachel a lê. Chandler compra um computador.</dd>
 			<dt class="image">Image</dt>
@@ -1649,19 +1649,19 @@ section#detalhe.fechado {left:384px;}
 			<dd class="year">DateTime</dd>
 			<dt class="tag">Tag</dt>
 			<dd class="tag">String[]</dd>
-			
+
 			<!--linha atributos de produção-->
 			<dt class="production">Tag (gener) / Release Date / Country / Duration (seconds > minutes)</dt>
 			<dd class="production">Séries, Comédia | 1995 | EUA</dd>
 			<dt class="rating">Rating</dt>
 			<dd class="rating r-12">12 anos</dd>
-			
+
 			<!--languages-->
 			<dt class="language">Audio</dt>
 			<dd class="language">Inglês, Português</dd>
 			<dt class="subtitle">Legenda</dt>
 			<dd class="subtitle">Português</dd>
-			
+
 			<!--atributos do video-->
 			<dt class="videoq">Video quality</dt>
 			<dd class="videoq hd">Alta Definição</dd>
@@ -1669,7 +1669,7 @@ section#detalhe.fechado {left:384px;}
 			<dd class="audioq db">Dolby</dd>
 			<dt class="videof">Video format</dt>
 			<dd class="videof hd">16:9</dd>
-			
+
 			<!--atributos de ação-->
 			<dt class="record">Gravação</dt>
 			<dd class="record r-a">Boolean</dd>
@@ -1689,16 +1689,16 @@ section#detalhe.fechado {left:384px;}
 			<dd class="price">Integer</dd>
 			<dt class="expiration">Expiration Date</dt>
 			<dd class="expiration">DateTime</dd>
-			
+
 			<!--atributos de origen-->
 			<dt class="channel">Channel</dt>
 			<dd class="channel">90 Warner HD</dd>
 			<dt class="schedule">Start Time / End Time</dt>
 			<dd class="schedule">17:00 - 17:30</dd>
-			
+
 		</dl>
 	</section>
-	
+
 	<!--trocar a classe fechado/aberto para abrir o submenu-->
 	<ul id="menuDetalhe" class="menu fechado">
 		<!--
@@ -1759,20 +1759,20 @@ section#detalhe.fechado {left:384px;}
 		</li>
 
 	    -->
-        
+
 	</ul>
 	<section id="detalhe" class="fechado" style="left:384px">
-		
+
 		<dl class="evento">
 			<dt class="type" class="labeltype">Type</dt>
 			<dd class="type">Movie (vod), TV Show, TV Episode, PPV</dd>
-			
+
 			<dt class="title">Title</dt>
 			<dd class="title">Friends</dd>
-			
+
 			<dt class="additional">Original Title / Season, Episode number: Episode name</dt>
 			<dd class="additional">Temp. 2, ep. 8: Aquele com a lista</dd>
-			
+
 			<dt class="description">Description</dt>
 			<dd class="description">Ross tendo que decidir entre Rachel e Julie, faz uma lista de prós e contras e Rachel a lê. Chandler compra um computador.</dd>
 			<dt class="image">Image</dt>
@@ -1791,19 +1791,19 @@ section#detalhe.fechado {left:384px;}
 			<dd class="year">DateTime</dd>
 			<dt class="tag">Tag</dt>
 			<dd class="tag">String[]</dd>
-			
+
 			<!--linha atributos de produção-->
 			<dt class="production">Tag (gener) / Release Date / Country / Duration (seconds > minutes)</dt>
 			<dd class="production">Séries, Comédia | 1995 | EUA | 30 min</dd>
 			<dt class="rating">Rating</dt>
 			<dd class="rating r-12">12 anos</dd>
-			
+
 			<!--languages-->
 			<dt class="language">Audio</dt>
 			<dd class="language">Inglês, Português</dd>
 			<dt class="subtitle">Legenda</dt>
 			<dd class="subtitle">Português</dd>
-			
+
 			<!--atributos do video-->
 			<dt class="videoq">Video quality</dt>
 			<dd class="videoq hd">Alta Definição</dd>
@@ -1811,7 +1811,7 @@ section#detalhe.fechado {left:384px;}
 			<dd class="audioq db">Dolby</dd>
 			<dt class="videof">Video format</dt>
 			<dd class="videof hd">16:9</dd>
-			
+
 			<!--atributos de ação-->
 			<dt class="record">Gravação</dt>
 			<dd class="record r-a" id="gravarIco" style="display:none;">Boolean</dd>
@@ -1823,7 +1823,7 @@ section#detalhe.fechado {left:384px;}
 			<dd class="likes" id="curtirIco" style="display:none;">Integer</dd>
 			<dt class="twitter">Twitter</dt>
 			<dd class="twitter" id="tuitarIco" style="display:none;">Integer</dd>
-            
+
 			<!--atributos de negocio-->
 			<dt class="ppv">Pay-Per-View</dt>
 			<dd class="ppv" style="display:none;">Image[]</dd>
@@ -1831,15 +1831,15 @@ section#detalhe.fechado {left:384px;}
 			<dd class="price" style="display:none;">Integer</dd>
 			<dt class="expiration">Expiration Date</dt>
 			<dd class="expiration" style="display:none;">DateTime</dd>
-			
+
 			<!--atributos de origen-->
 			<dt class="channel">Channel</dt>
 			<dd class="channel">90 Warner HD</dd>
 			<dt class="schedule">Start Time / End Time</dt>
 			<dd class="schedule">17:00 - 17:30</dd>
-			
+
 		</dl>
-			
+
 	</section>
 
 </div>
@@ -1850,7 +1850,7 @@ section#detalhe.fechado {left:384px;}
 <div id="navigationLayer" class="raiz" style="z-index:6;">
 	<div id="conteudo">
 		<div id="grade">
-			
+
 			<hgroup class="semana" id="ch020">
 				<h2 id="channelTitle1"></h2>
 				<ul class="semana" id="guide1">
@@ -1860,7 +1860,7 @@ section#detalhe.fechado {left:384px;}
 					</li>
 				</ul>
 			</hgroup>
-			
+
 			<hgroup class="semana" id="ch021">
 				<h2 id="channelTitle2"></h2>
 				<ul class="semana" id="guide2">
@@ -1870,7 +1870,7 @@ section#detalhe.fechado {left:384px;}
 					</li>
 				</ul>
 			</hgroup>
-			
+
 			<hgroup class="semana foco" id="ch022">
 				<h2 id="channelTitle3"></h2>
 				<ul class="semana" id="guide3">
@@ -1880,7 +1880,7 @@ section#detalhe.fechado {left:384px;}
 					</li>
 				</ul>
 			</hgroup>
-			
+
 			<hgroup class="semana" id="ch023">
 				<h2 id="channelTitle4"></h2>
 				<ul class="semana" id="guide4">
@@ -1890,7 +1890,7 @@ section#detalhe.fechado {left:384px;}
 					</li>
 				</ul>
 			</hgroup>
-			
+
 			<hgroup class="semana" id="ch024">
 				<h2 id="channelTitle5"></h2>
 				<ul class="semana" id="guide5">
@@ -1898,9 +1898,9 @@ section#detalhe.fechado {left:384px;}
 					</li>
 				</ul>
 			</hgroup>
-			
+
 		</div>
-		
+
 		<ul id="filtroDias" class="filtro">
 			<!--<li class="foco">hoje</li>
 			<li>amanhã</li>
@@ -1910,18 +1910,18 @@ section#detalhe.fechado {left:384px;}
 			<li>Sáb 13/10</li>
 			<li>Dom 14/10</li>
 		--></ul>
-		
+
 		<ul id="filtroCategorias" class="filtro ">
 		</ul>
-		
 
-		
-		
-		
+
+
+
+
 	</div>
-	
-	
-	
+
+
+
 </div>
 
 </body>

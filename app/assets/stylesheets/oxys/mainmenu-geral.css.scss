@@ -21,7 +21,7 @@ ul.menu {
 	width:1280px;
 	height:720px;
 	overflow:hidden;
-	background-image:url(../images/menu-bg-layer-1.png);
+	background-image:image-url('oxys/menu-bg-layer-1.png');
 	background-repeat:no-repeat;
 	background-position:0 0;
 }
@@ -45,14 +45,14 @@ ul.menu li.item span {display:block;padding:16px 0 0 0;}
 ul.menu li.item.focado {font-weight:bold;opacity:1.0;}
 
 /*icones*/
-ul.menu li.item.canais-de-tv 	{background-image:url(../icons/menu-canais-de-tv.png);}
-ul.menu li.item.outra-chance	{background-image:url(../icons/menu-outra-chance.png);}
-ul.menu li.item.on-demand		{background-image:url(../icons/menu-on-demand.png);}
-ul.menu li.item.gravador		{background-image:url(../icons/menu-gravador.png);}
-ul.menu li.item.destaques		{background-image:url(../icons/menu-destaques.png);}
-ul.menu li.item.aplicativos		{background-image:url(../icons/menu-aplicativos.png);}
-ul.menu li.item.busca			{background-image:url(../icons/menu-busca.png);}
-ul.menu li.item.configuracoes	{background-image:url(../icons/menu-configuracoes.png);}
+ul.menu li.item.canais-de-tv 	{background-image:image-url('oxys/icons/menu-canais-de-tv.png');}
+ul.menu li.item.outra-chance	{background-image:image-url('oxys/icons/menu-outra-chance.png');}
+ul.menu li.item.on-demand		{background-image:image-url('oxys/icons/menu-on-demand.png');}
+ul.menu li.item.gravador		{background-image:image-url('oxys/icons/menu-gravador.png');}
+ul.menu li.item.destaques		{background-image:image-url('oxys/icons/menu-destaques.png');}
+ul.menu li.item.aplicativos		{background-image:image-url('oxys/icons/menu-aplicativos.png');}
+ul.menu li.item.busca			{background-image:image-url('oxys/icons/menu-busca.png');}
+ul.menu li.item.configuracoes	{background-image:image-url('oxys/icons/menu-configuracoes.png');}
 
 
 /*segundo nivel*/
@@ -60,7 +60,7 @@ ul.menu li.item.configuracoes	{background-image:url(../icons/menu-configuracoes.
 ul.menu li.item ul.submenu {
 	position:absolute;
 	top:-304px;
-	
+
 	width:1280px;
 	height:720px;
 	overflow:hidden;
@@ -68,8 +68,8 @@ ul.menu li.item ul.submenu {
 	background-repeat:no-repeat;
 	background-position:0 0;
 }
-ul.menu li.item ul.submenu.aberto	{background-image:url(../images/menu-bg-layer-2-a.png);left:120px;}
-ul.menu li.item ul.submenu.fechado	{background-image:url(../images/menu-bg-layer-2-b.png);left:456px;}
+ul.menu li.item ul.submenu.aberto	{background-image:image-url('oxys/menu-bg-layer-2-a.png');left:120px;}
+ul.menu li.item ul.submenu.fechado	{background-image:image-url('oxys/menu-bg-layer-2-b.png');left:456px;}
 
 ul.menu li.item ul.submenu li.subitem {
 	position:absolute;
@@ -98,12 +98,12 @@ ul.menu li.item ul.submenu li.subitem ul.sub2menu {
 	height:720px;
 	overflow:hidden;
 	z-index:200;
-	
+
 	background-repeat:no-repeat;
 	background-position:0 0;
 }
-ul.menu li.item ul.submenu li.subitem ul.sub2menu.aberto	{background-image:url(../images/menu-bg-layer-2-a.png);left:8px;}
-ul.menu li.item ul.submenu li.subitem ul.sub2menu.fechado	{background-image:url(../images/menu-bg-layer-2-b.png);left:336px;}
+ul.menu li.item ul.submenu li.subitem ul.sub2menu.aberto	{background-image:image-url('oxys/menu-bg-layer-2-a.png');left:8px;}
+ul.menu li.item ul.submenu li.subitem ul.sub2menu.fechado	{background-image:image-url('oxys/menu-bg-layer-2-b.png');left:336px;}
 
 ul.menu li.item ul.submenu li.subitem ul.sub2menu li.sub2item {
 	position:absolute;
