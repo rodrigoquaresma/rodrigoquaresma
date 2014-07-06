@@ -1,0 +1,248 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Guia de Programação</title>
+	<%= stylesheet_link_tag    'oxys/guide', media: 'all' %>
+</head>
+<body onload="init()">
+<div  id="detailLayer" class="raiz">
+
+	<header>
+		<h1>GVT</h1>
+		<time><span class="dia">Qui, 26/10</span><span class="hor">22:33</span></time>
+	</header>
+
+	<section id="rolando">
+
+		<dl class="evento">
+			<dt class="type" class="labeltype">Type</dt>
+			<dd class="type">Movie (vod), TV Show, TV Episode, PPV</dd>
+
+			<dt class="title">Title</dt>
+			<dd class="title">Friends</dd>
+
+			<dt class="additional">Original Title / Season, Episode number: Episode name</dt>
+			<dd class="additional">Temp. 2, ep. 8: Aquele com a lista</dd>
+
+			<dt class="description">Description</dt>
+			<dd class="description">Ross tendo que decidir entre Rachel e Julie, faz uma lista de prós e contras e Rachel a lê. Chandler compra um computador.</dd>
+			<dt class="image">Image</dt>
+			<dd class="image"><%= image_tag "oxys/poster-friends.jpg", :style => "width:162px;height:240px;" %></dd>
+			<dt class="url">URL</dt>
+			<dd class="url">URL</dd>
+			<dt class="actor">Actor</dt>
+			<dd class="actor">Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer</dd>
+			<dt class="director">Director</dt>
+			<dd class="director">Mary Kay Place</dd>
+			<dt class="writer">Writer</dt>
+			<dd class="writer">David Crane, Marta Kauffman</dd>
+			<dt class="duration">Duration (seconds)</dt>
+			<dd class="duration">22 min</dd>
+			<dt class="year">Release Date</dt>
+			<dd class="year">DateTime</dd>
+			<dt class="tag">Tag</dt>
+			<dd class="tag">String[]</dd>
+
+			<!--linha atributos de produção-->
+			<dt class="production">Tag (gener) / Release Date / Country / Duration (seconds > minutes)</dt>
+			<dd class="production">Séries, Comédia | 1995 | EUA</dd>
+			<dt class="rating">Rating</dt>
+			<dd class="rating r-12">12 anos</dd>
+
+			<!--languages-->
+			<dt class="language">Audio</dt>
+			<dd class="language">Inglês, Português</dd>
+			<dt class="subtitle">Legenda</dt>
+			<dd class="subtitle">Português</dd>
+
+			<!--atributos do video-->
+			<dt class="videoq">Video quality</dt>
+			<dd class="videoq hd">Alta Definição</dd>
+			<dt class="audioq">Audio quality</dt>
+			<dd class="audioq db">Dolby</dd>
+			<dt class="videof">Video format</dt>
+			<dd class="videof hd">16:9</dd>
+
+			<!--atributos de ação-->
+			<dt class="record">Gravação</dt>
+			<dd class="record r-a">Boolean</dd>
+			<dt class="reminder">Lembrete</dt>
+			<dd class="reminder">Boolean</dd>
+			<dt class="blockade">Bloqueio</dt>
+			<dd class="blockade">Boolean</dd>
+			<dt class="likes">Likes</dt>
+			<dd class="likes">Integer</dd>
+			<dt class="twitter">Twitter</dt>
+			<dd class="twitter">Integer</dd>
+
+			<!--atributos de negocio-->
+			<dt class="ppv">Pay-Per-View</dt>
+			<dd class="ppv">Image[]</dd>
+			<dt class="price">Price</dt>
+			<dd class="price">Integer</dd>
+			<dt class="expiration">Expiration Date</dt>
+			<dd class="expiration">DateTime</dd>
+
+			<!--atributos de origen-->
+			<dt class="channel">Channel</dt>
+			<dd class="channel">90 Warner HD</dd>
+			<dt class="schedule">Start Time / End Time</dt>
+			<dd class="schedule">17:00 - 17:30</dd>
+
+		</dl>
+	</section>
+
+	<!--trocar a classe fechado/aberto para abrir o submenu-->
+	<ul id="menuDetalhe" class="menu fechado">
+	</ul>
+	<section id="detalhe" class="fechado" style="left:384px">
+
+		<dl class="evento">
+			<dt class="type" class="labeltype">Type</dt>
+			<dd class="type">Movie (vod), TV Show, TV Episode, PPV</dd>
+
+			<dt class="title">Title</dt>
+			<dd class="title">Friends</dd>
+
+			<dt class="additional">Original Title / Season, Episode number: Episode name</dt>
+			<dd class="additional">Temp. 2, ep. 8: Aquele com a lista</dd>
+
+			<dt class="description">Description</dt>
+			<dd class="description">Ross tendo que decidir entre Rachel e Julie, faz uma lista de prós e contras e Rachel a lê. Chandler compra um computador.</dd>
+			<dt class="image">Image</dt>
+			<dd class="image"><%= image_tag "oxys/poster-friends.jpg", :style => "width:162px;height:240px;" %></dd>
+			<dt class="url">URL</dt>
+			<dd class="url">URL</dd>
+			<dt class="actor">Actor</dt>
+			<dd class="actor">Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer</dd>
+			<dt class="director">Director</dt>
+			<dd class="director">Mary Kay Place</dd>
+			<dt class="writer">Writer</dt>
+			<dd class="writer">David Crane, Marta Kauffman</dd>
+			<dt class="duration">Duration (seconds)</dt>
+			<dd class="duration">22 min</dd>
+			<dt class="year">Release Date</dt>
+			<dd class="year">DateTime</dd>
+			<dt class="tag">Tag</dt>
+			<dd class="tag">String[]</dd>
+
+			<!--linha atributos de produção-->
+			<dt class="production">Tag (gener) / Release Date / Country / Duration (seconds > minutes)</dt>
+			<dd class="production">Séries, Comédia | 1995 | EUA | 30 min</dd>
+			<dt class="rating">Rating</dt>
+			<dd class="rating r-12">12 anos</dd>
+
+			<!--languages-->
+			<dt class="language">Audio</dt>
+			<dd class="language">Inglês, Português</dd>
+			<dt class="subtitle">Legenda</dt>
+			<dd class="subtitle">Português</dd>
+
+			<!--atributos do video-->
+			<dt class="videoq">Video quality</dt>
+			<dd class="videoq hd">Alta Definição</dd>
+			<dt class="audioq">Audio quality</dt>
+			<dd class="audioq db">Dolby</dd>
+			<dt class="videof">Video format</dt>
+			<dd class="videof hd">16:9</dd>
+
+			<!--atributos de ação-->
+			<dt class="record">Gravação</dt>
+			<dd class="record r-a" id="gravarIco" style="display:none;">Boolean</dd>
+			<dt class="reminder">Lembrete</dt>
+			<dd class="reminder" id="lembreteIco" style="display:none;">Boolean</dd>
+			<dt class="blockade">Bloqueio</dt>
+			<dd class="blockade" style="display:none;">Boolean</dd>
+			<dt class="likes">Likes</dt>
+			<dd class="likes" id="curtirIco" style="display:none;">Integer</dd>
+			<dt class="twitter">Twitter</dt>
+			<dd class="twitter" id="tuitarIco" style="display:none;">Integer</dd>
+
+			<!--atributos de negocio-->
+			<dt class="ppv">Pay-Per-View</dt>
+			<dd class="ppv" style="display:none;">Image[]</dd>
+			<dt class="price">Price</dt>
+			<dd class="price" style="display:none;">Integer</dd>
+			<dt class="expiration">Expiration Date</dt>
+			<dd class="expiration" style="display:none;">DateTime</dd>
+
+			<!--atributos de origen-->
+			<dt class="channel">Channel</dt>
+			<dd class="channel">90 Warner HD</dd>
+			<dt class="schedule">Start Time / End Time</dt>
+			<dd class="schedule">17:00 - 17:30</dd>
+
+		</dl>
+
+	</section>
+
+</div>
+<div id="videoLayer" class="fullVideo" style="z-index:5;">
+	<%= image_tag 'oxys/105-mgm-o-poderoso-chefao.jpg' %>
+</div>
+<div id="navigationLayer" class="raiz" style="z-index:6;">
+	<div id="conteudo">
+		<div id="grade">
+
+			<hgroup class="semana" id="ch020">
+				<h2 id="channelTitle1"></h2>
+				<ul class="semana" id="guide1">
+					<li class="dia" id="guideDay1">
+						<ul id="dayGuideList1">
+						</ul>
+					</li>
+				</ul>
+			</hgroup>
+
+			<hgroup class="semana" id="ch021">
+				<h2 id="channelTitle2"></h2>
+				<ul class="semana" id="guide2">
+					<li class="dia" id="guideDay2">
+						<ul id="dayGuideList2">
+						</ul>
+					</li>
+				</ul>
+			</hgroup>
+
+			<hgroup class="semana foco" id="ch022">
+				<h2 id="channelTitle3"></h2>
+				<ul class="semana" id="guide3">
+					<li class="dia" id="guideDay3">
+						<ul id="dayGuideList3">
+						</ul>
+					</li>
+				</ul>
+			</hgroup>
+
+			<hgroup class="semana" id="ch023">
+				<h2 id="channelTitle4"></h2>
+				<ul class="semana" id="guide4">
+					<li class="dia" id="guideDay4">
+						<ul id="dayGuideList4">
+						</ul>
+					</li>
+				</ul>
+			</hgroup>
+
+			<hgroup class="semana" id="ch024">
+				<h2 id="channelTitle5"></h2>
+				<ul class="semana" id="guide5">
+					<li class="dia" id="guideDay5">
+					</li>
+				</ul>
+			</hgroup>
+
+		</div>
+
+		<ul id="filtroDias" class="filtro">
+		</ul>
+
+		<ul id="filtroCategorias" class="filtro ">
+		</ul>
+	</div>
+</div>
+<%= javascript_include_tag 'oxys/guide' %>
+</body>
+</html>

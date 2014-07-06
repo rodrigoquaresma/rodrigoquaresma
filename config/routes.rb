@@ -60,6 +60,7 @@ root 'site#index'
 get 'blenbox' => 'blenbox#index'
 
 get 'oxys' => 'oxys#index'
+get 'oxys/guide' => 'oxys#guide'
 
 get 'now' => 'site#now'
 get 'clicesportes' => 'site#clicesportes'

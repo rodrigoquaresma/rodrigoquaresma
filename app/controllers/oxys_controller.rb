@@ -7,4 +7,8 @@ class OxysController < ApplicationController
     render :index
   end
 
+  def guide
+    render :guide
+  end
+
 end

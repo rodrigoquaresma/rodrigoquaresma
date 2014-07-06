@@ -892,7 +892,7 @@ function checkSubMenuAction() {
     layerIndex=2;
     changeClass("covers", "aberto");
   } else {
-    if(regIndex==0 && regIndexSub==0) window.location="guia-de-programacao.html";
+    if(regIndex==0 && regIndexSub==0) window.location="oxys/guide";
     else alert(itensMenu[regIndex].submenu[regIndexSub].title);
   }
 }
