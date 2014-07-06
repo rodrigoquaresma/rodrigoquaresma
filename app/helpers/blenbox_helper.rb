@@ -1,0 +1,2 @@
+module BlenboxHelper
+end
