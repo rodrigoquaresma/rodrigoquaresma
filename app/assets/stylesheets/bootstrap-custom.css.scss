@@ -50,8 +50,4 @@
 @import "bootstrap/responsive-utilities";
 
 //
-.navbar-inverse {
-  background-color: $brand-primary;
-  border:0;
-  // @include border-radius(0);
-}
+.navbar { margin-bottom:0; }
