@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%= render :partial => 'layouts/vangogh/header' %>
+<%= yield :head %>
+</head>
+<body data-no-turbolink>
+<%= yield :content %>
 <%= yield %>
-
-laks
+<%= render :partial => 'layouts/vangogh/footer' %>
+<%= yield :footer %>
+</body>
+</html>
