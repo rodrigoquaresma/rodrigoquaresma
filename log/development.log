@@ -48016,3 +48016,9 @@ Started GET "/oxys/guide" for 127.0.0.1 at 2014-07-06 14:55:13 -0300
 Processing by OxysController#guide as HTML
   Rendered oxys/guide.html.erb within layouts/oxys (3.7ms)
 Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vangogh/" for 127.0.0.1 at 2015-02-28 12:01:44 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/index.html.erb within layouts/vangogh (1.6ms)
+Completed 200 OK in 52ms (Views: 29.1ms | ActiveRecord: 0.0ms)
