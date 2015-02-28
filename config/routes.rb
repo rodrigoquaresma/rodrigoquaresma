@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  # get 'vangogh/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -58,6 +60,8 @@ Rails.application.routes.draw do
 root 'site#index'
 
 get 'blenbox' => 'blenbox#index'
+
+get 'vangogh' => 'vangogh#index'
 
 get 'oxys' => 'oxys#index'
 get 'oxys/guide' => 'oxys#guide'

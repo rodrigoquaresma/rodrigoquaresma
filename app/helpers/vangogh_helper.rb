@@ -1,0 +1,2 @@
+module VangoghHelper
+end
