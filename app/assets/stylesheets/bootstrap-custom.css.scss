@@ -51,3 +51,5 @@
 
 //
 .navbar { margin-bottom:0; }
+
+.btn-secundary { @include button-variant($btn-secundary-color, $btn-secundary-bg, $btn-secundary-border); }

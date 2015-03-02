@@ -1,5 +1,40 @@
-// Place all the styles related to the vangogh controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-@import "bootstrap-sprockets";
-@import "bootstrap";
+// Core variables and mixins
+@import "components/variables";
+@import "bootstrap/mixins";
+
+
+.logo-pre {
+  font-weight: 200;
+  color: #f2f2f2;
+  font-size: 25px;
+}
+.logo-booking {
+  font-weight: 500;
+  color: #fff;
+  font-size: 25px;
+}
+.logo-pontocom {
+  font-weight: 500;
+  color: #009FE2;
+  font-size: 25px;
+}
+
+.jumbotron {
+  background-image:image-url('vangogh/bg.jpg');;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0;
+  min-width: 100%;
+  display: block;
+}
+
+.masthead-searchbox-container {
+  border-radius: 3px;
+  background: #ffbb39;
+  background: linear-gradient(top,#ffca56 0,#ffbb39 100%);
+  border: 1px solid #daa300;
+  padding: 0 20px 20px;
+  margin: 0 0 50px 0;
+  color:#003580;
+}
