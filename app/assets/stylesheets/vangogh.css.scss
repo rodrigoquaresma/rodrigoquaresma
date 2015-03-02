@@ -24,7 +24,7 @@
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 0;
+  padding: 0;
   min-width: 100%;
   display: block;
   margin:0;
@@ -36,7 +36,7 @@
   background: linear-gradient(top,#ffca56 0,#ffbb39 100%);
   border: 1px solid #daa300;
   padding: 0 20px 20px;
-  margin: 0 0 50px 0;
+  margin: 40px 0;
   color:#003580;
 }
 
@@ -76,15 +76,39 @@ left: 50%;
 margin-left: -6px;
 }
 
-.works-list {
-  margin-top:20px;
-  .list-image {
-    img {width:100%}
+.work-list {
+  .work-list-item {
+    .work-call {
+      display: block;
+      position: relative;
+      .work-list-title {
+        margin:0;
+        position:absolute;
+        background: rgba(0,0,0,0.2);
+        top:0;
+        color:#f5f5f5;
+        display:block;
+        padding:10px;
+        width:100%;
+        font-weight:200;
+      }
+      .work-list-image {
+        img {width:100%}
+      }
+      .work-list-label {
+
+      }
+      .work-list-link {
+
+      }
+    }
   }
-  .works-list-item {
-    background:#fff;
-    margin: 0 0 20px 0;
-  }
+}
+
+.highlight-work {
+  background:#fff;
+  margin: 20px 0;
+  img {width:100%}
 }
 
 .nav-avatar {
@@ -96,7 +120,7 @@ margin-left: -6px;
 
 .profile-avatar {
   display: block;
-  margin: 20px auto;
+  margin: 40px auto;
   background: white;
   border-radius: 50%;
   border: #2999ce 6px solid;
@@ -115,14 +139,20 @@ margin-left: -6px;
 .typeahead { z-index: 1051;}
 
 .jumbotron.profile {
-  padding:0;
-  margin:0;
   .mask {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.30);
+  }
+  .profile-avatar {
+    margin:40px auto 20px;
   }
   h3 {
     color: #fff;
     text-align: center;
-    margin:20px 0;
+    margin:0 0 20px;
+    font-weight: 200;
+    font-size:2em;
+  }
+  h3 + p {
+    margin:0 0 40px;
   }
 }

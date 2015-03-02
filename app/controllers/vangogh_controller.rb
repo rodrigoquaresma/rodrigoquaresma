@@ -1,5 +1,9 @@
 class VangoghController < ApplicationController
   def index
+    # @works = work.all
+    works = [
+      "a", "b", "c"
+    ]
   end
   def experience
   end
@@ -13,4 +17,11 @@ class VangoghController < ApplicationController
   end
   def show
   end
+
+  # def works
+  #   @works = "works.new"
+  #   2.times { @works.works.build}
+  #   # render layout: "lead_scoring/rules"
+  # end
+
 end

@@ -67005,3 +67005,5241 @@ Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:2
 
 
 Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:22:50 -0300
+
+
+Started GET "/vangogh/results" for 127.0.0.1 at 2015-03-02 06:26:43 -0300
+Processing by VangoghController#results as HTML
+  Rendered vangogh/_navbar.html.erb (1.5ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_works_list.html.erb (0.5ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/results.html.erb within layouts/vangogh (43.0ms)
+  Rendered layouts/vangogh/_header.html.erb (4.7ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.0ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:26:45 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:26:46 -0300
+
+
+Started GET "/vangogh/results" for 127.0.0.1 at 2015-03-02 06:27:55 -0300
+Processing by VangoghController#results as HTML
+  Rendered vangogh/_navbar.html.erb (0.9ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_works_list.html.erb (0.5ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/results.html.erb within layouts/vangogh (42.7ms)
+  Rendered layouts/vangogh/_header.html.erb (5.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.3ms)
+Completed 200 OK in 126ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:27:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:55 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:55 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:55 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:27:56 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (1.3ms)
+  Rendered vangogh/_works_list.html.erb (0.5ms)
+  Rendered vangogh/_main_results.html.erb (1.1ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (14.7ms)
+  Rendered layouts/vangogh/_header.html.erb (3.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.8ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:28:05 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:29:41 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.4ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (7.0ms)
+  Rendered vangogh/_works_list.html.erb (0.6ms)
+  Rendered vangogh/_main_results.html.erb (1.2ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (2398.8ms)
+  Rendered layouts/vangogh/_header.html.erb (4.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.9ms)
+Completed 200 OK in 2470ms (Views: 2469.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:29:44 -0300
+
+
+Started GET "/vangogh/experience" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+Processing by VangoghController#experience as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/experience.html.erb within layouts/vangogh (5.9ms)
+  Rendered layouts/vangogh/_header.html.erb (3.9ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.9ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:29:46 -0300
+
+
+Started GET "/vangogh/about" for 127.0.0.1 at 2015-03-02 06:29:48 -0300
+Processing by VangoghController#about as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/about.html.erb within layouts/vangogh (4.8ms)
+  Rendered layouts/vangogh/_header.html.erb (3.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.7ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:29:48 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:29:48 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:29:49 -0300
+
+
+Started GET "/vangogh/contact" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+Processing by VangoghController#contact as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/contact.html.erb within layouts/vangogh (6.3ms)
+  Rendered layouts/vangogh/_header.html.erb (4.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.7ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:29:50 -0300
+
+
+Started GET "/vangogh/contact" for 127.0.0.1 at 2015-03-02 06:30:48 -0300
+Processing by VangoghController#contact as HTML
+  Rendered vangogh/_navbar.html.erb (1.5ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/contact.html.erb within layouts/vangogh (1776.1ms)
+  Rendered layouts/vangogh/_header.html.erb (4.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.8ms)
+Completed 200 OK in 1849ms (Views: 1848.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:30:50 -0300
+
+
+Started GET "/vangogh/contact" for 127.0.0.1 at 2015-03-02 06:31:17 -0300
+Processing by VangoghController#contact as HTML
+  Rendered vangogh/_navbar.html.erb (1.2ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/contact.html.erb within layouts/vangogh (1654.0ms)
+  Rendered layouts/vangogh/_header.html.erb (4.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.0ms)
+Completed 200 OK in 1733ms (Views: 1732.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:31:19 -0300
+
+
+Started GET "/vangogh/contact" for 127.0.0.1 at 2015-03-02 06:32:24 -0300
+Processing by VangoghController#contact as HTML
+  Rendered vangogh/_navbar.html.erb (3.5ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/contact.html.erb within layouts/vangogh (7.7ms)
+  Rendered layouts/vangogh/_header.html.erb (3.6ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.8ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:25 -0300
+
+
+Started GET "/vangogh/contact" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+Processing by VangoghController#contact as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/contact.html.erb within layouts/vangogh (4.5ms)
+  Rendered layouts/vangogh/_header.html.erb (6.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.8ms)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:32:31 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:32:33 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (6.0ms)
+  Rendered layouts/vangogh/_header.html.erb (3.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.0ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:32:33 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:32:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:32:34 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (6.2ms)
+  Rendered layouts/vangogh/_header.html.erb (3.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.6ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:45 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:46 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:46 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:46 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:46 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:46 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:32:46 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:32:46 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:34:03 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (1.2ms)
+  Rendered vangogh/_footer.html.erb (0.2ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (1421.7ms)
+  Rendered layouts/vangogh/_header.html.erb (5.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (9.9ms)
+Completed 200 OK in 1474ms (Views: 1473.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:34:04 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:34:10 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (2.3ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (913.2ms)
+  Rendered layouts/vangogh/_header.html.erb (3.9ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.0ms)
+Completed 200 OK in 957ms (Views: 956.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:11 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:34:12 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:34:28 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (1.6ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (859.5ms)
+  Rendered layouts/vangogh/_header.html.erb (5.1ms)
+  Rendered layouts/vangogh/_footer.html.erb (9.0ms)
+Completed 200 OK in 906ms (Views: 905.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:29 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:29 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:29 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:29 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:29 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:34:29 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:29 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:34:30 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:34:36 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (1.1ms)
+  Rendered vangogh/_footer.html.erb (0.2ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (859.8ms)
+  Rendered layouts/vangogh/_header.html.erb (5.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.9ms)
+Completed 200 OK in 904ms (Views: 903.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:37 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (6.6ms)
+  Rendered layouts/vangogh/_header.html.erb (3.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.2ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:34:56 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:35:20 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (1.6ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (1022.6ms)
+  Rendered layouts/vangogh/_header.html.erb (5.2ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.9ms)
+Completed 200 OK in 1066ms (Views: 1065.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:21 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:22 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:35:26 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (1.9ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (841.7ms)
+  Rendered layouts/vangogh/_header.html.erb (4.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.1ms)
+Completed 200 OK in 886ms (Views: 884.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:27 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:27 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:27 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:27 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:27 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:27 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:27 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:27 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:35:28 -0300
+
+
+Started GET "/vangogh/experience" for 127.0.0.1 at 2015-03-02 06:35:34 -0300
+Processing by VangoghController#experience as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/experience.html.erb within layouts/vangogh (5.1ms)
+  Rendered layouts/vangogh/_header.html.erb (3.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.7ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:35 -0300
+
+
+Started GET "/vangogh/about" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+Processing by VangoghController#about as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/about.html.erb within layouts/vangogh (4.9ms)
+  Rendered layouts/vangogh/_header.html.erb (3.9ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.8ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:35:36 -0300
+
+
+Started GET "/vangogh/contact" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+Processing by VangoghController#contact as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/contact.html.erb within layouts/vangogh (4.5ms)
+  Rendered layouts/vangogh/_header.html.erb (3.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.1ms)
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:37 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (1.0ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (6.1ms)
+  Rendered layouts/vangogh/_header.html.erb (6.6ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.3ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:38 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (18.8ms)
+  Rendered vangogh/_works_list.html.erb (0.5ms)
+  Rendered vangogh/_main_results.html.erb (1.1ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (64.7ms)
+  Rendered layouts/vangogh/_header.html.erb (3.7ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.9ms)
+Completed 200 OK in 208ms (Views: 207.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:41 -0300
+
+
+Started GET "/vangogh/results/detail" for 127.0.0.1 at 2015-03-02 06:35:43 -0300
+Processing by VangoghController#show as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/show.html.erb within layouts/vangogh (5.1ms)
+  Rendered layouts/vangogh/_header.html.erb (3.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.7ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:43 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:43 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:44 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (6.6ms)
+  Rendered layouts/vangogh/_header.html.erb (4.6ms)
+  Rendered layouts/vangogh/_footer.html.erb (8.2ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:46 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.9ms)
+  Rendered vangogh/_works_list.html.erb (0.4ms)
+  Rendered vangogh/_main_results.html.erb (1.0ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (9.8ms)
+  Rendered layouts/vangogh/_header.html.erb (3.6ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.7ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:35:48 -0300
+
+
+Started GET "/vangogh/results" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+Processing by VangoghController#results as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_works_list.html.erb (0.5ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/results.html.erb within layouts/vangogh (7.7ms)
+  Rendered layouts/vangogh/_header.html.erb (4.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.9ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:05 -0300
+
+
+Started GET "/vangogh/results" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+Processing by VangoghController#results as HTML
+  Rendered vangogh/_navbar.html.erb (1.1ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_works_list.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/results.html.erb within layouts/vangogh (43.3ms)
+  Rendered layouts/vangogh/_header.html.erb (4.9ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.1ms)
+Completed 200 OK in 97ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:36:28 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (1.4ms)
+  Rendered vangogh/_works_list.html.erb (0.6ms)
+  Rendered vangogh/_main_results.html.erb (1.5ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (27.0ms)
+  Rendered layouts/vangogh/_header.html.erb (3.8ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.8ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:36:49 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.9ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.5ms)
+  Rendered vangogh/_main.html.erb (18.6ms)
+  Rendered vangogh/_works_list.html.erb (1.6ms)
+  Rendered vangogh/_main_results.html.erb (2.6ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (65.1ms)
+  Rendered layouts/vangogh/_header.html.erb (3.9ms)
+  Rendered layouts/vangogh/_footer.html.erb (9.2ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:39:46 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:42:22 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.0ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (18.4ms)
+  Rendered vangogh/_works_list.html.erb (1.6ms)
+  Rendered vangogh/_main_results.html.erb (2.3ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (61.1ms)
+  Rendered layouts/vangogh/_header.html.erb (5.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (10.4ms)
+Completed 200 OK in 152ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:42:22 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:42:22 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:22 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:22 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:22 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:42:23 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:42:57 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.3ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.5ms)
+  Rendered vangogh/_main.html.erb (18.6ms)
+  Rendered vangogh/_works_list.html.erb (0.9ms)
+  Rendered vangogh/_main_results.html.erb (1.8ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (2132.7ms)
+  Rendered layouts/vangogh/_header.html.erb (4.9ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.5ms)
+Completed 200 OK in 2199ms (Views: 2198.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:43:00 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:44:36 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (18.3ms)
+  Rendered vangogh/_works_list.html.erb (0.8ms)
+  Rendered vangogh/_main_results.html.erb (1.7ms)
+  Rendered vangogh/_footer.html.erb (0.3ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (958.7ms)
+  Rendered layouts/vangogh/_header.html.erb (4.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (9.3ms)
+Completed 200 OK in 1005ms (Views: 1004.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:44:37 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_works_list.html.erb (1.3ms)
+  Rendered vangogh/_main_results.html.erb (2.0ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (9.6ms)
+  Rendered layouts/vangogh/_header.html.erb (3.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.8ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:45:15 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:46:44 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.4ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.6ms)
+  Rendered vangogh/_main.html.erb (18.7ms)
+  Rendered vangogh/_works_list.html.erb (1.6ms)
+  Rendered vangogh/_main_results.html.erb (2.7ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (1799.2ms)
+  Rendered layouts/vangogh/_header.html.erb (5.2ms)
+  Rendered layouts/vangogh/_footer.html.erb (8.7ms)
+Completed 200 OK in 1874ms (Views: 1873.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:46:46 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:47:10 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.2ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (18.2ms)
+  Rendered vangogh/_works_list.html.erb (0.8ms)
+  Rendered vangogh/_main_results.html.erb (1.4ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (974.1ms)
+  Rendered layouts/vangogh/_header.html.erb (5.6ms)
+  Rendered layouts/vangogh/_footer.html.erb (10.0ms)
+Completed 200 OK in 1028ms (Views: 1027.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:47:11 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:47:38 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.6ms)
+  Rendered vangogh/_main.html.erb (18.4ms)
+  Rendered vangogh/_works_list.html.erb (1.2ms)
+  Rendered vangogh/_main_results.html.erb (2.2ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (1164.8ms)
+  Rendered layouts/vangogh/_header.html.erb (4.8ms)
+  Rendered layouts/vangogh/_footer.html.erb (15.4ms)
+Completed 200 OK in 1217ms (Views: 1216.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:47:39 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:47:40 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:48:05 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.3ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.5ms)
+  Rendered vangogh/_main.html.erb (18.5ms)
+  Rendered vangogh/_works_list.html.erb (1.1ms)
+  Rendered vangogh/_main_results.html.erb (2.2ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (1214.6ms)
+  Rendered layouts/vangogh/_header.html.erb (6.1ms)
+  Rendered layouts/vangogh/_footer.html.erb (9.4ms)
+Completed 200 OK in 1262ms (Views: 1260.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:48:06 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:49:29 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (2.1ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (18.3ms)
+  Rendered vangogh/_works_list.html.erb (1.1ms)
+  Rendered vangogh/_main_results.html.erb (1.9ms)
+  Rendered vangogh/_footer.html.erb (0.2ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (1743.5ms)
+  Rendered layouts/vangogh/_header.html.erb (5.2ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.0ms)
+Completed 200 OK in 1815ms (Views: 1814.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:49:31 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:51:48 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.2ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.5ms)
+  Rendered vangogh/_main.html.erb (18.3ms)
+  Rendered vangogh/_works_list.html.erb (1.9ms)
+  Rendered vangogh/_main_results.html.erb (2.7ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (2231.9ms)
+  Rendered layouts/vangogh/_header.html.erb (3.7ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.4ms)
+Completed 200 OK in 2336ms (Views: 2335.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:51:50 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:51:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:51:51 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 06:58:53 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.3ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (18.5ms)
+  Rendered vangogh/_works_list.html.erb (3.3ms)
+  Rendered vangogh/_main_results.html.erb (4.9ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (1898.8ms)
+  Rendered layouts/vangogh/_header.html.erb (6.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.0ms)
+Completed 200 OK in 1970ms (Views: 1969.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:55 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 06:58:56 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 07:00:39 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (2.2ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (17.8ms)
+  Rendered vangogh/_works_list.html.erb (1.2ms)
+  Rendered vangogh/_main_results.html.erb (2.1ms)
+  Rendered vangogh/_footer.html.erb (0.2ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (1521.6ms)
+  Rendered layouts/vangogh/_header.html.erb (5.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (8.7ms)
+Completed 200 OK in 1595ms (Views: 1594.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 07:00:40 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 07:00:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:40 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 07:00:40 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:40 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 07:00:41 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (2.0ms)
+  Rendered vangogh/_footer.html.erb (0.2ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (33.0ms)
+  Rendered layouts/vangogh/_header.html.erb (7.2ms)
+  Rendered layouts/vangogh/_footer.html.erb (61.6ms)
+Completed 200 OK in 246ms (Views: 244.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:46 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 07:23:47 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 07:31:04 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.2ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.6ms)
+  Rendered vangogh/_main.html.erb (18.7ms)
+  Rendered vangogh/_works_list.html.erb (1.3ms)
+  Rendered vangogh/_main_results.html.erb (14.9ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (98.5ms)
+  Rendered layouts/vangogh/_header.html.erb (3.7ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.5ms)
+Completed 200 OK in 191ms (Views: 190.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/assets/vangogh/bg.jpg" for 127.0.0.1 at 2015-03-02 07:31:05 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.4ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.6ms)
+  Rendered vangogh/_main.html.erb (18.6ms)
+  Rendered vangogh/_works_list.html.erb (0.9ms)
+  Rendered vangogh/_main_results.html.erb (14.4ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (98.5ms)
+  Rendered layouts/vangogh/_header.html.erb (5.6ms)
+  Rendered layouts/vangogh/_footer.html.erb (10.4ms)
+Completed 200 OK in 196ms (Views: 195.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2015-03-02 07:35:10 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:11 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:11 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 07:35:11 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 07:35:11 -0300
+
+
+Started GET "/vangogh/results/detail" for 127.0.0.1 at 2015-03-02 07:58:25 -0300
+Processing by VangoghController#show as HTML
+  Rendered vangogh/_navbar.html.erb (1.2ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/show.html.erb within layouts/vangogh (32.1ms)
+  Rendered layouts/vangogh/_header.html.erb (5.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (8.1ms)
+Completed 200 OK in 156ms (Views: 154.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 07:58:26 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 07:58:36 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (18.1ms)
+  Rendered vangogh/_work_list.html.erb (2.4ms)
+  Rendered vangogh/_main_results.html.erb (16.9ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (60.9ms)
+Completed 500 Internal Server Error in 84ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15: </div>
+    16: 
+    17: <ul class="list-unstyled work-list row">
+    18:   <% @works.each do |work| %>
+    19:     <%= render partial: "work_for_list", locals: { work: work } %>
+    20:   <% end %>
+    21: 
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272343193020'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.6ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 07:59:15 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.5ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (18.3ms)
+  Rendered vangogh/_work_list.html.erb (1.5ms)
+  Rendered vangogh/_main_results.html.erb (2.6ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (56.6ms)
+Completed 500 Internal Server Error in 87ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15: </div>
+    16: 
+    17: <ul class="list-unstyled work-list row">
+    18:   <% @works.each do |work| %>
+    19:     <%= render partial: "work_for_list", locals: { work: work } %>
+    20:   <% end %>
+    21: 
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272343193020'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.0ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.1ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 07:59:38 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_list.html.erb (1.6ms)
+  Rendered vangogh/_main_results.html.erb (2.3ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (7.4ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15: </div>
+    16: 
+    17: <ul class="list-unstyled work-list row">
+    18:   <% @works.each do |work| %>
+    19:     <%= render partial: "work_for_list", locals: { work: work } %>
+    20:   <% end %>
+    21: 
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272343193020'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.8ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:04:26 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (18.5ms)
+  Rendered vangogh/_work_list.html.erb (1.6ms)
+  Rendered vangogh/_main_results.html.erb (2.6ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (53.9ms)
+  Rendered layouts/vangogh/_header.html.erb (4.9ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.8ms)
+Completed 200 OK in 147ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:27 -0300
+
+
+Started GET "/vangogh/experience" for 127.0.0.1 at 2015-03-02 08:04:29 -0300
+Processing by VangoghController#experience as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/experience.html.erb within layouts/vangogh (5.6ms)
+  Rendered layouts/vangogh/_header.html.erb (3.7ms)
+  Rendered layouts/vangogh/_footer.html.erb (8.0ms)
+Completed 200 OK in 330ms (Views: 329.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:30 -0300
+
+
+Started GET "/vangogh/about" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+Processing by VangoghController#about as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/about.html.erb within layouts/vangogh (4.7ms)
+  Rendered layouts/vangogh/_header.html.erb (3.2ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.7ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:33 -0300
+
+
+Started GET "/vangogh/contact" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+Processing by VangoghController#contact as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/contact.html.erb within layouts/vangogh (4.8ms)
+  Rendered layouts/vangogh/_header.html.erb (3.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.2ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:35 -0300
+
+
+Started GET "/vangogh/profile" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+Processing by VangoghController#profile as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/profile.html.erb within layouts/vangogh (5.1ms)
+  Rendered layouts/vangogh/_header.html.erb (3.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.9ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:36 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:37 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:37 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:37 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:37 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:37 -0300
+
+
+Started GET "/vangogh/experience" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+Processing by VangoghController#experience as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/experience.html.erb within layouts/vangogh (4.9ms)
+  Rendered layouts/vangogh/_header.html.erb (4.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.3ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:39 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:04:40 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (7.1ms)
+  Rendered vangogh/_work_list.html.erb (0.5ms)
+  Rendered vangogh/_main_results.html.erb (1.7ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (26.1ms)
+  Rendered layouts/vangogh/_header.html.erb (4.0ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.7ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:04:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:40 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:04:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:40 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:04:41 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:07:06 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (7.5ms)
+  Rendered vangogh/_work_list.html.erb (1.9ms)
+  Rendered vangogh/_main_results.html.erb (2.7ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (23.4ms)
+Completed 500 Internal Server Error in 54ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15: </div>
+    16: 
+    17: <ul class="list-unstyled work-list row">
+    18:   <% @works.each do |work| %>
+    19:     <%= render partial: "work_for_list", locals: { work: work } %>
+    20:   <% end %>
+    21: </ul>
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272349283240'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.2ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:07:22 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.2ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_list.html.erb (1.2ms)
+  Rendered vangogh/_main_results.html.erb (1.8ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (7.3ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15: </div>
+    16: 
+    17: <ul class="list-unstyled work-list row">
+    18:   <% @works.each do |work| %>
+    19:     <%= render partial: "work_for_list", locals: { work: work } %>
+    20:   <% end %>
+    21: </ul>
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272349283240'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.2ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:08:07 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.2ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_list.html.erb (1.0ms)
+  Rendered vangogh/_main_results.html.erb (1.5ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (7.6ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15: </div>
+    16: 
+    17: <ul class="list-unstyled work-list row">
+    18:   <% @works.each do |work| %>
+    19:     <%= render partial: "work_for_list", locals: { work: work } %>
+    20:   <% end %>
+    21: </ul>
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272349283240'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.2ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:09:28 -0300
+Processing by VangoghController#index as HTML
+Completed 500 Internal Server Error in 24ms
+
+NameError (undefined local variable or method `work' for #<VangoghController:0x007fd31ca03830>):
+  app/controllers/vangogh_controller.rb:3:in `index'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.1ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:15:27 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (7.5ms)
+  Rendered vangogh/_work_list.html.erb (1.2ms)
+  Rendered vangogh/_main_results.html.erb (2.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (22.7ms)
+Completed 500 Internal Server Error in 54ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15: </div>
+    16: 
+    17: <ul class="list-unstyled work-list row">
+    18:   <% @works.each do |work| %>
+    19:     <%= render partial: "work_for_list", locals: { work: work } %>
+    20:   <% end %>
+    21: </ul>
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272349283240'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.7ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:16:14 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (18.2ms)
+  Rendered vangogh/_work_list.html.erb (1.9ms)
+  Rendered vangogh/_main_results.html.erb (2.8ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (56.9ms)
+Completed 500 Internal Server Error in 87ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15: </div>
+    16: 
+    17: <ul class="list-unstyled work-list row">
+    18:   <% @works.each do |work| %>
+    19:     <%#= render partial: "work_for_list", locals: { work: work } %>
+    20:     <% puts work %>
+    21:   <% end %>
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272347048580'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.3ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.7ms)
+  Rendered vangogh/_work_list.html.erb (1.0ms)
+  Rendered vangogh/_main_results.html.erb (1.8ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (30.8ms)
+  Rendered layouts/vangogh/_header.html.erb (24.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.2ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:22 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:23 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:16:23 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:17:00 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (17.9ms)
+  Rendered vangogh/_work_for_list.html.erb (1.1ms)
+  Rendered vangogh/_work_for_list.html.erb (0.2ms)
+  Rendered vangogh/_work_list.html.erb (15.2ms)
+  Rendered vangogh/_main_results.html.erb (15.9ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (76.9ms)
+  Rendered layouts/vangogh/_header.html.erb (23.7ms)
+  Rendered layouts/vangogh/_footer.html.erb (11.3ms)
+Completed 200 OK in 186ms (Views: 185.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:01 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.6ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.2ms)
+  Rendered vangogh/_main.html.erb (1.4ms)
+  Rendered vangogh/_work_for_list.html.erb (1.0ms)
+  Rendered vangogh/_work_for_list.html.erb (0.4ms)
+  Rendered vangogh/_work_list.html.erb (3.3ms)
+  Rendered vangogh/_main_results.html.erb (4.1ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (14.1ms)
+  Rendered layouts/vangogh/_header.html.erb (3.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.3ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:43 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300

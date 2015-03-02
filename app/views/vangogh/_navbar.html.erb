@@ -17,10 +17,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to 'Experience', vangogh_experience_path %></li>
-        <li><%= link_to 'About me', vangogh_about_path %></li>
-        <li><%= link_to 'Contact', vangogh_contact_path %></li>
-        <li>
+        <li class="<%= active_tab(request.fullpath, 'experience') %>"><%= link_to 'Experience', vangogh_experience_path %></li>
+        <li class="<%= active_tab(request.fullpath, 'about') %>"><%= link_to 'About me', vangogh_about_path %></li>
+        <li class="<%= active_tab(request.fullpath, 'contact') %>"><%= link_to 'Contact', vangogh_contact_path %></li>
+        <li class="<%= active_tab(request.fullpath, 'profile') %>">
           <%= link_to vangogh_profile_path do %>
             Rodrigo Quaresma <%= image_tag "vangogh/avatar.jpg", alt: "rodrigo quaresma", class: "nav-avatar" %>
           <% end %>
