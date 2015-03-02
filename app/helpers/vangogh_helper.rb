@@ -5,7 +5,10 @@ module VangoghHelper
   end
 
   def works
-    ['dde','ddc']
+    [
+      [0,'NOW - video on demand','tv','app for tv','now01b.jpg'],
+      [1,'facebook na tv','tv','Aplicativo para acesso do facebook pela TV.','facebook-feed.jpg']
+    ]
   end
 
 end

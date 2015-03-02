@@ -72243,3 +72243,1574 @@ Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08
 
 
 Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:17:44 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:18:59 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (8.7ms)
+  Rendered vangogh/_work_for_list.html.erb (0.3ms)
+  Rendered vangogh/_work_for_list.html.erb (0.2ms)
+  Rendered vangogh/_work_list.html.erb (2.5ms)
+  Rendered vangogh/_main_results.html.erb (3.4ms)
+  Rendered vangogh/_footer.html.erb (0.2ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (54.1ms)
+  Rendered layouts/vangogh/_header.html.erb (4.0ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.7ms)
+Completed 200 OK in 135ms (Views: 134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:19:00 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:22:18 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.9ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (18.4ms)
+  Rendered vangogh/_work_for_list.html.erb (0.3ms)
+  Rendered vangogh/_work_for_list.html.erb (0.3ms)
+  Rendered vangogh/_work_list.html.erb (2.4ms)
+  Rendered vangogh/_main_results.html.erb (3.2ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (53.6ms)
+  Rendered layouts/vangogh/_header.html.erb (4.0ms)
+  Rendered layouts/vangogh/_footer.html.erb (8.2ms)
+Completed 200 OK in 129ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:22:19 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_for_list.html.erb (0.4ms)
+  Rendered vangogh/_work_for_list.html.erb (0.3ms)
+  Rendered vangogh/_work_list.html.erb (2.3ms)
+  Rendered vangogh/_main_results.html.erb (2.9ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (9.8ms)
+  Rendered layouts/vangogh/_header.html.erb (3.4ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.6ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:23:06 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:23:32 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.2ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_for_list.html.erb (2.1ms)
+  Rendered vangogh/_work_list.html.erb (3.0ms)
+  Rendered vangogh/_main_results.html.erb (3.7ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (8.8ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `title' for [{:title=>"dda", :description=>"ddb"}]:Array):
+    3:     <span class="work-list-title">NOW - video on demand</span>
+    4:     <span class="work-list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for TV</span>
+    6:     <span class="work-list-link">More...<%= work.title %></span>
+    7:   <% end %>
+    8: </li>
+  app/views/vangogh/_work_for_list.html.erb:6:in `block in _app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.7ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:23:58 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (1.2ms)
+  Rendered vangogh/_work_for_list.html.erb (1.1ms)
+  Rendered vangogh/_work_list.html.erb (2.0ms)
+  Rendered vangogh/_main_results.html.erb (2.7ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (10.3ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `title' for {:title=>"dda", :description=>"ddb"}:Hash):
+    3:     <span class="work-list-title">NOW - video on demand</span>
+    4:     <span class="work-list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for TV</span>
+    6:     <span class="work-list-link">More...<%= work.title %></span>
+    7:   <% end %>
+    8: </li>
+  app/views/vangogh/_work_for_list.html.erb:6:in `block in _app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.5ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:24:08 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.9ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.2ms)
+  Rendered vangogh/_main.html.erb (0.9ms)
+  Rendered vangogh/_work_for_list.html.erb (1.1ms)
+  Rendered vangogh/_work_list.html.erb (2.1ms)
+  Rendered vangogh/_main_results.html.erb (2.7ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (8.3ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `title' for {:title=>"dda", :description=>"ddb"}:Hash):
+    3:     <span class="work-list-title">NOW - video on demand</span>
+    4:     <span class="work-list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for TV</span>
+    6:     <span class="work-list-link">More...<%= work.title %></span>
+    7:   <% end %>
+    8: </li>
+  app/views/vangogh/_work_for_list.html.erb:6:in `block in _app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.1ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:24:27 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.0ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (1.2ms)
+  Rendered vangogh/_work_for_list.html.erb (1.4ms)
+  Rendered vangogh/_work_list.html.erb (2.3ms)
+  Rendered vangogh/_main_results.html.erb (2.9ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (9.2ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `title' for [{:title=>"dda", :description=>"ddb"}]:Array):
+    3:     <span class="work-list-title">NOW - video on demand</span>
+    4:     <span class="work-list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for TV</span>
+    6:     <span class="work-list-link">More...<%= work.title %></span>
+    7:   <% end %>
+    8: </li>
+  app/views/vangogh/_work_for_list.html.erb:6:in `block in _app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.1ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:24:46 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.7ms)
+  Rendered vangogh/_work_for_list.html.erb (1.0ms)
+  Rendered vangogh/_work_list.html.erb (1.9ms)
+  Rendered vangogh/_main_results.html.erb (2.6ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (7.6ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `title' for [{:title=>"dda", :description=>"ddb"}]:Array):
+    3:     <span class="work-list-title">NOW - video on demand</span>
+    4:     <span class="work-list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for TV</span>
+    6:     <span class="work-list-link">More...<%= work.title %></span>
+    7:   <% end %>
+    8: </li>
+  app/views/vangogh/_work_for_list.html.erb:6:in `block in _app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.3ms)
+
+
+Started GET "/vangogh/experience" for 127.0.0.1 at 2015-03-02 08:27:43 -0300
+Processing by VangoghController#experience as HTML
+  Rendered vangogh/_navbar.html.erb (5.5ms)
+  Rendered vangogh/_footer.html.erb (0.7ms)
+  Rendered vangogh/experience.html.erb within layouts/vangogh (17.1ms)
+  Rendered layouts/vangogh/_header.html.erb (10.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (13.2ms)
+Completed 200 OK in 86ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:27:44 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:46:28 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.0ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (18.1ms)
+  Rendered vangogh/_work_for_list.html.erb (1.2ms)
+  Rendered vangogh/_work_list.html.erb (2.3ms)
+  Rendered vangogh/_main_results.html.erb (3.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (45.8ms)
+Completed 500 Internal Server Error in 88ms
+
+ActionView::Template::Error (undefined method `title' for [{:title=>"dda", :description=>"ddb"}]:Array):
+    3:     <span class="work-list-title">NOW - video on demand</span>
+    4:     <span class="work-list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for TV</span>
+    6:     <span class="work-list-link">More...<%= work.title %></span>
+    7:   <% end %>
+    8: </li>
+  app/views/vangogh/_work_for_list.html.erb:6:in `block in _app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.5ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.4ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:46:56 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.2ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_for_list.html.erb (1.0ms)
+  Rendered vangogh/_work_list.html.erb (2.0ms)
+  Rendered vangogh/_main_results.html.erb (2.6ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (8.2ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `title' for ["dda", "ddb"]:Array):
+    3:     <span class="work-list-title">NOW - video on demand</span>
+    4:     <span class="work-list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for TV</span>
+    6:     <span class="work-list-link">More...<%= work.title %></span>
+    7:   <% end %>
+    8: </li>
+  app/views/vangogh/_work_for_list.html.erb:6:in `block in _app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272343326200'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345013100'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.2ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_for_list.html.erb (1.2ms)
+  Rendered vangogh/_work_for_list.html.erb (0.3ms)
+  Rendered vangogh/_work_list.html.erb (3.3ms)
+  Rendered vangogh/_main_results.html.erb (3.9ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (24.9ms)
+  Rendered layouts/vangogh/_header.html.erb (26.1ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.1ms)
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:07 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:08 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:08 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:08 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:08 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:08 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:08 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:08 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:47:08 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:52:32 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.9ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (1.1ms)
+  Rendered vangogh/_work_for_list.html.erb (538.2ms)
+  Rendered vangogh/_work_list.html.erb (540.1ms)
+  Rendered vangogh/_main_results.html.erb (540.7ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (547.3ms)
+Completed 500 Internal Server Error in 552ms
+
+SyntaxError (/Users/rodrigoquaresma/src/rodrigoquaresma/app/views/vangogh/_work_for_list.html.erb:4: syntax error, unexpected '>'
+...rface now - video on demand" %></span>
+...                               ^
+/Users/rodrigoquaresma/src/rodrigoquaresma/app/views/vangogh/_work_for_list.html.erb:5: unknown regexp options - pa
+/Users/rodrigoquaresma/src/rodrigoquaresma/app/views/vangogh/_work_for_list.html.erb:6: syntax error, unexpected '<'
+    <span class="work-list-link">More...</span>
+     ^
+/Users/rodrigoquaresma/src/rodrigoquaresma/app/views/vangogh/_work_for_list.html.erb:6: syntax error, unexpected '<'
+    <span class="work-list-link">More...</span>
+                                         ^
+/Users/rodrigoquaresma/src/rodrigoquaresma/app/views/vangogh/_work_for_list.html.erb:8: unknown regexp option - l
+/Users/rodrigoquaresma/src/rodrigoquaresma/app/views/vangogh/_work_for_list.html.erb:9: unterminated string meets end of file
+/Users/rodrigoquaresma/src/rodrigoquaresma/app/views/vangogh/_work_for_list.html.erb:9: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/vangogh/_work_for_list.html.erb:4: syntax error, unexpected '>'
+  app/views/vangogh/_work_for_list.html.erb:5: unknown regexp options - pa
+  app/views/vangogh/_work_for_list.html.erb:6: syntax error, unexpected '<'
+  app/views/vangogh/_work_for_list.html.erb:6: syntax error, unexpected '<'
+  app/views/vangogh/_work_for_list.html.erb:8: unknown regexp option - l
+  app/views/vangogh/_work_for_list.html.erb:9: unterminated string meets end of file
+  app/views/vangogh/_work_for_list.html.erb:9: syntax error, unexpected end-of-input, expecting ')'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272345255780'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345255780'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.6ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.2ms)
+  Rendered vangogh/_main.html.erb (2.0ms)
+  Rendered vangogh/_work_for_list.html.erb (1.7ms)
+  Rendered vangogh/_work_for_list.html.erb (0.2ms)
+  Rendered vangogh/_work_list.html.erb (3.5ms)
+  Rendered vangogh/_main_results.html.erb (4.1ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (11.9ms)
+  Rendered layouts/vangogh/_header.html.erb (3.3ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.1ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:52:51 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.2ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_for_list.html.erb (1.0ms)
+  Rendered vangogh/_work_for_list.html.erb (40.4ms)
+  Rendered vangogh/_work_list.html.erb (43.3ms)
+  Rendered vangogh/_main_results.html.erb (43.9ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (51.9ms)
+  Rendered layouts/vangogh/_header.html.erb (3.6ms)
+  Rendered layouts/vangogh/_footer.html.erb (5.8ms)
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/facebook-feed.jpg" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:40 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_for_list.html.erb (1.0ms)
+  Rendered vangogh/_work_for_list.html.erb (0.2ms)
+  Rendered vangogh/_work_list.html.erb (2.9ms)
+  Rendered vangogh/_main_results.html.erb (3.5ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (10.7ms)
+  Rendered layouts/vangogh/_header.html.erb (3.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (7.1ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/facebook-feed.jpg" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 08:53:55 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 09:14:47 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.1ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (18.7ms)
+  Rendered vangogh/_work_list.html.erb (2.2ms)
+  Rendered vangogh/_main_results.html.erb (3.7ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (46.9ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"vangogh"} missing required keys: [:id]):
+    4:       <div class="list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></div>
+    5:     </div>
+    6:     <div class="col-sm-6">
+    7:       <h3><%= link_to 'NOW - video on demand', vangogh_show_path %></h3>
+    8:       <span class="text-muted">for TV</span>
+    9:       <p>
+   10:         The people in Taiwan is so freaking nice and friendly compared to my country, Singapore. When you go to the convenience store, they will greet you and when i order a hot chocolate milk, they told me to be careful as it's hot what a heart warming reminder from the staff. When you lost your way to ce
+  app/views/vangogh/_work_list.html.erb:7:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345255780'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.9ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 09:15:17 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.9ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (29.5ms)
+  Rendered vangogh/_work_list.html.erb (1.7ms)
+  Rendered vangogh/_main_results.html.erb (3.0ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (79.9ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"vangogh"} missing required keys: [:id]):
+    4:       <div class="list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></div>
+    5:     </div>
+    6:     <div class="col-sm-6">
+    7:       <h3><%= link_to 'NOW - video on demand', vangogh_show_path %></h3>
+    8:       <span class="text-muted">for TV</span>
+    9:       <p>
+   10:         The people in Taiwan is so freaking nice and friendly compared to my country, Singapore. When you go to the convenience store, they will greet you and when i order a hot chocolate milk, they told me to be careful as it's hot what a heart warming reminder from the staff. When you lost your way to ce
+  app/views/vangogh/_work_list.html.erb:7:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345255780'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 09:15:34 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.1ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.4ms)
+  Rendered vangogh/_main.html.erb (18.5ms)
+  Rendered vangogh/_work_list.html.erb (2.6ms)
+  Rendered vangogh/_main_results.html.erb (3.9ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (69.1ms)
+Completed 500 Internal Server Error in 105ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"vangogh"} missing required keys: [:id]):
+    4:       <div class="list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></div>
+    5:     </div>
+    6:     <div class="col-sm-6">
+    7:       <h3><%= link_to 'NOW - video on demand', vangogh_show_path %></h3>
+    8:       <span class="text-muted">for TV</span>
+    9:       <p>
+   10:         The people in Taiwan is so freaking nice and friendly compared to my country, Singapore. When you go to the convenience store, they will greet you and when i order a hot chocolate milk, they told me to be careful as it's hot what a heart warming reminder from the staff. When you lost your way to ce
+  app/views/vangogh/_work_list.html.erb:7:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272345255780'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 09:16:04 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.1ms)
+  Rendered vangogh/_main.html.erb (0.7ms)
+  Rendered vangogh/_work_for_list.html.erb (1.9ms)
+  Rendered vangogh/_work_list.html.erb (16.6ms)
+  Rendered vangogh/_main_results.html.erb (17.2ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (22.3ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"vangogh"} missing required keys: [:id]):
+    1: <li class="work-list-item col-xs-12 col-sm-6 col-md-4">
+    2:   <%= link_to vangogh_show_path, class: "work-call" do %>
+    3:     <span class="work-list-title"><%= work[1] %></span>
+    4:     <span class="work-list-image"><%= image_tag work[4], alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for <%= work[2] %></span>
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272342572820'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272342605780'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272342605780'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.1ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.3ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 09:16:24 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.9ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.2ms)
+  Rendered vangogh/_main.html.erb (0.8ms)
+  Rendered vangogh/_work_for_list.html.erb (1.0ms)
+  Rendered vangogh/_work_list.html.erb (2.1ms)
+  Rendered vangogh/_main_results.html.erb (2.7ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (10.3ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"vangogh"} missing required keys: [:id]):
+    1: <li class="work-list-item col-xs-12 col-sm-6 col-md-4">
+    2:   <%= link_to vangogh_show_path, class: "work-call" do %>
+    3:     <span class="work-list-title"><%= work[1] %></span>
+    4:     <span class="work-list-image"><%= image_tag work[4], alt: "interface now - video on demand" %></span>
+    5:     <span class="work-list-label">for <%= work[2] %></span>
+  app/views/vangogh/_work_for_list.html.erb:2:in `_app_views_vangogh__work_for_list_html_erb___4552601792746467224_70272342572820'
+  app/views/vangogh/_work_list.html.erb:19:in `block in _app_views_vangogh__work_list_html_erb__2041131875897441535_70272342605780'
+  app/views/vangogh/_work_list.html.erb:18:in `each'
+  app/views/vangogh/_work_list.html.erb:18:in `_app_views_vangogh__work_list_html_erb__2041131875897441535_70272342605780'
+  app/views/vangogh/_main_results.html.erb:22:in `_app_views_vangogh__main_results_html_erb__3406301036491154384_70272343210700'
+  app/views/vangogh/index.html.erb:9:in `_app_views_vangogh_index_html_erb__3209964277220156242_70272343206880'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.0ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 09:17:15 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (1.4ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (19.2ms)
+  Rendered vangogh/_work_for_list.html.erb (1.2ms)
+  Rendered vangogh/_work_for_list.html.erb (0.3ms)
+  Rendered vangogh/_work_list.html.erb (3.0ms)
+  Rendered vangogh/_main_results.html.erb (3.9ms)
+  Rendered vangogh/_footer.html.erb (0.2ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (76.3ms)
+  Rendered layouts/vangogh/_header.html.erb (25.5ms)
+  Rendered layouts/vangogh/_footer.html.erb (8.7ms)
+Completed 200 OK in 172ms (Views: 171.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/facebook-feed.jpg" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:16 -0300
+
+
+Started GET "/vangogh/results/detail/id" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+Processing by VangoghController#show as HTML
+  Parameters: {"id"=>"id"}
+  Rendered vangogh/_navbar.html.erb (0.7ms)
+  Rendered vangogh/_footer.html.erb (0.0ms)
+  Rendered vangogh/show.html.erb within layouts/vangogh (4.8ms)
+  Rendered layouts/vangogh/_header.html.erb (4.0ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.5ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+
+Started GET "/vangogh/results/detail/assets/vangogh/booking-favicon.ico" for 127.0.0.1 at 2015-03-02 09:17:20 -0300
+
+ActionController::RoutingError (No route matches [GET] "/vangogh/results/detail/assets/vangogh/booking-favicon.ico"):
+  actionpack (4.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.2) lib/rails/engine.rb:514:in `call'
+  railties (4.1.2) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /opt/rubies/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.6ms)
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 09:18:06 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (3.1ms)
+  Rendered vangogh/_masterhead_search.html.erb (33.1ms)
+  Rendered vangogh/_main.html.erb (51.1ms)
+  Rendered vangogh/_work_for_list.html.erb (1.2ms)
+  Rendered vangogh/_work_for_list.html.erb (0.3ms)
+  Rendered vangogh/_work_list.html.erb (4.1ms)
+  Rendered vangogh/_main_results.html.erb (6.6ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (133.5ms)
+  Rendered layouts/vangogh/_header.html.erb (9.2ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.5ms)
+Completed 200 OK in 227ms (Views: 226.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/facebook-feed.jpg" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:07 -0300
+
+
+Started GET "/vangogh/results/detail/0" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+Processing by VangoghController#show as HTML
+  Parameters: {"id"=>"0"}
+  Rendered vangogh/_navbar.html.erb (1.5ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/show.html.erb within layouts/vangogh (7.7ms)
+  Rendered layouts/vangogh/_header.html.erb (4.9ms)
+  Rendered layouts/vangogh/_footer.html.erb (6.9ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/vangogh.css?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/vangogh/avatar-big.jpg" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:10 -0300
+
+
+Started GET "/vangogh" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+Processing by VangoghController#index as HTML
+  Rendered vangogh/_navbar.html.erb (0.8ms)
+  Rendered vangogh/_masterhead_search.html.erb (0.3ms)
+  Rendered vangogh/_main.html.erb (18.2ms)
+  Rendered vangogh/_work_for_list.html.erb (0.4ms)
+  Rendered vangogh/_work_for_list.html.erb (0.5ms)
+  Rendered vangogh/_work_list.html.erb (7.4ms)
+  Rendered vangogh/_main_results.html.erb (8.5ms)
+  Rendered vangogh/_footer.html.erb (0.1ms)
+  Rendered vangogh/index.html.erb within layouts/vangogh (55.0ms)
+  Rendered layouts/vangogh/_header.html.erb (6.1ms)
+  Rendered layouts/vangogh/_footer.html.erb (10.9ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/now01b.jpg" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/facebook-feed.jpg" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/vangogh.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/vangogh/avatar.jpg" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300
+
+
+Started GET "/assets/bootstrap3-typeahead.min.js?body=1" for 127.0.0.1 at 2015-03-02 09:18:16 -0300

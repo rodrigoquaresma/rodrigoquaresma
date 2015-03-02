@@ -1,8 +1,8 @@
 <li class="work-list-item col-xs-12 col-sm-6 col-md-4">
-  <%= link_to vangogh_show_path, class: "work-call" do %>
-    <span class="work-list-title">NOW - video on demand</span>
-    <span class="work-list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></span>
-    <span class="work-list-label">for TV</span>
-    <span class="work-list-link">More...<%= work %></span>
+  <%= link_to vangogh_show_path(work[0]), class: "work-call" do %>
+    <span class="work-list-title"><%= work[1] %></span>
+    <span class="work-list-image"><%= image_tag work[4], alt: "interface now - video on demand" %></span>
+    <span class="work-list-label">for <%= work[2] %></span>
+    <span class="work-list-link">More...</span>
   <% end %>
 </li>

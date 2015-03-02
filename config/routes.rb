@@ -24,5 +24,6 @@ get 'vangogh/contact' => 'vangogh#contact'
 get 'vangogh/profile' => 'vangogh#profile'
 
 get 'vangogh/results' => 'vangogh#results'
-get 'vangogh/results/detail' => 'vangogh#show', as: 'vangogh_show'
+get 'vangogh/results/detail/:id' => 'vangogh#show', as: 'vangogh_show'
+# get 'vangogh/results/detail/:id' => 'vangogh#work_detail', as: 'vangogh_work_detail'
 end
