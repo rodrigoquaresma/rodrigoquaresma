@@ -94,6 +94,15 @@ margin-left: -6px;
   margin-left: 6px;
 }
 
+.profile-avatar {
+  display: block;
+  margin: 20px auto;
+  background: white;
+  border-radius: 50%;
+  border: #2999ce 6px solid;
+}
+
+
 .navbar-inverse .navbar-nav > li > a {
   border-left: 1px solid #124690;
 }
@@ -104,3 +113,16 @@ margin-left: -6px;
 }
 
 .typeahead { z-index: 1051;}
+
+.jumbotron.profile {
+  padding:0;
+  margin:0;
+  .mask {
+    background: rgba(0,0,0,0.2);
+  }
+  h3 {
+    color: #fff;
+    text-align: center;
+    margin:20px 0;
+  }
+}

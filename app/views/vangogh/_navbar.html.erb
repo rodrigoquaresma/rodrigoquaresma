@@ -8,22 +8,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/vangogh" title="booking.com">
+      <%= link_to '/vangogh', class: 'navbar-brand', title: 'please, hire me booking.com' do %>
         <span class="logo-pre">HireMe</span><span class="logo-booking">Booking</span><span class="logo-pontocom">.com</span>
-      </a>
+      <% end %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><%= link_to 'Experience', vangogh_experience_path %></li>
+        <li><%= link_to 'About me', vangogh_about_path %></li>
+        <li><%= link_to 'Contact', vangogh_contact_path %></li>
         <li>
-          <a href="javascript:void(0);" class="">
+          <%= link_to vangogh_profile_path do %>
             Rodrigo Quaresma <%= image_tag "vangogh/avatar.jpg", alt: "rodrigo quaresma", class: "nav-avatar" %>
-          </a>
+          <% end %>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

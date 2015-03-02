@@ -14,14 +14,7 @@
             <input id="search_autocomplete" class="form-control input-lg typeahead" type="text" placeholder="States of USA" data-provide="typeahead" autocomplete="off">
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-7">
-            <hr />
-          </div>
-          <div class="col-xs-5">
-            <button type="button" class="btn btn-secundary btn-lg btn-block"><strong>Let's go!</strong></button>
-          </div>
-        </div>
+        <%= link_to "Let's go!", vangogh_results_path, class: "btn btn-secundary btn-lg pull-right" %>
       </fieldset>
     </form>
   </div>
