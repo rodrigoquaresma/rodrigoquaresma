@@ -1,3 +1,16 @@
 <%= javascript_include_tag "application" %>
-<%= javascript_include_tag "vangogh" %>
 <%= javascript_include_tag "modernizr-2.8.3" %>
+<%= javascript_include_tag "vangogh" %>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/jquery.form/2.02/jquery.form.js"></script>
+<script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/rd/1.2/rdlps.min.js"></script>
+<script type="text/javascript">
+  var origConversionSuccess = conversionSuccess;
+  conversionSuccess = function(resp) {
+    origConversionSuccess(resp);
+    $('.toggle-show').toggle(200);
+  }
+</script>
+<script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/rd/1.2/rdlps-autofill.min.js"></script>
