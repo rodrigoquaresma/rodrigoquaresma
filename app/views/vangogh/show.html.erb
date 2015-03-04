@@ -1,24 +1,29 @@
 <% content_for :head do %>
-  <link rel="shortcut icon" href="assets/vangogh/booking-favicon.ico" />
-  <link rel="apple-touch-icon" href="assets/vangogh/apple-touch-icon.png" />
-  <%= stylesheet_link_tag    'vangogh', media: 'all' %>
 <% end %>
 
 <%= render :partial => 'navbar' %>
 
-<div class="jumbotron profile">
-  <div class="mask">
-    <div class="container">
-      <%= image_tag "vangogh/avatar-big.jpg", alt: "rodrigo quaresma", class: "profile-avatar" %>
-      <h3 class="text-center">Rodrigo Quaresma</h3>
-    </div>
+<div class="container">
+  <div class="col-sm-4 col-md-3">
+    <%= render :partial => 'masterhead_search' %>
+  </div>
+  <div class="col-sm-8 col-md-9">
+    <h2><%= works[params_id.to_f][0] %></h2>
+    <h2><%= works[params_id.to_f][1] %></h2>
+    <h2><%= works[params_id.to_f][2] %></h2>
+    <h2><%= works[params_id.to_f][3] %></h2>
+    <hr />
+    <% works[params_id.to_f][4].each do |img_work| %>
+      <div class="work-list-image">
+        <%= image_tag img_work, alt: works[params_id.to_f][1] %>
+      </div>
+    <% end %>
   </div>
 </div>
+
 <hr />
-<h2>show</h2>
 
 <%= render :partial => 'footer' %>
 
 <% content_for :footer do %>
-  <%= javascript_include_tag 'vangogh' %>
 <% end %>

@@ -1,7 +1,4 @@
 <% content_for :head do %>
-  <link rel="shortcut icon" href="assets/vangogh/booking-favicon.ico" />
-  <link rel="apple-touch-icon" href="assets/vangogh/apple-touch-icon.png" />
-  <%= stylesheet_link_tag    'vangogh', media: 'all' %>
 <% end %>
 
 <%= render :partial => 'navbar' %>
@@ -11,7 +8,9 @@
     <div class="container">
       <%= image_tag "vangogh/avatar-big.jpg", alt: "rodrigo quaresma", class: "profile-avatar" %>
       <h3>Rodrigo Quaresma</h3>
-      <p class="text-center"><a href="#" class="btn btn-secundary">Contact</a></p>
+      <p class="text-center">
+        <%= link_to 'Contact', vangogh_contact_path, class: 'btn btn-secundary' %>
+      </p>
     </div>
   </div>
 </div>
@@ -20,5 +19,4 @@
 <%= render :partial => 'footer' %>
 
 <% content_for :footer do %>
-  <%= javascript_include_tag 'vangogh' %>
 <% end %>

@@ -12,6 +12,7 @@ class VangoghController < ApplicationController
   def results
   end
   def show
+    
   end
   def work_detail
   end
