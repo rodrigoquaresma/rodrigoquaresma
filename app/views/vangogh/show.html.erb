@@ -8,16 +8,7 @@
     <%= render :partial => 'masterhead_search' %>
   </div>
   <div class="col-sm-8 col-md-9">
-    <h2><%= works[params_id.to_f][0] %></h2>
-    <h2><%= works[params_id.to_f][1] %></h2>
-    <h2><%= works[params_id.to_f][2] %></h2>
-    <h2><%= works[params_id.to_f][3] %></h2>
-    <hr />
-    <% works[params_id.to_f][4].each do |img_work| %>
-      <div class="work-list-image">
-        <%= image_tag img_work, alt: works[params_id.to_f][1] %>
-      </div>
-    <% end %>
+    <%= render partial: "work_detail" %>
   </div>
 </div>
 
