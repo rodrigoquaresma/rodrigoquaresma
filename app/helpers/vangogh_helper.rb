@@ -15,7 +15,8 @@ module VangoghHelper
         [['interaction design',100],['graphic design',80]],
         [1,3,7],
         'great work! - wall street post',
-        ['//www.rdstation.com.br','product site','rd station']
+        ['//www.rdstation.com.br','product site','rd station'],
+        'Estava trabalhando no marketing e utilizando o design como ponte entre a área de produto e a engenharia no desenvolvimento de aplicações interativas para a TV...'
       ],[
         1,
         'NET NOW Video On Demand',
@@ -25,7 +26,8 @@ module VangoghHelper
         [['interaction design',100],['graphic design',80]],
         [0,2,5],
         'great work! - wall street post',
-        ['//www.netcombo.com.br/now','product site','net now']
+        ['//www.netcombo.com.br/now','product site','net now'],
+        'short description'
       ],[
         2,
         'Facebook GVT App',
@@ -35,7 +37,8 @@ module VangoghHelper
         [['interaction design',100],['graphic design',80]],
         [3,4,5],
         'great work! - wall street post',
-        ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv facebook']
+        ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv facebook'],
+        'short description'
       ],[
         3,
         'Guide TV App',
@@ -45,7 +48,8 @@ module VangoghHelper
         [['interaction design',100],['graphic design',80]],
         [4,5,6],
         'great work! - wall street post',
-        ['//www.rodrigoquaresma.com.br/blenbox','demo/prototype','tv guide for tablet']
+        ['//www.rodrigoquaresma.com.br/blenbox','demo/prototype','tv guide for tablet'],
+        'short description'
       ],[
         4,
         'Instagram GVT App',
@@ -55,7 +59,8 @@ module VangoghHelper
         [['interaction design',100],['graphic design',80]],
         [5,6,7],
         'great work! - wall street post',
-        ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv instagram']
+        ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv instagram'],
+        'short description'
       ],[
         5,
         'OxysTV App',
@@ -65,7 +70,8 @@ module VangoghHelper
         [['interaction design',100],['graphic design',80]],
         [0,2,3],
         'great work! - wall street post',
-        ['//www.rodrigoquaresma.com.br/oxys','demo/prototype','tv guide for tv']
+        ['//www.rodrigoquaresma.com.br/oxys','demo/prototype','tv guide for tv'],
+        'short description'
       ],[
         6,
         'GVT TV Apps Menu',
@@ -75,7 +81,8 @@ module VangoghHelper
         [['interaction design',100],['graphic design',80]],
         [7,0,1],
         'great work! - wall street post',
-        ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv apps menu']
+        ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv apps menu'],
+        'short description'
       ],[
         7,
         'Oxys Interaction Design',
@@ -85,7 +92,8 @@ module VangoghHelper
         [['interaction design',100],['graphic design',80]],
         [0,1,2],
         'great work! - wall street post',
-        ['//www.oxys.co','site','consultancy']
+        ['//www.oxys.co','site','consultancy'],
+        'short description'
       ]
     ]
   end

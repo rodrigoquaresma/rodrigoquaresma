@@ -1,0 +1,17 @@
+<div class="work-highlight">
+  <div class="row row-nogutter">
+    <div class="col-sm-6">
+      <div class="work-highlight-image">
+        <%= link_to vangogh_show_path(works[0][0]) do %>
+          <%= image_tag works[0][4][0], alt: works[0][1] %>
+        <% end %>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="work-highlight-group">
+        <h3><%= link_to 'NOW - video on demand', vangogh_show_path(works[0][0]) %> <small><%= works[0][2] %></small></h3>
+        <p class="text-muted"><%= works[0][9] %> <%= link_to 'see more', vangogh_show_path(works[0][0]), title: works[0][1] %></p>
+      </div>
+    </div>
+  </div>
+</div>

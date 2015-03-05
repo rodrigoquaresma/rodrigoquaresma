@@ -1,19 +1,5 @@
-<!-- work highlight -->
-<div class="highlight-work">
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="list-image"><%= image_tag "now01b.jpg", alt: "interface now - video on demand" %></div>
-    </div>
-    <div class="col-sm-6">
-      <h3><%= link_to 'NOW - video on demand', '' %></h3>
-      <span class="text-muted">for TV</span>
-      <p>
-        The people in Taiwan is so freaking nice and friendly compared to my country, Singapore. When you go to the convenience store, they will greet you and when i order a hot chocolate milk, they told me to be careful as it's hot what a heart warming reminder from the staff. When you lost your way to ce
-      </p>
-      <p><a href="#" class="btn btn-default-b">More...</a></p>
-    </div>
-  </div>
-</div>
+<%= render partial: "work_highlight" %>
+<h2 class="work-list-caption">and more...</h2>
 <div class="row row-gutter-sm work-list">
   <% works.each do |work| %>
     <%= render partial: "work_for_list", locals: { work: work } %>

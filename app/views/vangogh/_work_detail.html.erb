@@ -2,7 +2,7 @@
 <p class="text-muted"><%= works[params_id.to_f][3] %></p>
 <% if works[params_id.to_f][8].present? %>
 <p class="text-muted text-right">
-  Take a look in <%= link_to works[params_id.to_f][8][1], works[params_id.to_f][8][0], alt: works[params_id.to_f][8][2], target: '_blank' %>
+  Take a look in <%= link_to works[params_id.to_f][8][1], works[params_id.to_f][8][0], title: works[params_id.to_f][8][2], target: '_blank' %>
 </p>
 <% end %>
 <div class="image-preview">
