@@ -2,6 +2,13 @@
 @import "components/variables";
 @import "bootstrap/mixins";
 
+@import "elastislide";
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: $brand-primary;
+}
+
 .logo-pre {
   font-weight: 200;
   color: #f2f2f2;
@@ -156,5 +163,52 @@ margin-left: -6px;
   }
   h3 + p {
     margin:0 0 40px;
+  }
+}
+
+
+.image-preview {
+  margin: 0 0 10px 0;
+  border-radius: 0;
+  padding:0;
+  background: transparent;
+  // border:1px solid #ccc;
+  // border-width: 0 1px 1px 0;
+  border:none;
+  img {
+    width:100%;
+    border-radius: 0;
+    border:none;
+    // border-width: 0 1px 1px 0;
+  }
+}
+
+.elastislide-wrapper.elastislide-horizontal {
+  height: 120px;
+  .elastislide-carousel {
+    height: 120px;
+    .elastislide-list {
+      height:120px;
+      li {
+        height:120px;
+        a {
+          height:120px;
+          img {
+            height:120px;
+          }
+        }
+        &.current-img {
+          margin:-3px;
+          border:3px solid #ff0099;
+          // height:114px;
+          a {
+            // height:114px;
+            img {
+              // height:114px;
+            }
+          }
+        }
+      }
+    }
   }
 }

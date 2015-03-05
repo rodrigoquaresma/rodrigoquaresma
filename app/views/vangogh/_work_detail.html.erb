@@ -1,23 +1,59 @@
-<h2><%= works[params_id.to_f][1] %></h2>
-<hr />
-
-<div data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "dots": true, "asNavFor": $(".slider-nav")}'>
-  <% works[params_id.to_f][4].each do |img_work| %>
-    <div>
-      <%= image_tag img_work, alt: works[params_id.to_f][1] %>
-    </div>
-  <% end %>
-</div>
-
-<hr />
-
-
-<h2><%= works[params_id.to_f][0] %></h2>
-<h2><%= works[params_id.to_f][2] %></h2>
-<h2><%= works[params_id.to_f][3] %></h2>
-<hr />
-<% works[params_id.to_f][4].each do |img_work| %>
-  <div class="work-list-image">
-    <%= image_tag img_work, alt: works[params_id.to_f][1] %>
-  </div>
+<h2><%= works[params_id.to_f][1] %> <small><%= works[params_id.to_f][2] %></small></h2>
+<p class="text-muted"><%= works[params_id.to_f][3] %></p>
+<% if works[params_id.to_f][8].present? %>
+<p class="text-muted text-right">
+  Take a look in <%= link_to works[params_id.to_f][8][1], works[params_id.to_f][8][0], alt: works[params_id.to_f][8][2], target: '_blank' %>
+</p>
 <% end %>
+<div class="image-preview">
+  <img id="preview" class: 'img-responsive' />
+</div>
+<ul id="carousel" class="elastislide-list">
+<% works[params_id.to_f][4].each do |img_work| %>
+  <li data-preview="/assets/<%= img_work %>">
+    <a href="javascript:void(0);"><%= image_tag img_work, alt: works[params_id.to_f][1], class: 'img-responsive' %></a>
+  </li>
+<% end %>
+</ul>
+<h3>skills</h3>
+<ul class="list-group">
+  <% works[params_id.to_f][5].each do |skill_work| %>
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-sm-5">
+        <span class="text-muted"><%= skill_work[0] %></span>
+      </div>
+      <div class="col-sm-7">
+        <div class="progress" style="margin-bottom:0;">
+          <div class="progress-bar" role="progressbar" aria-valuenow="<%= skill_work[1] %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= skill_work[1] %>%;">
+            <span class="sr-only"><%= skill_work[1] %>% Complete</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <% end %>
+</ul>
+<hr />
+<h3>others...</h3>
+<ul class="list-unstyled work-list row">
+  <li class="work-list-item col-md-4">
+    <%= link_to vangogh_show_path(works[params_id.to_f][6][0].to_i), class: "work-call" do %>
+      <span class="work-list-title"><%= works[works[params_id.to_f][6][0].to_i][1] %></span>
+      <span class="work-list-image"><%= image_tag works[works[params_id.to_f][6][0].to_i][4][0], alt: works[works[params_id.to_f][6][0].to_i][1] %></span>
+    <% end %>
+  </li>
+  <li class="work-list-item col-md-4">
+    <%= link_to vangogh_show_path(works[params_id.to_f][6][1].to_i), class: "work-call" do %>
+      <span class="work-list-title"><%= works[works[params_id.to_f][6][1].to_i][1] %></span>
+      <span class="work-list-image"><%= image_tag works[works[params_id.to_f][6][1].to_i][4][0], alt: works[works[params_id.to_f][6][1].to_i][1] %></span>
+    <% end %>
+  </li>
+  <li class="work-list-item col-md-4">
+    <%= link_to vangogh_show_path(works[params_id.to_f][6][2].to_i), class: "work-call" do %>
+      <span class="work-list-title"><%= works[works[params_id.to_f][6][2].to_i][1] %></span>
+      <span class="work-list-image"><%= image_tag works[works[params_id.to_f][6][2].to_i][4][0], alt: works[works[params_id.to_f][6][2].to_i][1] %></span>
+    <% end %>
+  </li>
+</ul>
+<hr />
