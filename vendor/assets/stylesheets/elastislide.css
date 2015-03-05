@@ -79,15 +79,21 @@
 
 .elastislide-carousel ul li a img {
 	display: block;
-	/*border: 2px solid white;*/
+	border-width: 2px 1px;
+	border-style: solid;
+	border-color: transparent;
 	max-width: 100%;
+	max-height: 120px;
+}
+.elastislide-carousel ul li.current-img a img {
+	border-color:#feba02;
 }
 
 /* Navigation Arrows */
 
 .elastislide-wrapper nav span {
 	position: absolute;
-	background: #ddd url('nav.png') no-repeat 4px 3px;
+	background: #feba02 url('nav.png') no-repeat 4px 3px;
 	width: 23px;
 	height: 23px;
 	border-radius: 50%;

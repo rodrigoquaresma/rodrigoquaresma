@@ -93,22 +93,21 @@ margin-left: -6px;
       .work-list-title {
         margin:0;
         position:absolute;
-        background: rgba(0,0,0,0.2);
+        background: rgba(0,0,0,0.7);
         top:0;
-        color:#f5f5f5;
+        color: lighten($brand-secundary, 30.0%);
         display:block;
-        padding:10px;
+        padding:10px 15px;
         width:100%;
-        font-weight:200;
+        font-weight:400;
       }
       .work-list-image {
         img {width:100%}
       }
-      .work-list-label {
-
-      }
-      .work-list-link {
-
+      border: 1px solid transparent;
+      &:hover {
+        border-color:#feba02;
+        .work-list-title { color: #feba02; }
       }
     }
   }
@@ -145,7 +144,6 @@ margin-left: -6px;
   ul {margin-bottom:0;}
 }
 
-.typeahead { z-index: 1051;}
 
 .jumbotron.profile {
   .mask {
@@ -172,43 +170,57 @@ margin-left: -6px;
   border-radius: 0;
   padding:0;
   background: transparent;
-  // border:1px solid #ccc;
-  // border-width: 0 1px 1px 0;
   border:none;
   img {
     width:100%;
     border-radius: 0;
     border:none;
-    // border-width: 0 1px 1px 0;
   }
 }
 
-.elastislide-wrapper.elastislide-horizontal {
-  height: 120px;
-  .elastislide-carousel {
-    height: 120px;
-    .elastislide-list {
-      height:120px;
-      li {
-        height:120px;
-        a {
-          height:120px;
-          img {
-            height:120px;
-          }
-        }
-        &.current-img {
-          margin:-3px;
-          border:3px solid #ff0099;
-          // height:114px;
-          a {
-            // height:114px;
-            img {
-              // height:114px;
-            }
-          }
-        }
-      }
+// .elastislide-wrapper.elastislide-horizontal {
+//   height: 120px;
+//   .elastislide-carousel {
+//     height: 120px;
+//     .elastislide-list {
+//       height:120px;
+//       li {
+//         height:120px;
+//         a {
+//           height:120px;
+//           img {
+//             height:120px;
+//           }
+//         }
+//         &.current-img {
+//           a {
+//             img {
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+//skills
+.hp-section {
+  background-color: #f2f5f9;
+  padding: 0 10px;
+  margin: 0 0 20px 0;
+  border-top: 1px solid #d9e1ec;
+  border-bottom: 1px solid #d9e1ec;
+  font-weight: normal;
+  overflow: hidden;
+  > li {
+    padding: 10px 0 !important;
+    border: 1px solid #d9e1ec !important;
+    border-width: 0 0 1px 0 !important;
+    background: none !important;
+    border-radius:0 !important;
+    &:last-child {border-bottom:0 !important;}
+    span {
+      color: #779bca !important;
     }
   }
 }
