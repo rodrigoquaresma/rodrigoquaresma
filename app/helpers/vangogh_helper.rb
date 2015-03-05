@@ -98,6 +98,40 @@ module VangoghHelper
     ]
   end
 
+  def companies
+    [
+      [
+        0,
+        'Resultados Digitais',
+        '2013 - now',
+        'my goals',
+        'Resultados Digitais provides digital marketing services. The company develops Station RD, a software for management and automation of online marketing.',
+        ['//www.resultadosdigitais.com.br','site','Resultados Digitais']
+      ],[
+        1,
+        'GVT - Global Village Telecom (Vivendi SA)',
+        '2011 - 2013',
+        'my goals',
+        'Global Village Telecom is a Brazilian telecommunications company that offers services on landline telephone, broadband for both consumer and business, Pay TV and voice over IP.',
+        ['//www.gvt.com.br','site','GVT - Global Village Telecom']
+      ],[
+        2,
+        'NET Serviços de Telecomunicações SA',
+        '2009 - 2011',
+        'my goals',
+        'NET Serviços is Latin America’s largest multi-service cable company. Offering pay TV, broadband internet access and voice services through a single cable.',
+        ['//www.netcombo.com.br','site','NET Serviços de Telecomunicações']
+      ],[
+        3,
+        'Grupo RBS',
+        '2002 - 2009',
+        'my goals',
+        'Grupo RBS is one of the largest multimedia business groups in Brazil and the largest Rede Globo affiliate, producing content and entertainment on television, radio, newspaper and digital platforms.',
+        ['//www.gruporbs.com.br/en/areas-de-atuacao/','site','Grupo RBS']
+      ]
+    ]
+  end
+
   def params_id
     return params[:id]
   end

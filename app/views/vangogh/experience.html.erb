@@ -1,15 +1,12 @@
-<% content_for :head do %>
-<% end %>
-<%= render :partial => 'navbar' %>
 <%= render :partial => 'header_profile' %>
 <hr class="spacer-md invisible" />
 <div class="container">
-  <h3 class="text-center">NET</h3>
-  <p class="lead text-center">
-    NET Serviços is Latin America’s largest multi-service cable company. Offering pay TV, broadband internet access and voice services through a single cable.
-  </p>
+  <% companies.each do |company| %>
+    <div class="list-experiences">
+      <h3 class="text-center"><%= company[1] %> <small>| <%= company[2] %></small></h3>
+      <p class="lead text-center"><%= company[3] %>
+      <p class="text-center"><span class="text-muted">About the company:</span> <%= company[4] %> <span><%= link_to company[5][1], company[5][0], title: company[5][0], target: '_blank' %></span></p>
+    </div>
+    <hr />
+  <% end %>
 </div>
-<hr />
-<%= render :partial => 'footer' %>
-<% content_for :footer do %>
-<% end %>

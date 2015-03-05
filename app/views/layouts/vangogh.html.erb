@@ -5,8 +5,10 @@
 <%= yield :head %>
 </head>
 <body data-no-turbolink>
+<%= render :partial => 'vangogh/navbar' %>
 <%= yield :content %>
 <%= yield %>
+<%= render :partial => 'vangogh/footer' %>
 <%= render :partial => 'layouts/vangogh/footer' %>
 <%= yield :footer %>
 </body>
