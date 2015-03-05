@@ -14,9 +14,8 @@
     </div>
   </div>
 </div>
-
-<ul class="list-unstyled work-list row">
+<div class="row row-gutter-sm work-list">
   <% works.each do |work| %>
     <%= render partial: "work_for_list", locals: { work: work } %>
   <% end %>
-</ul>
+</div>

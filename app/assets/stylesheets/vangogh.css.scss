@@ -8,6 +8,45 @@
 h1, h2, h3, h4, h5, h6 {
   color: $brand-primary;
 }
+.spacer-md {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.spacer-sm {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.spacer-xs {
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+.row-nogutter,
+.form-horizontal .form-group.row-nogutter {
+  margin-right: 0;
+  margin-left: 0;
+  > [class^='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.row-gutter-xs,
+.form-horizontal .form-group.row-gutter-xs {
+  margin-right: -5px;
+  margin-left: -5px;
+  > [class^='col-'] {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+.row-gutter-sm,
+.form-horizontal .form-group.row-gutter-sm {
+  margin-right: -10px;
+  margin-left: -10px;
+  > [class^='col-'] {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
 
 .logo-pre {
   font-weight: 200;
@@ -87,9 +126,11 @@ margin-left: -6px;
 
 .work-list {
   .work-list-item {
+    margin-bottom: 20px;
     .work-call {
       display: block;
       position: relative;
+      border: 1px solid transparent;
       .work-list-title {
         margin:0;
         position:absolute;
@@ -104,7 +145,6 @@ margin-left: -6px;
       .work-list-image {
         img {width:100%}
       }
-      border: 1px solid transparent;
       &:hover {
         border-color:#feba02;
         .work-list-title { color: #feba02; }
@@ -178,31 +218,6 @@ margin-left: -6px;
   }
 }
 
-// .elastislide-wrapper.elastislide-horizontal {
-//   height: 120px;
-//   .elastislide-carousel {
-//     height: 120px;
-//     .elastislide-list {
-//       height:120px;
-//       li {
-//         height:120px;
-//         a {
-//           height:120px;
-//           img {
-//             height:120px;
-//           }
-//         }
-//         &.current-img {
-//           a {
-//             img {
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
 //skills
 .hp-section {
   background-color: #f2f5f9;
@@ -223,4 +238,10 @@ margin-left: -6px;
       color: #779bca !important;
     }
   }
+}
+
+// lista de redes de contato
+dl.list-group-contact {
+  dt { }
+  dd { margin-bottom:5px; }
 }
