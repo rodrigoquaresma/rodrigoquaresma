@@ -6,15 +6,17 @@
 </p>
 <% end %>
 <div class="image-preview">
-  <img id="preview" class: 'img-responsive' />
+  <%= image_tag works[params_id.to_f][4][0], alt: works[params_id.to_i][1], class: 'img-responsive', id: 'preview' %>
 </div>
-<ul id="carousel" class="elastislide-list">
-<% works[params_id.to_f][4].each do |img_work| %>
-  <li data-preview="/assets/<%= img_work %>">
-    <a href="javascript:void(0);"><%= image_tag img_work, alt: works[params_id.to_f][1], class: 'img-responsive' %></a>
-  </li>
+<% if works[params_id.to_f][4][1].present? %>
+  <ul id="carousel" class="elastislide-list">
+    <% works[params_id.to_f][4].each do |img_work| %>
+      <li data-preview="/assets/<%= img_work %>">
+        <a href="javascript:void(0);"><%= image_tag img_work, alt: works[params_id.to_i][1], class: 'img-responsive' %></a>
+      </li>
+    <% end %>
+  </ul>
 <% end %>
-</ul>
 <h3>skills</h3>
 <ul class="list-group hp-section">
   <% works[params_id.to_f][5].each do |skill_work| %>

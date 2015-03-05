@@ -88,7 +88,7 @@ module VangoghHelper
         'Oxys Interaction Design',
         'for web',
         'OxysTV is a complete set of navigational services, including VoD and PPV services, PVR, content promotion and miniguide for linear TV.',
-        ['menu-de-apps-a.jpg','menu-de-apps-b.jpg'],
+        ['menu-de-apps-a.jpg'],
         [['interaction design',100],['graphic design',80]],
         [0,1,2],
         'great work! - wall street post',
