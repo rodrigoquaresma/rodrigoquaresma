@@ -1,5 +1,18 @@
-<h2><%= works[params_id.to_f][0] %></h2>
 <h2><%= works[params_id.to_f][1] %></h2>
+<hr />
+
+<div data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "dots": true, "asNavFor": $(".slider-nav")}'>
+  <% works[params_id.to_f][4].each do |img_work| %>
+    <div>
+      <%= image_tag img_work, alt: works[params_id.to_f][1] %>
+    </div>
+  <% end %>
+</div>
+
+<hr />
+
+
+<h2><%= works[params_id.to_f][0] %></h2>
 <h2><%= works[params_id.to_f][2] %></h2>
 <h2><%= works[params_id.to_f][3] %></h2>
 <hr />
