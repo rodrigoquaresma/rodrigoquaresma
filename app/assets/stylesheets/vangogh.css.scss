@@ -85,8 +85,12 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(top,#ffca56 0,#ffbb39 100%);
   border: 1px solid #daa300;
   padding: 0 20px 20px;
-  margin: 40px 0;
+  margin: 30px 0;
   color:#003580;
+}
+
+.head-title {
+  margin-top:24px;
 }
 
 .main-results-filter {
@@ -95,7 +99,6 @@ h1, h2, h3, h4, h5, h6 {
 .main-results-list {
   background:#eef1f8;
 }
-
 
 
 .dsf_fb_title {
@@ -191,7 +194,7 @@ margin-left: -6px;
     background: rgba(0,0,0,0.30);
   }
   .profile-avatar {
-    margin:40px auto 20px;
+    margin:30px auto 20px;
   }
   h3 {
     color: #fff;
