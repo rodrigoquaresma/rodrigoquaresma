@@ -1,12 +1,20 @@
 <%= render :partial => 'header_profile' %>
 <hr class="spacer-md invisible" />
 <div class="container">
-  <% companies.each do |company| %>
-    <div class="list-experiences">
-      <h3 class="text-center"><%= company[1] %> <small>| <%= company[2] %></small></h3>
-      <p class="lead text-center"><%= company[3] %>
-      <p class="text-center"><span class="text-muted">About the company:</span> <%= company[4] %> <span><%= link_to company[5][1], company[5][0], title: company[5][0], target: '_blank' %></span></p>
+  <h2>My experience</h2>
+  <div class="row">
+    <div class="col-sm-8 col-md-9">
+      <% companies.each do |company| %>
+        <div class="list-experiences">
+          <h3><%= company[1] %> <small>| <%= company[2] %></small></h3>
+          <p class="lead"><%= company[3] %>
+          <p><span class="text-muted">About the company:</span> <%= company[4] %> <span><%= link_to company[5][1], company[5][0], title: company[5][0], target: '_blank' %></span></p>
+        </div>
+        <hr />
+      <% end %>
     </div>
-    <hr />
-  <% end %>
+    <div class="col-sm-4 col-md-3 hidden-xs">
+      <%= render :partial => 'web_presence' %>
+    </div>
+  </div>
 </div>

@@ -104,14 +104,14 @@ module VangoghHelper
         0,
         'Resultados Digitais',
         '2013 - now',
-        'my goals',
+        'As a first designer in a startup, my challenges was a very new for me, but the opportunity of develop a web based product starting from beginning is amazing and learned a lot with this experience. When I arrived at company, it were with 10 employees. Now, it has more than 100 and continuous growing up very fast. And I am part of this success.',
         'Resultados Digitais provides digital marketing services. The company develops Station RD, a software for management and automation of online marketing.',
         ['//www.resultadosdigitais.com.br','site','Resultados Digitais']
       ],[
         1,
         'GVT - Global Village Telecom (Vivendi SA)',
         '2011 - 2013',
-        'my goals',
+        'Spite of being a large company, when I was at GVT, we started a new business inside the company, like a startup. With a various guys coming from others companies, we build the new Pay TV business. I was responsible to do new apps for this new TV. As a designer and as a product manager.',
         'Global Village Telecom is a Brazilian telecommunications company that offers services on landline telephone, broadband for both consumer and business, Pay TV and voice over IP.',
         ['//www.gvt.com.br','site','GVT - Global Village Telecom']
       ],[
