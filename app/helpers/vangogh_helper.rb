@@ -104,7 +104,7 @@ module VangoghHelper
         0,
         'Resultados Digitais',
         '2013 - now',
-        'As a first designer in a startup, my challenges was a very new for me, but the opportunity of develop a web based product starting from beginning is amazing and learned a lot with this experience. When I arrived at company, it were with 10 employees. Now, it has more than 100 and continuous growing up very fast. And I am part of this success.',
+        'As a first designer in a startup, my challenges was a very new for me, but the opportunity of develop a web based product starting from beginning is amazing and I learned a lot with this experience. When I arrived at company, it were with 10 employees. Now, it has more than 100 and continuous growing up very fast. And I am part of this success.',
         'Resultados Digitais provides digital marketing services. The company develops Station RD, a software for management and automation of online marketing.',
         ['//www.resultadosdigitais.com.br','site','Resultados Digitais']
       ],[
@@ -118,14 +118,14 @@ module VangoghHelper
         2,
         'NET Serviços de Telecomunicações SA',
         '2009 - 2011',
-        'my goals',
+        'Was my first time working as designer inside a marketing department in a very large company. At NET, I learned a lot of marketing stuff and this was awesome, because was the opportunity to do incredible things by making a bridge between the marketing and engineering.',
         'NET Serviços is Latin America’s largest multi-service cable company. Offering pay TV, broadband internet access and voice services through a single cable.',
         ['//www.netcombo.com.br','site','NET Serviços de Telecomunicações']
       ],[
         3,
         'Grupo RBS',
         '2002 - 2009',
-        'my goals',
+        'In RBS I can say: here is the place that I graduated me as a designer. With a lot of multimedia products like a channel TV, couple of newspapers and some radios, I have had a great opportunity to apply new methodologies and test their success with a millions of users.',
         'Grupo RBS is one of the largest multimedia business groups in Brazil and the largest Rede Globo affiliate, producing content and entertainment on television, radio, newspaper and digital platforms.',
         ['//www.gruporbs.com.br/en/areas-de-atuacao/','site','Grupo RBS']
       ]
