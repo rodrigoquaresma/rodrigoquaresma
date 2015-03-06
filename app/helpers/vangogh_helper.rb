@@ -10,53 +10,53 @@ module VangoghHelper
         0,
         'RD Station',
         'for web',
-        'Estava trabalhando no marketing e utilizando o design como ponte entre a área de produto e a engenharia no desenvolvimento de aplicações interativas para a TV, quando foi dado o pontapé inicial do projeto de serviço de vídeo sob demanda (VOD - video on demand) na NET, maior empresa de serviços de telecomunicações e entretenimento via cabo da América Latina. A minha sorte foi quando percebemos que as soluções de interface disponíveis no mercado não atendiam exatamente a expectativa que tínhamos. Era a deixa que eu precisava para demonstrar o potencial de trabalhar com foco no usuário e não mais na tecnologia.',
+        'RD Station is all-in-one Marketing plataform who help businesses to generate more traffic, leads and sales.',
         ['now01b.jpg','now01a.jpg','now02.jpg','now02a.jpg','now03.jpg','now04.jpg','now04a.jpg','now05.jpg','now06.jpg'],
-        [['interaction design',100],['graphic design',80]],
+        [['UX design',90],['UI design',80],['interaction design',80],['product design',55],['graphic design',30],['jquery/javascript',20],['ruby/rails',10]],
         [1,3,7],
-        'great work! - wall street post',
+        '',
         ['//www.rdstation.com.br','product site','rd station'],
-        'Estava trabalhando no marketing e utilizando o design como ponte entre a área de produto e a engenharia no desenvolvimento de aplicações interativas para a TV...'
+        'RD Station is all-in-one Marketing plataform who help businesses to generate more traffic, leads and sales.'
       ],[
         1,
         'NET NOW Video On Demand',
         'for TV',
-        'Estava trabalhando no marketing e utilizando o design como ponte entre a área de produto e a engenharia no desenvolvimento de aplicações interativas para a TV, quando foi dado o pontapé inicial do projeto de serviço de vídeo sob demanda (VOD - video on demand) na NET, maior empresa de serviços de telecomunicações e entretenimento via cabo da América Latina. A minha sorte foi quando percebemos que as soluções de interface disponíveis no mercado não atendiam exatamente a expectativa que tínhamos. Era a deixa que eu precisava para demonstrar o potencial de trabalhar com foco no usuário e não mais na tecnologia.',
+        'With a thousands of hours of video content and millions of customers, develop all interaction design of a video on demand product in this scenario was really amazing.',
         ['now01b.jpg','now01a.jpg','now02.jpg','now02a.jpg','now03.jpg','now04.jpg','now04a.jpg','now05.jpg','now06.jpg'],
-        [['interaction design',100],['graphic design',80]],
+        [['interaction design',100],['UI design',100],['graphic design',80],['product design',40]],
         [0,2,5],
-        'great work! - wall street post',
+        '',
         ['//www.netcombo.com.br/now','product site','net now'],
-        'short description'
+        ''
       ],[
         2,
         'Facebook GVT App',
         'for TV',
-        'Aplicativo para acesso do facebook pela TV.',
+        'App for Facebook access using the remote control for navigation and the TV as display.',
         ['facebook-feed.jpg','facebook-albuns.jpg','facebook-foto-full.jpg'],
-        [['interaction design',100],['graphic design',80]],
+        [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
         [3,4,5],
-        'great work! - wall street post',
+        '',
         ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv facebook'],
-        'short description'
+        ''
       ],[
         3,
         'Guide TV App',
         'for tablet',
-        'Guia de TV para tablet.',
+        'App for tablet with entire programming tv guide and features like record, remember and share in social medias. My icons too',
         ['guia-de-tv-tablet-a.jpg','guia-de-tv-tablet-b.jpg'],
-        [['interaction design',100],['graphic design',80]],
+        [['interaction design',100],['graphic design',80],['product design',30]],
         [4,5,6],
-        'great work! - wall street post',
+        '',
         ['//www.rodrigoquaresma.com.br/blenbox','demo/prototype','tv guide for tablet'],
-        'short description'
+        ''
       ],[
         4,
-        'Instagram GVT App',
+        'InstaGVT',
         'for TV',
-        'Aplicativo para acesso do instagram pela TV.',
+        'App for Instagram access using the remote control for navigation and the TV as display.',
         ['instagvt-a.jpg','instagvt-b.jpg','instagvt-c.jpg'],
-        [['interaction design',100],['graphic design',80]],
+        [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
         [5,6,7],
         'great work! - wall street post',
         ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv instagram'],
@@ -65,35 +65,35 @@ module VangoghHelper
         5,
         'OxysTV App',
         'for TV',
-        'OxysTV is a complete set of navigational services, including VoD and PPV services, PVR, content promotion and miniguide for linear TV.',
+        '[personal project] OxysTV is a complete set of navigational services, including VoD and PPV services, PVR, content promotion and miniguide for linear TV.',
         ['menu-de-apps-a.jpg','menu-de-apps-b.jpg'],
-        [['interaction design',100],['graphic design',80]],
+        [['interaction design',100],['graphic design',70],['product design',40]],
         [0,2,3],
         'great work! - wall street post',
         ['//www.rodrigoquaresma.com.br/oxys','demo/prototype','tv guide for tv'],
         'short description'
       ],[
         6,
-        'GVT TV Apps Menu',
+        'GVT Apps Menu',
         'for TV',
-        'Menu de aplicativos para set top box.',
+        'Home for apps for TV of GVT.',
         ['menu-de-apps-a.jpg','menu-de-apps-b.jpg'],
-        [['interaction design',100],['graphic design',80]],
+        [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
         [7,0,1],
-        'great work! - wall street post',
+        '',
         ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv apps menu'],
-        'short description'
+        ''
       ],[
         7,
         'Oxys Interaction Design',
         'for web',
-        'OxysTV is a complete set of navigational services, including VoD and PPV services, PVR, content promotion and miniguide for linear TV.',
+        'Branding for Oxys, a company of interaction design consultancy (my company, by the way).',
         ['menu-de-apps-a.jpg'],
-        [['interaction design',100],['graphic design',80]],
+        [['branding',100],['graphic design',80]],
         [0,1,2],
-        'great work! - wall street post',
+        '',
         ['//www.oxys.co','site','consultancy'],
-        'short description'
+        ''
       ]
     ]
   end
