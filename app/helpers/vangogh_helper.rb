@@ -13,7 +13,7 @@ module VangoghHelper
         'RD Station is all-in-one Marketing plataform who help businesses to generate more traffic, leads and sales.',
         ['vangogh/rdstation-0.jpg','vangogh/rdstation-1.jpg','vangogh/rdstation-2.jpg','vangogh/rdstation-3.jpg','vangogh/rdstation-4.jpg','vangogh/rdstation-5.jpg','vangogh/rdstation-6.jpg','vangogh/rdstation-7.jpg','vangogh/rdstation-8.jpg'],
         [['UX design',90],['UI design',80],['interaction design',80],['product design',55],['graphic design',30],['jquery/javascript',20],['ruby/rails',10]],
-        [1,3,7],
+        [1,3,5],
         '',
         ['//www.rdstation.com.br','product site','rd station'],
         'RD Station is all-in-one Marketing plataform who help businesses to generate more traffic, leads and sales.'
@@ -35,7 +35,7 @@ module VangoghHelper
         'App for Facebook access using the remote control for navigation and the TV as display.',
         ['vangogh/gvt-facebook-0.jpg','vangogh/gvt-facebook-1.jpg','vangogh/gvt-facebook-2.jpg','vangogh/gvt-facebook-3.jpg'],
         [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
-        [3,4,5],
+        [3,4,1],
         '',
         ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv facebook'],
         ''
@@ -46,7 +46,7 @@ module VangoghHelper
         'App for tablet with entire programming tv guide and features like record, remember and share in social medias. My icons too',
         ['vangogh/gvt-epg-tablet-0.jpg','vangogh/gvt-epg-tablet-1.jpg','vangogh/gvt-epg-tablet-2.jpg','vangogh/gvt-epg-tablet-3.jpg','vangogh/gvt-epg-tablet-4.jpg','vangogh/gvt-epg-tablet-5.jpg'],
         [['interaction design',100],['graphic design',80],['product design',30]],
-        [4,5,6],
+        [4,5,1],
         '',
         ['//www.rodrigoquaresma.com.br/blenbox','demo/prototype','tv guide for tablet'],
         ''
@@ -57,7 +57,7 @@ module VangoghHelper
         'App for Instagram access using the remote control for navigation and the TV as display.',
         ['vangogh/gvt-instagvt-0.jpg','vangogh/gvt-instagvt-1.jpg','vangogh/gvt-instagvt-2.jpg','vangogh/gvt-instagvt-3.jpg','vangogh/gvt-instagvt-4.jpg','vangogh/gvt-instagvt-5.jpg'],
         [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
-        [5,6,7],
+        [0,1,2],
         '',
         ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv instagram'],
         ''
@@ -69,42 +69,42 @@ module VangoghHelper
         ['vangogh/oxystv-0.jpg','vangogh/oxystv-1.jpg','vangogh/oxystv-2.jpg','vangogh/oxystv-3.jpg'],
         [['interaction design',100],['graphic design',70],['product design',40]],
         [0,2,3],
-        'great work! - wall street post',
+        '',
         ['//www.rodrigoquaresma.com.br/oxys','demo/prototype','tv guide for tv'],
         ''
       ],[
         6,
-        'GVT Apps Menu',
-        'for TV',
-        'Home for apps for TV of GVT.',
-        ['vangogh/gvt-menu-apps-0.jpg','vangogh/gvt-menu-apps-1.jpg','vangogh/gvt-menu-apps-2.jpg'],
-        [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
-        [7,0,1],
-        '',
-        ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv apps menu'],
-        ''
-      ],[
-        7,
-        'Oxys Interaction Design',
-        'for web',
-        'Branding for Oxys, a company of interaction design consultancy (my company, by the way).',
-        ['vangogh/oxys-0.jpg'],
-        [['branding',100],['graphic design',80]],
-        [0,1,2],
-        '',
-        ['//www.oxys.co','site','consultancy'],
-        ''
-      ],[
-        8,
         'London 2012 app',
         'for TV',
         'All infos of Olympic Games in this app for TV.',
         ['vangogh/gvt-londres-2012-0.jpg','vangogh/gvt-londres-2012-1.jpg','vangogh/gvt-londres-2012-2.jpg','vangogh/gvt-londres-2012-3.jpg','vangogh/gvt-londres-2012-4.jpg','vangogh/gvt-londres-2012-5.jpg'],
         [['interaction design',100],['graphic design',76],['product design',40]],
-        [1,0,7],
+        [1,0,3],
         '',
         '',
         ''
+      # ],[
+      #   6,
+      #   'GVT Apps Menu',
+      #   'for TV',
+      #   'Home for apps for TV of GVT.',
+      #   ['vangogh/gvt-menu-apps-0.jpg','vangogh/gvt-menu-apps-1.jpg','vangogh/gvt-menu-apps-2.jpg'],
+      #   [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
+      #   [7,0,1],
+      #   '',
+      #   ['//www.gvt.com.br/PortalGVT/Residencial/TV-por-Assinatura#RedesSociais','product site','gvt tv apps menu'],
+      #   ''
+      # ],[
+      #   7,
+      #   'Oxys Interaction Design',
+      #   'for web',
+      #   'Branding for Oxys, a company of interaction design consultancy (my company, by the way).',
+      #   ['vangogh/oxys-0.jpg'],
+      #   [['branding',100],['graphic design',80]],
+      #   [0,1,2],
+      #   '',
+      #   ['//www.oxys.co','site','consultancy'],
+      #   ''
       ]
     ]
   end
