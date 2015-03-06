@@ -163,14 +163,14 @@ margin-left: -6px;
   margin: 20px 0;
   img {width:100%}
   .work-highlight-group {
-    padding-left: 20px;
-    padding-right: 0;
+    padding: 20px 0 10px;
     h3 {
       margin-top:0;
       small {display:block;}
     }
   }
 }
+
 .main-results-list {
   .work-list-caption { display: none; }
   .work-highlight-group {
@@ -269,4 +269,15 @@ margin-left: -6px;
 dl.list-group-contact {
   dt { }
   dd { margin-bottom:5px; }
+}
+
+// media querys
+@media (min-width: $screen-sm-min) {
+  .work-highlight .work-highlight-group {
+    padding: 0 0 10px 20px;
+  }
+}
+@media (min-width: $screen-md-min) {
+}
+@media (min-width: $screen-lg-min) {
 }
