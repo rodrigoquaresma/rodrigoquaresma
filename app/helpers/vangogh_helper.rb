@@ -10,18 +10,18 @@ module VangoghHelper
         0,
         'RD Station',
         'for web',
-        'RD Station is all-in-one Marketing plataform who help businesses to generate more traffic, leads and sales.',
+        'RD Station is all-in-one Marketing plataform which help businesses to generate more traffic, leads and sales.',
         ['vangogh/rdstation-0.jpg','vangogh/rdstation-1.jpg','vangogh/rdstation-2.jpg','vangogh/rdstation-3.jpg','vangogh/rdstation-4.jpg','vangogh/rdstation-5.jpg','vangogh/rdstation-6.jpg','vangogh/rdstation-7.jpg','vangogh/rdstation-8.jpg'],
         [['UX design',90],['UI design',80],['interaction design',80],['product design',55],['graphic design',30],['jquery/javascript',20],['ruby/rails',10]],
         [1,3,5],
         '',
         ['//www.rdstation.com.br','product site','rd station'],
-        'RD Station is all-in-one Marketing plataform who help businesses to generate more traffic, leads and sales.'
+        'RD Station is all-in-one Marketing plataform which help businesses to generate more traffic, leads and sales.'
       ],[
         1,
         'NET NOW Video On Demand',
         'for TV',
-        'With a thousands of hours of video content and millions of customers, develop all interaction design of a video on demand product in this scenario was really amazing.',
+        'NET NOW is a on demand video platform where millions of customers can access thousands of videos on their Television devices. Designing the end-to-end user interaction for this on demand video platform was really amazing.',
         ['vangogh/netnow-0.jpg','vangogh/netnow-1.jpg','vangogh/netnow-2.jpg','vangogh/netnow-3.jpg','vangogh/netnow-4.jpg','vangogh/netnow-5.jpg','vangogh/netnow-6.jpg','vangogh/netnow-7.jpg','vangogh/netnow-8.jpg','vangogh/netnow-9.jpg','vangogh/netnow-10.jpg','vangogh/netnow-11.jpg','vangogh/netnow-12.jpg','vangogh/netnow-13.jpg'],
         [['interaction design',100],['UI design',100],['graphic design',80],['product design',40]],
         [0,2,5],
@@ -32,7 +32,7 @@ module VangoghHelper
         2,
         'Facebook GVT App',
         'for TV',
-        'App for Facebook access using the remote control for navigation and the TV as display.',
+        'App to allow Facebook access over TV display using the remote control for navigation.',
         ['vangogh/gvt-facebook-0.jpg','vangogh/gvt-facebook-1.jpg','vangogh/gvt-facebook-2.jpg','vangogh/gvt-facebook-3.jpg'],
         [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
         [3,4,1],
@@ -43,7 +43,7 @@ module VangoghHelper
         3,
         'Guide TV App',
         'for tablet',
-        'App for tablet with entire programming tv guide and features like record, remember and share in social medias. My icons too',
+        'App for tablet bringing entire TV Programs guide and features such as record content, and share in socials or be reminded about favorite TV shows.',
         ['vangogh/gvt-epg-tablet-0.jpg','vangogh/gvt-epg-tablet-1.jpg','vangogh/gvt-epg-tablet-2.jpg','vangogh/gvt-epg-tablet-3.jpg','vangogh/gvt-epg-tablet-4.jpg','vangogh/gvt-epg-tablet-5.jpg'],
         [['interaction design',100],['graphic design',80],['product design',30]],
         [4,5,1],
@@ -54,7 +54,7 @@ module VangoghHelper
         4,
         'InstaGVT',
         'for TV',
-        'App for Instagram access using the remote control for navigation and the TV as display.',
+        'App to allow Instagram access over TV display using the remote control for navigation.',
         ['vangogh/gvt-instagvt-0.jpg','vangogh/gvt-instagvt-1.jpg','vangogh/gvt-instagvt-2.jpg','vangogh/gvt-instagvt-3.jpg','vangogh/gvt-instagvt-4.jpg','vangogh/gvt-instagvt-5.jpg'],
         [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
         [0,1,2],
@@ -115,28 +115,28 @@ module VangoghHelper
         0,
         'Resultados Digitais',
         '2013 - now',
-        'As a first designer in a startup, my challenges was a very new for me, but the opportunity of develop a web based product starting from beginning is amazing and I learned a lot with this experience. When I arrived at company, it were with 10 employees. Now, it has more than 100 and continuous growing up very fast. And I am part of this success.',
+        'Being the first designer in a startup company was very challenging to me, also a huge opportunity. being able to develop a web based product since its early stages was an amazing learning experience. When I first arrived at company, we were around 10 employees. Nowadays, we grew to more than 100 employees and we are continuously growing in a very fast pace. I feel part of this case of success.',
         'Resultados Digitais provides digital marketing services. The company develops Station RD, a software for management and automation of online marketing.',
         ['//www.resultadosdigitais.com.br','site','Resultados Digitais']
       ],[
         1,
         'GVT - Global Village Telecom (Vivendi SA)',
         '2011 - 2013',
-        'Spite of being a large company, when I was at GVT, we started a new business inside the company, like a startup. With a various guys coming from others companies, we build the new Pay TV business. I was responsible to do new apps for this new TV. As a designer and as a product manager.',
+        'Despite of being a large company, when I started at GVT I felt inside an startup. We started a business unit inside GVT, promoting an environment to attract talented people from other companies to join our project. The scope was to build a new paid TV business. I was responsible to do new apps for this new product, working as designer as well as product manager.',
         'Global Village Telecom is a Brazilian telecommunications company that offers services on landline telephone, broadband for both consumer and business, Pay TV and voice over IP.',
         ['//www.gvt.com.br','site','GVT - Global Village Telecom']
       ],[
         2,
         'NET Serviços de Telecomunicações SA',
         '2009 - 2011',
-        'Was my first time working as designer inside a marketing department in a very large company. At NET, I learned a lot of marketing stuff and this was awesome, because was the opportunity to do incredible things by making a bridge between the marketing and engineering.',
+        'My first time working as designer inside a marketing department of a very large company. At NET, I learned a lot about marketing concepts and was an awesome opportunity to do incredible things. Among them I highlight the work making the connection between the marketing and engineering fields.',
         'NET Serviços is Latin America’s largest multi-service cable company. Offering pay TV, broadband internet access and voice services through a single cable.',
         ['//www.netcombo.com.br','site','NET Serviços de Telecomunicações']
       ],[
         3,
         'Grupo RBS',
         '2002 - 2009',
-        'In RBS I can say: here is the place that I graduated me as a designer. With a lot of multimedia products like a channel TV, couple of newspapers and some radios, I have had a great opportunity to apply new methodologies and test their success with a millions of users.',
+        'I can say that RBS is the place I learned everything I needed to become a designer. The company owns a large portfolion of multimedia products ranging from TV channels, to newspapers, printed publications and radios stations. I was a great opportunity to apply new design methodologies and test its success and impact over and audience of millions of users.',
         'Grupo RBS is one of the largest multimedia business groups in Brazil and the largest Rede Globo affiliate, producing content and entertainment on television, radio, newspaper and digital platforms.',
         ['//www.gruporbs.com.br/en/areas-de-atuacao/','site','Grupo RBS']
       ]
