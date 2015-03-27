@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'booking_b/index'
+
+  get 'booking_a/index'
+
 root 'site#index'
 
 get 'blenbox' => 'blenbox#index'
