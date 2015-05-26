@@ -1,0 +1,46 @@
+
+// standarts
+
+$link-color:             #0f8499;
+$gray-base:              #333029;
+
+
+$brand-primary:         #2e4145;
+$brand-secundary:       #cfb165;
+
+$body-bg: #e5e3dc;
+$text-color: $gray-base;
+
+$btn-default-color:              $link-color;
+
+
+// Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-color:                      lighten($brand-primary, 15%);
+$navbar-inverse-bg:                         $brand-primary;
+$navbar-inverse-border:                     $brand-primary;
+
+// Inverted navbar links
+$navbar-inverse-link-color:                 lighten($brand-primary, 50%);
+
+$nav-tabs-active-link-hover-bg:             white;
+
+$panel-bg:                    #d7d4cc;
+$panel-footer-bg:             transparent;
+$panel-body-padding:          10px;
+$panel-heading-padding:       10px;
+$panel-border-radius:         6px;
+
+$panel-default-text:          #5f6162;
+$panel-default-border:        transparent;
+$panel-default-heading-bg:    transparent;
+
+
+// extra
+// $panel-body-border-radius:    8px;
+
+$btn-secundary-color:            #fff;
+$btn-secundary-bg:               $brand-secundary;
+$btn-secundary-border:           darken($btn-secundary-bg, 5%);
+
+@import 'bootstrap/variables';

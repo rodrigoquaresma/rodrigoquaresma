@@ -1,5 +1,8 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap-custom';
+
 // Core variables and mixins
-@import "components/variables";
+@import "components/variables-custom";
 @import "bootstrap/mixins";
 
 @import "elastislide";
