@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%= render :partial => 'layouts/portfolio/header' %>
+<%= yield :head %>
+</head>
+<body data-no-turbolink>
+<%= render :partial => 'portfolio/navbar' %>
+<%= yield :content %>
+<%= yield %>
+<%= render :partial => 'portfolio/footer' %>
+<%= render :partial => 'layouts/portfolio/footer' %>
+<%= yield :footer %>
+</body>
+</html>
