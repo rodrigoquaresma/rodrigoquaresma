@@ -10,6 +10,11 @@
 h1, h2, h3, h4, h5, h6 {
   color: $brand-primary;
 }
+h1 { font-weight: 100; text-transform: uppercase; letter-spacing: .16em; }
+h2 { font-weight: 200; }
+h3 { font-weight: 300; }
+h4 { font-weight: 400; }
+
 .spacer-md {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -49,21 +54,28 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 10px;
   }
 }
+
+
 .navbar { border-width: 0; }
+
+
+.logo-pre,
+.logo-name,
+.logo-pontocom {
+  display: block;
+}
 
 .logo-pre {
   font-weight: 200;
-  color: #f2f2f2;
   font-size: 25px;
 }
-.logo-booking {
+.logo-name {
   font-weight: 500;
-  color: #fff;
   font-size: 25px;
 }
 .logo-pontocom {
   font-weight: 500;
-  color: #009FE2;
+  color: $link-color;
   font-size: 25px;
 }
 
@@ -199,11 +211,6 @@ margin-left: -6px;
   background: white;
   border-radius: 50%;
   border: #2999ce 6px solid;
-}
-
-
-.navbar-inverse .navbar-nav > li > a {
-  border-left: 1px solid #124690;
 }
 
 #footer {

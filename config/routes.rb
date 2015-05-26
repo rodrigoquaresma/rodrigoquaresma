@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   get '/', :to => 'portfolio#index', :as => :portfolio_index
   get 'about', :to => 'portfolio#about', :as => :portfolio_about
   get 'experience', :to => 'portfolio#experience', :as => :portfolio_experience
-  get 'projects/detail/:id', :to => 'portfolio#show', :as => :portfolio_show
+  get 'projects', :to => 'portfolio#show', :as => :portfolio_show
+  # get 'projects/detail/:id', :to => 'portfolio#show', :as => :portfolio_show
 
 
   get 'blenbox' => 'blenbox#index'
