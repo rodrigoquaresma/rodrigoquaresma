@@ -2,13 +2,11 @@ Rails.application.routes.draw do
 
   root 'portfolio#index'
 
-  get 'portfolio/index'      => 'portfolio#index', as: 'portfolio'
-  get 'portfolio/show'       => 'portfolio#show', as: 'portfolio_show'
-  get 'portfolio/about'      => 'portfolio#about', as: 'portfolio_about'
-  get 'portfolio/experience' => 'portfolio#experience', as: 'portfolio_experience'
+  get '/', :to => 'portfolio#index', :as => :portfolio_index
+  get 'about', :to => 'portfolio#about', :as => :portfolio_about
+  get 'experience', :to => 'portfolio#experience', :as => :portfolio_experience
+  get 'projects/detail/:id', :to => 'portfolio#show', :as => :portfolio_show
 
-  get 'booking_b/index'
-  get 'booking_a/index'
 
   get 'blenbox' => 'blenbox#index'
 
@@ -33,5 +31,8 @@ Rails.application.routes.draw do
   get 'vangogh/results' => 'vangogh#results'
   get 'vangogh/results/detail/:id' => 'vangogh#show', as: 'vangogh_show'
   # get 'vangogh/results/detail/:id' => 'vangogh#work_detail', as: 'vangogh_work_detail'
+
+  get 'booking_b/index'
+  get 'booking_a/index'
 
 end
