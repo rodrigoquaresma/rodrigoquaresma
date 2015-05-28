@@ -153,6 +153,9 @@ h4 { font-weight: 400; }
 
 .head-title {
   margin-top:26px;
+  small {
+    display: block;
+  }
 }
 
 .main-results-filter {
@@ -221,7 +224,7 @@ margin-left: -6px;
 
 .work-list-caption {font-size:$font-size-large;}
 .work-highlight {
-  background:#fff;
+  // background:#fff;
   margin: 20px 0;
   img {width:100%}
   .work-highlight-group {
@@ -302,23 +305,28 @@ margin-left: -6px;
 
 //skills
 .hp-section {
-  background-color: #f2f5f9;
+  background-color: rgba(255,255,255,0.10);
   padding: 0 10px;
   margin: 0 0 20px 0;
-  border-top: 1px solid #d9e1ec;
-  border-bottom: 1px solid #d9e1ec;
+  border-top: 1px solid rgba(255,255,255,0.20);
+  border-bottom: 1px solid rgba(255,255,255,0.20);
   font-weight: normal;
   overflow: hidden;
   > li {
     padding: 10px 0 !important;
-    border: 1px solid #d9e1ec !important;
+    border: 1px solid rgba(255,255,255,0.20) !important;
     border-width: 0 0 1px 0 !important;
     background: none !important;
     border-radius:0 !important;
     &:last-child {border-bottom:0 !important;}
     span {
-      color: #779bca !important;
+      // color: #779bca !important;
     }
+  }
+  .progress {
+    height: 4px;
+    border-radius: 0;
+    margin: 9px 0;
   }
 }
 

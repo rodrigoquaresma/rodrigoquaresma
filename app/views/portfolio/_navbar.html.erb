@@ -3,15 +3,15 @@
   <hr class="header-line" />
   <p class="header-job">ux designer</p>
   <ul class="list-unstyled list-inline text-center">
-    <li class="<%= active_tab(request.fullpath, 'projects') %>">
-      <%= link_to 'projects', portfolio_show_path, class: 'projects' %>
+    <li class="<%= active_tab2('index') %>">
+      <%= link_to 'projects', portfolio_index_path, class: 'projects' %>
     </li>
     <li>·</li>
-    <li class="<%= active_tab(request.fullpath, 'experience') %>">
+    <li class="<%= active_tab2('experience') %>">
       <%= link_to 'experience', portfolio_experience_path, class: 'experience' %>
     </li>
     <li>·</li>
-    <li class="<%= active_tab(request.fullpath, 'about') %>">
+    <li class="<%= active_tab2('about') %>">
       <%= link_to 'about', portfolio_about_path, class: 'about' %>
     </li>
   </ul>

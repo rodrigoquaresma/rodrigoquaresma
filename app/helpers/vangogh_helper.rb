@@ -1,7 +1,11 @@
 module VangoghHelper
 
   def active_tab(controller, item)
-    controller.split("/").last == item ? 'active': ''
+    controller.split("/").first == item ? 'active': ''
+  end
+
+  def active_tab2(item)
+    'active' if params[:controller].include?(item)
   end
 
   def works
