@@ -1,2 +1,15 @@
-<h1>Portfolio#experience</h1>
-<p>Find me in app/views/portfolio/experience.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+      <% companies.each do |company| %>
+        <div class="list-experiences text-center">
+          <p><%= company[2] %></p>
+          <h3><%= company[1] %></h3>
+          <p class="lead"><%= company[3] %>
+          <p><span class="text-muted">About the company:</span> <%= company[4] %> <span><%= link_to company[5][1], company[5][0], title: company[5][0], target: '_blank' %></span></p>
+        </div>
+        <hr class="spacer-fx" />
+      <% end %>
+    </div>
+  </div>
+</div>

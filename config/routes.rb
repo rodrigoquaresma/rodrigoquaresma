@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
 
-  root 'portfolio#index'
+  # root 'portfolio#index'
 
-  get '/', :to => 'portfolio#index', :as => :portfolio_index
+  get '/', :to => redirect('projects')
+  # get '/', :to => 'portfolio#index', :as => :portfolio_index
+  get 'index', :to => 'portfolio#index', :as => :portfolio_index
   get 'about', :to => 'portfolio#about', :as => :portfolio_about
   get 'experience', :to => 'portfolio#experience', :as => :portfolio_experience
   get 'projects', :to => 'portfolio#show', :as => :portfolio_show

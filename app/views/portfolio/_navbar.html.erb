@@ -1,29 +1,18 @@
-<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <%= link_to portfolio_index_path, class: 'navbar-brand', title: 'rodrigo quaresma' do %>
-        <span class="logo-pre">rodrigo</span><span class="logo-name">quaresma</span><span class="logo-pontocom">.com</span>
-      <% end %>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="<%= active_tab(request.fullpath, 'projects') %>"><%= link_to 'projects', portfolio_show_path %></li>
-        <li class="<%= active_tab(request.fullpath, 'experience') %>"><%= link_to 'experience', portfolio_experience_path %></li>
-        <li class="<%= active_tab(request.fullpath, 'about') %>">
-          <%= link_to portfolio_about_path do %>
-            Rodrigo Quaresma <%= image_tag "vangogh/avatar.jpg", alt: "rodrigo quaresma", class: "nav-avatar" %>
-          <% end %>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+<div class="header">
+  <h1 class="header-name text-center">rodrigo quaresma</h1>
+  <hr class="header-line" />
+  <p class="header-job">ux designer</p>
+  <ul class="list-unstyled list-inline text-center">
+    <li class="<%= active_tab(request.fullpath, 'projects') %>">
+      <%= link_to 'projects', portfolio_show_path, class: 'projects' %>
+    </li>
+    <li>·</li>
+    <li class="<%= active_tab(request.fullpath, 'experience') %>">
+      <%= link_to 'experience', portfolio_experience_path, class: 'experience' %>
+    </li>
+    <li>·</li>
+    <li class="<%= active_tab(request.fullpath, 'about') %>">
+      <%= link_to 'about', portfolio_about_path, class: 'about' %>
+    </li>
+  </ul>
+</div>

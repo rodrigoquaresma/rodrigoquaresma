@@ -7,13 +7,54 @@
 
 @import "elastislide";
 
+.header {
+  padding: 1px 0 0;
+  .header-name {
+    padding: 1em 0 0 0;
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    margin: 0;
+    color: rgba(255,255,255,0.20);
+  }
+  .header-line {
+    margin: 0;
+    border-color: rgba(255,255,255,0.0);
+  }
+  .header-job {
+    color: rgba(255,255,255,0.10);
+    text-align: center;
+    line-height: .5em;
+    font-size: 2em;
+  }
+  ul {
+    margin: 2em 0;
+    li {
+      a {
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 1.2em;
+      }
+      &.active {
+        a { font-weight: 400; }
+      }
+    }
+  }
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
-  color: $brand-primary;
+  // color: $brand-primary;
 }
 h1 { font-weight: 100; text-transform: uppercase; letter-spacing: .16em; }
 h2 { font-weight: 200; }
-h3 { font-weight: 300; }
+h3 { font-weight: 200;}
 h4 { font-weight: 400; }
+
+.lead { color: rgba(255,255,255,0.35); }
 
 .spacer-md {
   margin-top: 10px;
@@ -27,6 +68,13 @@ h4 { font-weight: 400; }
   margin-top: 3px;
   margin-bottom: 2px;
 }
+
+.spacer-fx {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: rgba(255,255,255,0.10);
+}
+
 .row-nogutter,
 .form-horizontal .form-group.row-nogutter {
   margin-right: 0;
