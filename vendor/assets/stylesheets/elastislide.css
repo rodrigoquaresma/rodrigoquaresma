@@ -83,8 +83,8 @@
 	border-color: transparent;
 	max-width: 100%;
 	max-height: 120px;
-	border-width: 4px;
-	border-radius: 8px;
+	border-width: 2px;
+	border-radius: 6px;
 }
 .elastislide-carousel ul li.current-img a img {
 	border-color:#feba02;
