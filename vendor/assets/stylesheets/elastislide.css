@@ -94,12 +94,13 @@
 .elastislide-wrapper nav span {
 	position: absolute;
 	background: #feba02 url('nav.png') no-repeat 4px 3px;
-	width: 23px;
-	height: 23px;
+	width: 33px;
+	height: 33px;
 	border-radius: 50%;
 	text-indent: -9000px;
 	cursor: pointer;
 	opacity: 0.8;
+	border: 5px solid #feba02;
 }
 
 .elastislide-wrapper nav span:hover {
@@ -107,7 +108,7 @@
 }
 
 .elastislide-horizontal nav span {
-	top: 50%;
+	top: 42%;
 	left: 10px;
 	margin-top: -11px;
 }

@@ -44,11 +44,6 @@
   }
 }
 
-
-
-h1, h2, h3, h4, h5, h6 {
-  // color: $brand-primary;
-}
 h1 { font-weight: 100; text-transform: uppercase; letter-spacing: .16em; }
 h2 { font-weight: 200; }
 h3 { font-weight: 200;}
@@ -103,68 +98,12 @@ h4 { font-weight: 400; }
   }
 }
 
-
-.navbar { border-width: 0; }
-
-
-.logo-pre,
-.logo-name,
-.logo-pontocom {
-  display: block;
-}
-
-.logo-pre {
-  font-weight: 200;
-  font-size: 25px;
-}
-.logo-name {
-  font-weight: 500;
-  font-size: 25px;
-}
-.logo-pontocom {
-  font-weight: 500;
-  color: $link-color;
-  font-size: 25px;
-}
-
-.jumbotron {
-  background-image:image-url('vangogh/bg.jpg');;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0;
-  min-width: 100%;
-  display: block;
-  margin:0;
-  &.campeche {
-    background-image:image-url('vangogh/bg-campeche.jpeg');;
-  }
-}
-
-.masthead-searchbox-container {
-  border-radius: 3px;
-  background: #ffbb39;
-  background: linear-gradient(top,#ffca56 0,#ffbb39 100%);
-  border: 1px solid #daa300;
-  padding: 0 20px 20px;
-  margin: 30px 0;
-  color:#003580;
-}
-
 .head-title {
   margin-top:26px;
   small {
     opacity: 0.7;
   }
 }
-
-.main-results-filter {
-  padding:10px 0;
-}
-.main-results-list {
-  background:#eef1f8;
-}
-
 
 .dsf_fb_title {
 padding: 20px 0 0;
@@ -193,35 +132,6 @@ left: 50%;
 margin-left: -6px;
 }
 
-// .work-list {
-//   .work-list-item {
-//     margin-bottom: 20px;
-//     .work-call {
-//       display: block;
-//       position: relative;
-//       border: 1px solid transparent;
-//       .work-list-title {
-//         margin:0;
-//         position:absolute;
-//         background: rgba(0,0,0,0.7);
-//         top:0;
-//         color: lighten($brand-secundary, 50.0%);
-//         display:block;
-//         padding:10px 15px;
-//         width:100%;
-//         font-weight:400;
-//       }
-//       .work-list-image {
-//         img {width:100%}
-//       }
-//       &:hover {
-//         border-color:#feba02;
-//         .work-list-title { color: #feba02; }
-//       }
-//     }
-//   }
-// }
-
 .work-call {
   display: block;
   margin-bottom: 2em;
@@ -230,7 +140,6 @@ margin-left: -6px;
     text-align: center;
     vertical-align: bottom;
     line-height: 2em;
-    opacity: 0.5;
   }
   .work-list-image {
     border-radius: 50%;
@@ -239,33 +148,11 @@ margin-left: -6px;
     overflow: hidden;
     display: block;
     margin: 0 auto;
-    img { width: auto; height:100%; opacity: 0.4; }
-  }
-  &:hover,
-  &:focus {
-    .work-list-title { opacity: 1; }
-    .work-list-image {
-      img { opacity: 0.8; }
-    }
+    img { width: auto; height:100%;}
   }
 }
-
-
-
 
 .work-list-caption {font-size:$font-size-large;}
-.work-highlight {
-  // background:#fff;
-  margin: 20px 0;
-  img {width:100%}
-  .work-highlight-group {
-    padding: 20px 0 10px;
-    h3 {
-      margin-top:0;
-      small {display:block;}
-    }
-  }
-}
 
 .main-results-list {
   .work-list-caption { display: none; }
@@ -279,47 +166,10 @@ margin-left: -6px;
 }
 
 
-
-.nav-avatar {
-  height: 24px;
-  margin-top: -3px;
-  margin-bottom: -3px;
-  margin-left: 6px;
-}
-
-.profile-avatar {
-  display: block;
-  margin: 30px auto;
-  background: white;
-  border-radius: 50%;
-  border: #2999ce 6px solid;
-}
-
 #footer {
   padding: 40px 0;
   ul {margin-bottom:0;}
 }
-
-
-.jumbotron.profile {
-  .mask {
-    background: rgba(0,0,0,0.30);
-  }
-  .profile-avatar {
-    margin:30px auto 20px;
-  }
-  h3 {
-    color: #fff;
-    text-align: center;
-    margin:0 0 20px;
-    font-weight: 200;
-    font-size:2em;
-  }
-  h3 + p {
-    margin:0 0 40px;
-  }
-}
-
 
 .image-preview {
   margin: 0 0 10px 0;
@@ -373,6 +223,15 @@ dl.list-group-contact {
 }
 @media (min-width: $screen-md-min) {
   .main-results-list .work-highlight-group p {font-size:18px;}
+  .work-call {
+    .work-list-title { opacity: 0.5; }
+    .work-list-image img { opacity: 0.4; }
+    &:hover,
+    &:focus {
+      .work-list-title { opacity: 1; }
+      .work-list-image img { opacity: 0.8; }
+    }
+  }
 }
 @media (min-width: $screen-lg-min) {
   .main-results-list .work-highlight-group h3 {font-size:28px;}
