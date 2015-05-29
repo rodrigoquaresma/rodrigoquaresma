@@ -132,12 +132,3 @@
 	top: auto;
 	background-position: -17px -18px;
 }
-
-// media querys
-@media (min-width: $screen-sm-min) {
-}
-@media (min-width: $screen-md-min) {
-	.elastislide-horizontal nav span { top: 41%; }
-}
-@media (min-width: $screen-lg-min) {
-}
