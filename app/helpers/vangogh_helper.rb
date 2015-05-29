@@ -1,7 +1,11 @@
 module VangoghHelper
 
   def active_tab(controller, item)
-    controller.split("/").last == item ? 'active': ''
+    controller.split("/").first == item ? 'active': ''
+  end
+
+  def active_tab2(item)
+    'active' if item == @active
   end
 
   def works
@@ -82,6 +86,17 @@ module VangoghHelper
         [1,0,3],
         '',
         '',
+        ''
+      ],[
+        7,
+        'BlenBox A/B Testing Calculator',
+        'for Web',
+        'Blenbox A/B Testing Calculator helps you to see if your data has achieved statistical significance. Helpful for usability tests and comparison between landing page conversion rates.',
+        ['vangogh/blenbox-ab-testing-calculator-0.jpg'],
+        [['product design',90],['interaction design',80],['graphic design',76],['product design',40]],
+        [1,6,3],
+        '',
+        ['//www.blenbox.com/ab-testing-calculator','A/B Testing Calculator','A/B Testing Calculator'],
         ''
       # ],[
       #   6,
