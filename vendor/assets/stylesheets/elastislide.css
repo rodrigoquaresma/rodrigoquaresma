@@ -84,6 +84,7 @@
 	max-width: 100%;
 	max-height: 120px;
 	border-width: 4px;
+	border-radius: 8px;
 }
 .elastislide-carousel ul li.current-img a img {
 	border-color:#feba02;
@@ -99,12 +100,12 @@
 	border-radius: 50%;
 	text-indent: -9000px;
 	cursor: pointer;
-	opacity: 0.8;
 	border: 5px solid #feba02;
 }
 
 .elastislide-wrapper nav span:hover {
-	opacity: 1.0
+	background-color: #cc9d28;
+	border-color: #cc9d28;
 }
 
 .elastislide-horizontal nav span {
