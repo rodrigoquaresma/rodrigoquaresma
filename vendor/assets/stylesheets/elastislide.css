@@ -79,11 +79,11 @@
 
 .elastislide-carousel ul li a img {
 	display: block;
-	border-width: 2px 1px;
 	border-style: solid;
-	border-color: #ddd;
+	border-color: transparent;
 	max-width: 100%;
 	max-height: 120px;
+	border-width: 4px;
 }
 .elastislide-carousel ul li.current-img a img {
 	border-color:#feba02;
@@ -108,8 +108,8 @@
 }
 
 .elastislide-horizontal nav span {
-	top: 42%;
-	left: 10px;
+	top: 29%;
+	left: -15px;
 	margin-top: -11px;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .elastislide-horizontal nav span.elastislide-next {
-	right: 10px;
+	right: -15px;
 	left: auto;
 	background-position: 4px -17px;
 }
@@ -130,4 +130,13 @@
 	bottom: 10px;
 	top: auto;
 	background-position: -17px -18px;
+}
+
+// media querys
+@media (min-width: $screen-sm-min) {
+}
+@media (min-width: $screen-md-min) {
+	.elastislide-horizontal nav span { top: 41%; }
+}
+@media (min-width: $screen-lg-min) {
 }
