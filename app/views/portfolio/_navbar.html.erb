@@ -1,19 +1,26 @@
-<div class="header clearfix">
-  <%= link_to portfolio_index_path, class: 'header-brand' do %>
-    <%= image_tag 'title-rodrigoquaresma.svg', alt: 'rodrigo quaresma', class: 'header-brand-img' %>
-    <h1 class="header-brand-name">rodrigo quaresma</h1>
-  <% end %>
-  <ul class="list-unstyled header-menu">
-    <li class="<%= active_tab2('projects') %>">
-      <%= link_to 'projects', portfolio_index_path, class: 'projects' %>
-    </li>
-    <li>·</li>
-    <li class="<%= active_tab2('experience') %>">
-      <%= link_to 'experience', portfolio_experience_path, class: 'experience' %>
-    </li>
-    <li>·</li>
-    <li class="<%= active_tab2('about') %>">
-      <%= link_to 'about', portfolio_about_path, class: 'about' %>
-    </li>
-  </ul>
+<div class="container-fluid header">
+  <div class="row row-nogutter">
+    <div class="col-md-4">
+      <%= link_to portfolio_index_path, class: 'header-brand' do %>
+        <%= image_tag 'title-rodrigoquaresma.svg', alt: 'rodrigo quaresma', class: 'header-brand-img' %>
+        <h1 class="header-brand-name">rodrigo quaresma</h1>
+      <% end %>
+    </div>
+    <div class="col-md-8">
+      <ul class="list-unstyled header-menu">
+        <li class="<%= active_tab2('projects') %>">
+          <%= link_to 'projects', portfolio_index_path, class: 'projects' %>
+        </li>
+        <li>·</li>
+        <li class="<%= active_tab2('experience') %>">
+          <%= link_to 'experience', portfolio_experience_path, class: 'experience' %>
+        </li>
+        <li>·</li>
+        <li class="<%= active_tab2('about') %>">
+          <%= link_to 'about', portfolio_about_path, class: 'about' %>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
+<hr class="spacer-md invisible" />
