@@ -4,12 +4,20 @@
     float: left;
     width: 100%;
     padding: 0 1em;
-    line-height: 5em;
     .header-brand-img {
       width: 100%;
-      margin: 0 auto;
+      margin: 2em auto 0;
     }
     .header-brand-name { display: none; }
+    .header-brand-role {
+      text-transform: uppercase;
+      letter-spacing: 1.4em;
+      font-weight: 200;
+      line-height: 1em;
+      margin: 0 0 1em;
+      text-align: center;
+      font-size: .8em;
+    }
   }
   .header-menu {
     float: left;
@@ -47,6 +55,18 @@
     border-style: solid;
     border-width: 0 0 1px 0;
     border-color: #e5e4df;
+    .header-brand {
+      .header-brand-img {
+        width: auto;
+        max-height: 2em;
+        margin-top: 1.5em;
+      }
+      .header-brand-role {
+        font-size: .7em;
+        letter-spacing: 1.2em;
+        text-align: left;
+      }
+    }
     .header-menu {
       border: none;
       margin: 0;
