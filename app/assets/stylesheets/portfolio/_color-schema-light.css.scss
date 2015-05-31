@@ -1,0 +1,9 @@
+// color schema
+$color-schema-bg:  #3f3f3f;
+$color-schema-txt: #E5E4DF;
+
+$link-color:       #9DE500;
+$link-hover-color: lighten($link-color, 15%);
+
+$body-bg:                lighten($color-schema-bg, 5%);
+$text-color:             darken($color-schema-txt, 20%);
