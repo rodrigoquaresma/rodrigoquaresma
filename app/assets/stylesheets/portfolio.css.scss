@@ -62,20 +62,23 @@ h4 { font-weight: 400; }
 .work-call {
   display: block;
   margin-bottom: 2em;
+  position: relative;
   .work-list-title {
     display: block;
-    text-align: center;
     vertical-align: bottom;
-    line-height: 2em;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    background: white;
+    padding: 0.33em .66em;
+    color: #555;
+    margin-right: 40%;
   }
   .work-list-image {
-    border-radius: 50%;
-    width: 10em;
-    height: 10em;
     overflow: hidden;
     display: block;
     margin: 0 auto;
-    img { width: auto; height:100%;}
+    img { width: 100%; height:auto;}
   }
 }
 
@@ -134,11 +137,11 @@ h4 { font-weight: 400; }
 }
 @media (min-width: $screen-md-min) {
   .work-call {
-    .work-list-title { opacity: 0.5; }
+    .work-list-title { opacity: 1.0; }
     .work-list-image img { opacity: 0.4; }
     &:hover,
     &:focus {
-      .work-list-title { opacity: 1; }
+      .work-list-title { opacity: 1; color: $link-hover-color; }
       .work-list-image img { opacity: 0.8; }
     }
   }
