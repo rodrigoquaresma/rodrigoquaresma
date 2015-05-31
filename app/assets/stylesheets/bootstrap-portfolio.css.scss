@@ -50,6 +50,14 @@
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
 
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+
 //
 .navbar { margin-bottom:0; }
 
