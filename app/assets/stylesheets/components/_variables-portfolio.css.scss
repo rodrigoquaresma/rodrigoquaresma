@@ -1,20 +1,18 @@
 // color schema
-$color-schema-bg:  #3f3f3f;
-$color-schema-txt: #E5E4DF;
+$color-schema-bg:  #E5E4DF;
+$color-schema-txt: #3f3f3f;
+
+$link-color:       #9300B2;
+$link-hover-color: darken($link-color, 15%);
 
 
-
-// standarts
-
-$link-color:             #a8ff00;
-$link-hover-color:       lighten($link-color, 15%);
 $gray-base:              #333029;
 
 $brand-primary:          #998f5c;
 $brand-secundary:        #85995c;
 
-$body-bg:                $color-schema-bg;
-$text-color:             darken($color-schema-txt, 15%);
+$body-bg:                lighten($color-schema-bg, 5%);
+$text-color:             darken($color-schema-txt, 20%);
 
 $btn-default-color:              $link-color;
 

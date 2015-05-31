@@ -10,7 +10,7 @@
 
 h1 { font-weight: 100; text-transform: uppercase; letter-spacing: .16em; }
 h2 { font-weight: 200; }
-h3 { font-weight: 200;}
+h3 { font-weight: 200; }
 h4 { font-weight: 400; }
 
 .spacer-lg {
@@ -102,7 +102,6 @@ h4 { font-weight: 400; }
 
 //show - skills
 .hp-section {
-  padding: 0 10px;
   margin: 0 0 20px 0;
   font-weight: normal;
   overflow: hidden;
@@ -151,6 +150,6 @@ h4 { font-weight: 400; }
 // dark
 hr { border-color: rgba($color-schema-txt,0.10); }
 .header-job  { color: rgba($color-schema-txt,0.10); }
-.lead { color: rgba($color-schema-txt,0.35); }
-.hp-section { border-color: rgba($color-schema-txt,0.20); background-color: rgba($color-schema-txt,0.10); }
+.lead { color: rgba($color-schema-txt,0.50); }
+.hp-section { border-color: rgba($color-schema-txt,0.20); }
 .hp-section > li { border-color: rgba($color-schema-txt,0.20); }
