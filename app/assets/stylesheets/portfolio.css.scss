@@ -149,11 +149,8 @@ h4 { font-weight: 400; }
 }
 
 // dark
-
-
-
-hr { border-color: rgba(255,255,255,0.10); }
-.header-job  { color: rgba(255,255,255,0.10); }
-.lead { color: rgba(255,255,255,0.35); }
-.hp-section { border-color: rgba(255,255,255,0.20); background-color: rgba(255,255,255,0.10); }
-.hp-section > li { border-color: rgba(255,255,255,0.20); }
+hr { border-color: rgba($color-schema-txt,0.10); }
+.header-job  { color: rgba($color-schema-txt,0.10); }
+.lead { color: rgba($color-schema-txt,0.35); }
+.hp-section { border-color: rgba($color-schema-txt,0.20); background-color: rgba($color-schema-txt,0.10); }
+.hp-section > li { border-color: rgba($color-schema-txt,0.20); }
