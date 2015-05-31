@@ -1,12 +1,12 @@
 <div class="container-fluid header">
   <div class="row row-nogutter">
-    <div class="col-md-4">
+    <div class="col-sm-4">
       <%= link_to portfolio_index_path, class: 'header-brand' do %>
         <%= image_tag 'title-rodrigoquaresma.svg', alt: 'rodrigo quaresma', class: 'header-brand-img' %>
         <h1 class="header-brand-name">rodrigo quaresma</h1>
       <% end %>
     </div>
-    <div class="col-md-8">
+    <div class="col-sm-8">
       <ul class="list-unstyled header-menu">
         <li class="<%= active_tab2('projects') %>">
           <%= link_to 'projects', portfolio_index_path, class: 'projects' %>

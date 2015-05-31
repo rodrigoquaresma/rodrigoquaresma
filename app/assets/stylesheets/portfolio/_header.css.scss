@@ -3,7 +3,6 @@
   .header-brand {
     float: left;
     width: 100%;
-    // margin: 1.5em auto 1em auto;
     padding: 0 1em;
     line-height: 5em;
     .header-brand-img {
@@ -44,8 +43,6 @@
 
 // media querys
 @media (min-width: $screen-sm-min) {
-}
-@media (min-width: $screen-md-min) {
   .header {
     border-style: solid;
     border-width: 0 0 1px 0;
@@ -64,5 +61,8 @@
     }
   }
 }
+@media (min-width: $screen-md-min) {
+}
 @media (min-width: $screen-lg-min) {
+  .header .header-brand { width: 75%; }
 }
