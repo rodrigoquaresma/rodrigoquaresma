@@ -5,52 +5,18 @@
 @import "components/variables-portfolio";
 @import "bootstrap/mixins";
 
-@import "elastislide";
-
-.header {
-  padding: 1px 0 0;
-  .header-name {
-    padding: 1em 0 0 0;
-    font-size: 3em;
-    font-weight: 100;
-    line-height: 0.7em;
-    text-transform: uppercase;
-    letter-spacing: .16em;
-    margin: 0;
-    color: rgba(255,255,255,0.20);
-  }
-  .header-line {
-    margin: 0;
-    border-color: rgba(255,255,255,0.0);
-  }
-  .header-job {
-    color: rgba(255,255,255,0.10);
-    text-align: center;
-    line-height: .5em;
-    font-size: 2em;
-  }
-  ul {
-    margin: 2em 0;
-    li {
-      a {
-        text-transform: uppercase;
-        font-weight: 100;
-        font-size: 1.2em;
-      }
-      &.active {
-        a { font-weight: 400; }
-      }
-    }
-  }
-}
+@import "portfolio/elastislide-custom";
+@import "portfolio/header";
 
 h1 { font-weight: 100; text-transform: uppercase; letter-spacing: .16em; }
 h2 { font-weight: 200; }
-h3 { font-weight: 200;}
+h3 { font-weight: 200; }
 h4 { font-weight: 400; }
 
-.lead { color: rgba(255,255,255,0.35); }
-
+.spacer-lg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .spacer-md {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -62,12 +28,6 @@ h4 { font-weight: 400; }
 .spacer-xs {
   margin-top: 3px;
   margin-bottom: 2px;
-}
-
-.spacer-fx {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-color: rgba(255,255,255,0.10);
 }
 
 .row-nogutter,
@@ -98,40 +58,7 @@ h4 { font-weight: 400; }
   }
 }
 
-.head-title {
-  margin-top:26px;
-  small {
-    opacity: 0.7;
-  }
-}
-
-.dsf_fb_title {
-padding: 20px 0 0;
-margin: auto;
-text-align: center;
-position: relative;
-}
-.dsf_fb_title p {
-background: #e0e6ec;
-color: #003580;
-padding: 10px;
-border-radius: 4px;
-font-size: 18px;
-margin: 0;
-}
-.dsf_fb_title_arrow {
-border: solid transparent;
-height: 0;
-width: 0;
-position: absolute;
-pointer-events: none;
-border-color: rgba(214,225,239,0);
-border-top-color: #e0e6ec;
-border-width: 10px;
-left: 50%;
-margin-left: -6px;
-}
-
+// jobs list
 .work-call {
   display: block;
   margin-bottom: 2em;
@@ -152,25 +79,14 @@ margin-left: -6px;
   }
 }
 
-.work-list-caption {font-size:$font-size-large;}
-
-.main-results-list {
-  .work-list-caption { display: none; }
-  .work-highlight-group {
-    padding-left: 20px;
-    padding-right: 20px;
-    h3 {margin-top:20px;}
-    p {font-size:16px;}
-    a:hover {color:#feba02;}
-  }
+// show - header
+.head-title {
+  margin-top:26px;
+  small { opacity: 0.7; }
 }
 
 
-#footer {
-  padding: 40px 0;
-  ul {margin-bottom:0;}
-}
-
+// show - highlight image
 .image-preview {
   margin: 0 0 10px 0;
   border-radius: 0;
@@ -184,25 +100,21 @@ margin-left: -6px;
   }
 }
 
-//skills
+//show - skills
 .hp-section {
-  background-color: rgba(255,255,255,0.10);
-  padding: 0 10px;
   margin: 0 0 20px 0;
-  border-top: 1px solid rgba(255,255,255,0.20);
-  border-bottom: 1px solid rgba(255,255,255,0.20);
   font-weight: normal;
   overflow: hidden;
+  border-style: solid;
+  border-width: 1px 0;
   > li {
+    border-style: solid;
+    border-width: 1px;
     padding: 10px 0 !important;
-    border: 1px solid rgba(255,255,255,0.20) !important;
     border-width: 0 0 1px 0 !important;
     background: none !important;
     border-radius:0 !important;
     &:last-child {border-bottom:0 !important;}
-    span {
-      // color: #779bca !important;
-    }
   }
   .progress {
     height: 4px;
@@ -211,18 +123,16 @@ margin-left: -6px;
   }
 }
 
-// lista de redes de contato
-dl.list-group-contact {
-  dt { }
-  dd { margin-bottom:5px; }
+// footer
+#footer {
+  padding: 40px 0;
+  ul {margin-bottom:0;}
 }
 
 // media querys
 @media (min-width: $screen-sm-min) {
-  .work-highlight .work-highlight-group {padding: 0 20px 10px 20px;}
 }
 @media (min-width: $screen-md-min) {
-  .main-results-list .work-highlight-group p {font-size:18px;}
   .work-call {
     .work-list-title { opacity: 0.5; }
     .work-list-image img { opacity: 0.4; }
@@ -235,6 +145,11 @@ dl.list-group-contact {
   .elastislide-horizontal nav span { top: 41%; }
 }
 @media (min-width: $screen-lg-min) {
-  .main-results-list .work-highlight-group h3 {font-size:28px;}
-  .main-results-list .work-highlight-group p {font-size:20px;}
 }
+
+// dark
+hr { border-color: rgba($color-schema-txt,0.10); }
+.header-job  { color: rgba($color-schema-txt,0.20); }
+.lead { color: rgba($color-schema-txt,0.50); }
+.hp-section { border-color: rgba($color-schema-txt,0.20); }
+.hp-section > li { border-color: rgba($color-schema-txt,0.20); }

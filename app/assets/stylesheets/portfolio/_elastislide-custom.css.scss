@@ -1,0 +1,18 @@
+@import "components/variables-portfolio";
+@import "bootstrap/mixins";
+
+@import "elastislide";
+
+.elastislide-carousel ul li.current-img a img {
+  border-color:$link-color;
+}
+
+.elastislide-wrapper nav span {
+	background-color: $link-color;
+	border-color: $link-color;
+}
+
+.elastislide-wrapper nav span:hover {
+	background-color: darken($link-color, 15%);
+	border-color: darken($link-color, 15%);
+}
