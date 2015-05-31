@@ -1,15 +1,9 @@
-<p class="hide">
-  <a href="/" class="brand">
-    <%= image_tag 'title-rodrigoquaresma.svg', alt: 'rodrigo quaresma' %>
-    <h1 class="title hide">rodrigo quaresma</h1>
-  </a>
-</p>
-
-<div class="header">
-  <h1 class="header-name text-center">rodrigo quaresma</h1>
-  <hr class="header-line invisible" />
-  <p class="header-job">ux designer</p>
-  <ul class="list-unstyled list-inline text-center">
+<div class="header clearfix">
+  <%= link_to portfolio_index_path, class: 'header-brand' do %>
+    <%= image_tag 'title-rodrigoquaresma.svg', alt: 'rodrigo quaresma', class: 'header-brand-img' %>
+    <h1 class="header-brand-name">rodrigo quaresma</h1>
+  <% end %>
+  <ul class="list-unstyled header-menu">
     <li class="<%= active_tab2('projects') %>">
       <%= link_to 'projects', portfolio_index_path, class: 'projects' %>
     </li>
