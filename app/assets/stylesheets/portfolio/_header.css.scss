@@ -18,6 +18,8 @@
       text-align: center;
       font-size: .8em;
     }
+    &:hover,
+    &:focus { text-decoration: none; }
   }
   .header-menu {
     float: left;
@@ -38,6 +40,11 @@
         border-bottom: 2px solid transparent;
         text-transform: uppercase;
         color: $color-schema-txt;
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          color: $link-color;
+        }
       }
       &.active {
         > a {
