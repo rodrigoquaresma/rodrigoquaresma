@@ -61,11 +61,11 @@ h4 { font-weight: 400; }
 // jobs list
 .work-call {
   display: block;
-  margin-bottom: 1em;
+  margin: 1em;
   position: relative;
   height: 0;
   max-width: none;
-  padding-top: 56%;
+  padding-top: 50%;
   overflow: hidden;
   &:hover,
   &:focus {
@@ -169,15 +169,15 @@ h4 { font-weight: 400; }
   .work-call {
     .work-list-title { opacity: 1.0; }
     .work-list-image img {
-      opacity: 0.8;
-      // -webkit-filter: grayscale(1);
+      opacity: 1.0;
+      // -webkit-filter: grayscale(0.2);
       // filter: url('#grayscale');
     }
     &:hover,
     &:focus {
       .work-list-title { opacity: 1; }
       .work-list-image img {
-        opacity: 1.0;
+        opacity: 0.8;
         // -webkit-filter: none;
         // filter: none;
       }

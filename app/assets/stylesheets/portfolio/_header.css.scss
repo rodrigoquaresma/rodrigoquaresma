@@ -43,13 +43,19 @@
         &:hover,
         &:focus {
           text-decoration: none;
-          color: $link-color;
+          color: $link-hover-color;
+          border-color: $link-hover-color;
         }
       }
       &.active {
         > a {
           font-weight: bold;
           border-color: $color-schema-txt;
+          &:hover,
+          &:focus {
+            color: $link-hover-color;
+            border-color: $link-hover-color;
+          }
         }
       }
     }
