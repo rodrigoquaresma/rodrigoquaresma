@@ -1,0 +1,3891 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-09 08:05:54 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:05:55 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (973.3ms)
+  Rendered layouts/portfolio/_header.html.erb (8224.1ms)
+  Rendered portfolio/_navbar.html.erb (58.0ms)
+  Rendered portfolio/_footer.html.erb (0.7ms)
+  Rendered layouts/portfolio/_footer.html.erb (1172.2ms)
+Completed 200 OK in 10821ms (Views: 10748.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:06 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:06:07 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:12:34 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (4.0ms)
+  Rendered layouts/_ga.html.erb (0.6ms)
+  Rendered layouts/_clicktale.html.erb (0.9ms)
+  Rendered layouts/portfolio/_header.html.erb (44.9ms)
+  Rendered portfolio/_navbar.html.erb (1.2ms)
+  Rendered portfolio/_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (8.4ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:12:35 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:15:47 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (3.3ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (110.7ms)
+Completed 500 Internal Server Error in 147ms
+
+ActionView::Template::Error (The partial name (layouts/clicktale-header) is not a valid Ruby identifier; make sure your partial name starts with a lowercase letter or underscore, and is followed by any combination of letters, numbers and underscores.):
+    16: <%= stylesheet_link_tag    'portfolio', media: 'all' %>
+    17: 
+    18: <%= render :partial => 'layouts/ga' %>
+    19: <%= render :partial => 'layouts/clicktale-header' %>
+  app/views/layouts/portfolio/_header.html.erb:19:in `_app_views_layouts_portfolio__header_html_erb__3265468351370248657_70095885146040'
+  app/views/layouts/portfolio.html.erb:4:in `_app_views_layouts_portfolio_html_erb___3472528840727711801_70095926122460'
+
+
+  Rendered /Users/rodrigoquaresma/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/rodrigoquaresma/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/rodrigoquaresma/.rvm/gems/ruby-2.2.2/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:16:56 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (4.8ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (1.0ms)
+  Rendered layouts/portfolio/_header.html.erb (34.1ms)
+  Rendered portfolio/_navbar.html.erb (2.3ms)
+  Rendered portfolio/_footer.html.erb (0.5ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.8ms)
+  Rendered layouts/portfolio/_footer.html.erb (35.3ms)
+Completed 200 OK in 136ms (Views: 135.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:16:57 -0300
+
+
+Started GET "/projects/detail/2" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+Processing by PortfolioController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered portfolio/show.html.erb within layouts/portfolio (76.1ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.8ms)
+  Rendered portfolio/_navbar.html.erb (0.7ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (9.9ms)
+Completed 200 OK in 112ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:16:59 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-1.jpg" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-2.jpg" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-3.jpg" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2016-04-09 08:17:00 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (4.4ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (63.9ms)
+  Rendered portfolio/_navbar.html.erb (1.1ms)
+  Rendered portfolio/_footer.html.erb (0.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (26.2ms)
+Completed 200 OK in 138ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:17:57 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:18:32 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:18:32 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:18:35 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (3.6ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (47.6ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (26.2ms)
+Completed 200 OK in 121ms (Views: 120.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:18:36 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:23:01 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (8.6ms)
+  Rendered layouts/_ga.html.erb (0.3ms)
+  Rendered layouts/_clicktale_header.html.erb (0.2ms)
+  Rendered layouts/portfolio/_header.html.erb (43.6ms)
+  Rendered portfolio/_navbar.html.erb (1.6ms)
+  Rendered portfolio/_footer.html.erb (0.7ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.2ms)
+  Rendered layouts/portfolio/_footer.html.erb (34.8ms)
+Completed 200 OK in 194ms (Views: 189.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:02 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (2.0ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.3ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered portfolio/_navbar.html.erb (0.5ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (7.4ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:19 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:20 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:20 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:20 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:20 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:20 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:23:29 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (2.0ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (9.3ms)
+  Rendered portfolio/_cover.html.erb (3.1ms)
+  Rendered portfolio/_navbar.html.erb (0.8ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (7.1ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:30 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:23:57 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (2.0ms)
+  Rendered layouts/_ga.html.erb (0.2ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (57.7ms)
+  Rendered portfolio/_cover.html.erb (1.4ms)
+  Rendered portfolio/_navbar.html.erb (0.8ms)
+  Rendered portfolio/_footer.html.erb (0.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (18.3ms)
+Completed 200 OK in 126ms (Views: 125.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:23:58 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (1.6ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (44.1ms)
+  Rendered portfolio/_cover.html.erb (0.6ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.2ms)
+  Rendered layouts/portfolio/_footer.html.erb (26.4ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:25:08 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:29:56 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (15.8ms)
+  Rendered layouts/_ga.html.erb (0.4ms)
+  Rendered layouts/_clicktale_header.html.erb (0.2ms)
+  Rendered layouts/portfolio/_header.html.erb (54.1ms)
+  Rendered portfolio/_cover.html.erb (0.5ms)
+  Rendered portfolio/_navbar.html.erb (1.4ms)
+  Rendered portfolio/_footer.html.erb (0.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (26.7ms)
+Completed 200 OK in 136ms (Views: 132.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:29:57 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:29:59 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:29:59 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:29:59 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:29:59 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:29:59 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:29:59 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:29:59 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:29:59 -0300
+
+
+Started GET "/about" for 127.0.0.1 at 2016-04-09 08:30:16 -0300
+Processing by PortfolioController#about as HTML
+  Rendered portfolio/about.html.erb within layouts/portfolio (1.7ms)
+  Rendered layouts/_ga.html.erb (0.5ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (88.0ms)
+  Rendered portfolio/_cover.html.erb (0.2ms)
+  Rendered portfolio/_navbar.html.erb (1.1ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (34.2ms)
+Completed 200 OK in 214ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:30:17 -0300
+
+
+Started GET "/about" for 127.0.0.1 at 2016-04-09 08:32:01 -0300
+Processing by PortfolioController#about as HTML
+  Rendered portfolio/_about_content.html.erb (0.5ms)
+  Rendered portfolio/about.html.erb within layouts/portfolio (23.4ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (39.0ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.7ms)
+  Rendered portfolio/_navbar.html.erb (0.8ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.2ms)
+  Rendered layouts/portfolio/_footer.html.erb (26.3ms)
+Completed 200 OK in 120ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:02 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (2.6ms)
+  Rendered layouts/_ga.html.erb (0.2ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (9.3ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.1ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (7.7ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:08 -0300
+
+
+Started GET "/experience" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+Processing by PortfolioController#experience as HTML
+  Rendered portfolio/experience.html.erb within layouts/portfolio (2.0ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (5.7ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (1.2ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (7.9ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:17 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (2.1ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.4ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (2.0ms)
+  Rendered portfolio/_navbar.html.erb (0.7ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (9.3ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:21 -0300
+
+
+Started GET "/experience" for 127.0.0.1 at 2016-04-09 08:32:48 -0300
+Processing by PortfolioController#experience as HTML
+  Rendered portfolio/experience.html.erb within layouts/portfolio (0.7ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (48.1ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (2.3ms)
+  Rendered portfolio/_navbar.html.erb (0.9ms)
+  Rendered portfolio/_footer.html.erb (0.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (26.3ms)
+Completed 200 OK in 126ms (Views: 125.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:49 -0300
+
+
+Started GET "/about" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+Processing by PortfolioController#about as HTML
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/about.html.erb within layouts/portfolio (2.0ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (7.5ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (1.5ms)
+  Rendered portfolio/_navbar.html.erb (0.8ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (7.3ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:50 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (1.9ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.0ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.1ms)
+  Rendered portfolio/_navbar.html.erb (0.5ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (7.1ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:51 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:32:52 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:33:23 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (1.8ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (68.4ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.3ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (51.2ms)
+Completed 200 OK in 153ms (Views: 152.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:24 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (1.8ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (8.7ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.7ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.6ms)
+Completed 200 OK in 28ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:33:46 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (1.8ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (46.5ms)
+  Rendered portfolio/_about_content.html.erb (0.6ms)
+  Rendered portfolio/_cover.html.erb (2.8ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (18.2ms)
+Completed 200 OK in 97ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:06 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:34:07 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:35:39 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (2.4ms)
+  Rendered layouts/_ga.html.erb (0.2ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (4156.4ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (11.5ms)
+  Rendered portfolio/_footer.html.erb (0.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.2ms)
+  Rendered layouts/portfolio/_footer.html.erb (26.8ms)
+Completed 200 OK in 4243ms (Views: 4242.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:43 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:44 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:44 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:44 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:44 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:44 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:44 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:35:44 -0300
+
+
+Started GET "/experience" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+Processing by PortfolioController#experience as HTML
+  Rendered portfolio/experience.html.erb within layouts/portfolio (0.9ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (6.1ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.0ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.7ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:04 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:36:05 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (1.6ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.2ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.2ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.5ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:36:06 -0300
+
+
+Started GET "/experience" for 127.0.0.1 at 2016-04-09 08:36:07 -0300
+Processing by PortfolioController#experience as HTML
+  Rendered portfolio/experience.html.erb within layouts/portfolio (0.3ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (4.8ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (1.5ms)
+  Rendered portfolio/_footer.html.erb (0.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (8.5ms)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:36:07 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:36:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:07 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:07 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:07 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:36:08 -0300
+
+
+Started GET "/experience" for 127.0.0.1 at 2016-04-09 08:37:39 -0300
+Processing by PortfolioController#experience as HTML
+  Rendered portfolio/experience.html.erb within layouts/portfolio (0.7ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (47.7ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.3ms)
+  Rendered portfolio/_footer.html.erb (0.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (26.1ms)
+Completed 200 OK in 129ms (Views: 128.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:40 -0300
+
+
+Started GET "/about" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+Processing by PortfolioController#about as HTML
+  Rendered portfolio/_web_presence.html.erb (0.4ms)
+  Rendered portfolio/about.html.erb within layouts/portfolio (21.7ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (6.2ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.2ms)
+  Rendered portfolio/_footer.html.erb (0.0ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (7.1ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:41 -0300
+
+
+Started GET "/about" for 127.0.0.1 at 2016-04-09 08:37:50 -0300
+Processing by PortfolioController#about as HTML
+  Rendered portfolio/_web_presence.html.erb (0.0ms)
+  Rendered portfolio/about.html.erb within layouts/portfolio (1.1ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.0ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.3ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:37:51 -0300
+
+
+Started GET "/about" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+Processing by PortfolioController#about as HTML
+  Rendered portfolio/_web_presence.html.erb (0.0ms)
+  Rendered portfolio/about.html.erb within layouts/portfolio (1.4ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.1ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.1ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.3ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:09 -0300
+
+
+Started GET "/about" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+Processing by PortfolioController#about as HTML
+  Rendered portfolio/_web_presence.html.erb (0.0ms)
+  Rendered portfolio/about.html.erb within layouts/portfolio (1.2ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.0ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.1ms)
+  Rendered portfolio/_navbar.html.erb (1.2ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.9ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:35 -0300
+
+
+Started GET "/about" for 127.0.0.1 at 2016-04-09 08:38:38 -0300
+Processing by PortfolioController#about as HTML
+  Rendered portfolio/_web_presence.html.erb (0.0ms)
+  Rendered portfolio/about.html.erb within layouts/portfolio (1.3ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (5.6ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.2ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.9ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/experience" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+Processing by PortfolioController#experience as HTML
+  Rendered portfolio/experience.html.erb within layouts/portfolio (0.6ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (7.4ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (1.1ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.4ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:39 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:40 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (3.4ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (6.7ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.2ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (6.9ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/title-rodrigoquaresma.svg" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:38:41 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (2.0ms)
+  Rendered layouts/_ga.html.erb (0.0ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (5.6ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (2.2ms)
+  Rendered portfolio/_navbar.html.erb (1.4ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.0ms)
+  Rendered layouts/portfolio/_footer.html.erb (7.1ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:17 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:39:18 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:39:42 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:39:42 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:40:26 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (1.7ms)
+  Rendered layouts/_ga.html.erb (0.2ms)
+  Rendered layouts/_clicktale_header.html.erb (0.1ms)
+  Rendered layouts/portfolio/_header.html.erb (4352.4ms)
+  Rendered portfolio/_about_content.html.erb (0.1ms)
+  Rendered portfolio/_cover.html.erb (2.4ms)
+  Rendered portfolio/_navbar.html.erb (0.6ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (42.8ms)
+Completed 200 OK in 4428ms (Views: 4427.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/portfolio.css?body=1" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:31 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/modernizr-2.8.3.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/modernizr.custom.17475.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/jquery.elastislide.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/jquerypp.custom.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/portfolio.js?body=1" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/projects" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+Processing by PortfolioController#index as HTML
+  Rendered portfolio/index.html.erb within layouts/portfolio (2.6ms)
+  Rendered layouts/_ga.html.erb (0.1ms)
+  Rendered layouts/_clicktale_header.html.erb (0.0ms)
+  Rendered layouts/portfolio/_header.html.erb (6.2ms)
+  Rendered portfolio/_about_content.html.erb (0.0ms)
+  Rendered portfolio/_cover.html.erb (1.2ms)
+  Rendered portfolio/_navbar.html.erb (0.3ms)
+  Rendered layouts/_clicktale_footer.html.erb (0.1ms)
+  Rendered layouts/portfolio/_footer.html.erb (8.3ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/vangogh/netnow-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/rdstation-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/gvt-facebook-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/gvt-epg-tablet-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/oxystv-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/gvt-instagvt-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/gvt-londres-2012-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300
+
+
+Started GET "/assets/vangogh/blenbox-ab-testing-calculator-0.jpg" for 127.0.0.1 at 2016-04-09 08:40:32 -0300

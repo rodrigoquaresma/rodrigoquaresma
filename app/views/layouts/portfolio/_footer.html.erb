@@ -2,19 +2,4 @@
 <%= javascript_include_tag "modernizr-2.8.3" %>
 <%= javascript_include_tag "portfolio" %>
 
-<!-- ClickTale Bottom part -->
-
-<script type='text/javascript'>
-// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
-//
-//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
-//
-// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
-
-document.write(unescape("%3Cscript%20src='"+
-(document.location.protocol=='https:'?
-"https://cdnssl.clicktale.net/www08/ptc/5a27af4a-4c0b-4d6e-8e55-3379e47f90f4.js":
-"http://cdn.clicktale.net/www08/ptc/5a27af4a-4c0b-4d6e-8e55-3379e47f90f4.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<!-- ClickTale end of Bottom part -->
+<%= render :partial => 'layouts/clicktale_footer' %>
