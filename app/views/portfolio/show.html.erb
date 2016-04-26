@@ -1,72 +1,68 @@
-<div class="">
-  <div class="">
-    <div class="" style="padding:40px;">
-      <p><%= link_to '&#8592; back'.html_safe, portfolio_index_path %></p>
-      <h2 class="head-title"><%= works[params_id.to_i][1] %> <small><%= works[params_id.to_i][2] %></small></h2>
-      <p class="lead"><%= works[params_id.to_i][3] %></p>
-      <% if works[params_id.to_i][8].present? %>
-      <p class="text-muted text-right">
-        Take a look in <%= link_to works[params_id.to_i][8][1], works[params_id.to_i][8][0], title: works[params_id.to_i][8][2], target: '_blank' %>
-      </p>
+<div class="" style="padding:40px;">
+  <p><%= link_to '&#8592; back'.html_safe, portfolio_index_path %></p>
+  <h2 class="head-title"><%= works[params_id.to_i][1] %> <small><%= works[params_id.to_i][2] %></small></h2>
+  <p class="lead"><%= works[params_id.to_i][3] %></p>
+  <% if works[params_id.to_i][8].present? %>
+  <p class="text-muted text-right">
+    Take a look in <%= link_to works[params_id.to_i][8][1], works[params_id.to_i][8][0], title: works[params_id.to_i][8][2], target: '_blank' %>
+  </p>
+  <% end %>
+  <div class="image-preview">
+    <%= image_tag works[params_id.to_i][4][0], alt: works[params_id.to_i][1], class: 'img-responsive', id: 'preview' %>
+  </div>
+  <% if works[params_id.to_i][4][1].present? %>
+    <ul id="carousel" class="elastislide-list">
+      <% works[params_id.to_i][4].each do |img_work| %>
+        <li data-preview="/assets/<%= img_work %>">
+          <a href="javascript:void(0);"><%= image_tag img_work, alt: works[params_id.to_i][1], class: 'img-responsive' %></a>
+        </li>
       <% end %>
-      <div class="image-preview">
-        <%= image_tag works[params_id.to_i][4][0], alt: works[params_id.to_i][1], class: 'img-responsive', id: 'preview' %>
-      </div>
-      <% if works[params_id.to_i][4][1].present? %>
-        <ul id="carousel" class="elastislide-list">
-          <% works[params_id.to_i][4].each do |img_work| %>
-            <li data-preview="/assets/<%= img_work %>">
-              <a href="javascript:void(0);"><%= image_tag img_work, alt: works[params_id.to_i][1], class: 'img-responsive' %></a>
-            </li>
-          <% end %>
-        </ul>
-      <% end %>
-      <hr class="spacer-lg invisible" />
-      <h3>used skills</h3>
-      <ul class="list-group hp-section">
-        <% works[params_id.to_i][5].each do |skill_work| %>
-        <li class="list-group-item">
-          <div class="row">
-            <div class="col-sm-5">
-              <span class="text-muted"><%= skill_work[0] %></span>
-            </div>
-            <div class="col-sm-7">
-              <div class="progress" style="margin-bottom:0;">
-                <div class="progress-bar" role="progressbar" aria-valuenow="<%= skill_work[1] %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= skill_work[1] %>%;">
-                  <span class="sr-only"><%= skill_work[1] %>% Complete</span>
-                </div>
-              </div>
+    </ul>
+  <% end %>
+  <hr class="spacer-lg invisible" />
+  <h3>used skills</h3>
+  <ul class="list-group hp-section">
+    <% works[params_id.to_i][5].each do |skill_work| %>
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-sm-5">
+          <span class="text-muted"><%= skill_work[0] %></span>
+        </div>
+        <div class="col-sm-7">
+          <div class="progress" style="margin-bottom:0;">
+            <div class="progress-bar" role="progressbar" aria-valuenow="<%= skill_work[1] %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= skill_work[1] %>%;">
+              <span class="sr-only"><%= skill_work[1] %>% Complete</span>
             </div>
           </div>
-        </li>
-        <% end %>
-      </ul>
-      <hr class="spacer-lg invisible" />
-      <h3>more...</h3>
-      <ul class="list-unstyled work-list row">
-        <li class="work-list-item col-sm-4">
-          <%= link_to portfolio_show_path(works[params_id.to_i][6][0].to_i), class: "work-call" do %>
-            <span class="work-list-image"><%= image_tag works[works[params_id.to_i][6][0].to_i][4][0], alt: works[works[params_id.to_i][6][0].to_i][1] %></span>
-            <span class="work-list-overlay"></span>
-            <span class="work-list-title"><%= works[works[params_id.to_i][6][0].to_i][1] %></span>
-          <% end %>
-        </li>
-        <li class="work-list-item col-sm-4">
-          <%= link_to portfolio_show_path(works[params_id.to_i][6][1].to_i), class: "work-call" do %>
-            <span class="work-list-image"><%= image_tag works[works[params_id.to_i][6][1].to_i][4][0], alt: works[works[params_id.to_i][6][1].to_i][1] %></span>
-            <span class="work-list-overlay"></span>
-            <span class="work-list-title"><%= works[works[params_id.to_i][6][1].to_i][1] %></span>
-          <% end %>
-        </li>
-        <li class="work-list-item col-sm-4">
-          <%= link_to portfolio_show_path(works[params_id.to_i][6][2].to_i), class: "work-call" do %>
-            <span class="work-list-image"><%= image_tag works[works[params_id.to_i][6][2].to_i][4][0], alt: works[works[params_id.to_i][6][2].to_i][1] %></span>
-            <span class="work-list-overlay"></span>
-            <span class="work-list-title"><%= works[works[params_id.to_i][6][2].to_i][1] %></span>
-          <% end %>
-        </li>
-      </ul>
+        </div>
+      </div>
+    </li>
+    <% end %>
+  </ul>
+  <hr class="spacer-lg invisible" />
+  <h3>more...</h3>
+  <ul class="list-unstyled work-list row">
+    <li class="work-list-item col-sm-4">
+      <%= link_to portfolio_show_path(works[params_id.to_i][6][0].to_i), class: "work-call" do %>
+        <span class="work-list-image"><%= image_tag works[works[params_id.to_i][6][0].to_i][4][0], alt: works[works[params_id.to_i][6][0].to_i][1] %></span>
+        <span class="work-list-overlay"></span>
+        <span class="work-list-title"><%= works[works[params_id.to_i][6][0].to_i][1] %></span>
+      <% end %>
+    </li>
+    <li class="work-list-item col-sm-4">
+      <%= link_to portfolio_show_path(works[params_id.to_i][6][1].to_i), class: "work-call" do %>
+        <span class="work-list-image"><%= image_tag works[works[params_id.to_i][6][1].to_i][4][0], alt: works[works[params_id.to_i][6][1].to_i][1] %></span>
+        <span class="work-list-overlay"></span>
+        <span class="work-list-title"><%= works[works[params_id.to_i][6][1].to_i][1] %></span>
+      <% end %>
+    </li>
+    <li class="work-list-item col-sm-4">
+      <%= link_to portfolio_show_path(works[params_id.to_i][6][2].to_i), class: "work-call" do %>
+        <span class="work-list-image"><%= image_tag works[works[params_id.to_i][6][2].to_i][4][0], alt: works[works[params_id.to_i][6][2].to_i][1] %></span>
+        <span class="work-list-overlay"></span>
+        <span class="work-list-title"><%= works[works[params_id.to_i][6][2].to_i][1] %></span>
+      <% end %>
+    </li>
+  </ul>
 
-    </div>
-  </div>
 </div>

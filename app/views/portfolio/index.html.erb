@@ -1,11 +1,15 @@
 <div style="padding:40px;">
   <div class="row row-nogutter work-list">
     <% works.each do |work| %>
-      <div class="col-sm-4 col-lg-3 work-list-item">
+      <div class="col-md-6 col-lg-4 work-list-item">
         <%= link_to portfolio_show_path(work[0]), class: "work-call" do %>
           <span class="work-list-image"><%= image_tag work[4][0], alt: work[1] %></span>
           <span class="work-list-overlay"></span>
-          <span class="work-list-title"><%= work[1] %></span>
+          <span class="work-list-description">
+            <span class="work-list-title"><%= work[1] %></span>
+            <span class="work-list-subject"><%= work[2] %></span>
+            <span class="work-list-view-more">— view more —</span>
+          </span>
         <% end %>
       </div>
     <% end %>
