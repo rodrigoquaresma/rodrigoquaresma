@@ -1,11 +1,12 @@
 .header-brand-name {
   a {
+    text-decoration: none;
     color: #f16446;
     -webkit-transition: color .2s ease-out,color .2s ease-out;
     transition: color .2s ease-out,color .2s ease-out;
     &:focus,
     &:hover {
-      text-decoration: none;
+      // text-decoration: none;
       color: $link-color;
     }
   }
@@ -26,6 +27,8 @@
       text-align: center;
       padding: 0 5px;
       > a {
+        text-decoration: none;
+        font-size: $font-size-base;
         display: inline-block;
         line-height: 3em;
         border-bottom: 1px solid transparent;
@@ -56,6 +59,45 @@
     }
   }
 }
+
+.area-name {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+
+  .header-area-avatar,
+  .header-area-body {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  .header-area-avatar {
+    margin: 0 11px 11px 0;
+    .profile-avatar {
+      width: 4em;
+      // display: inline-block;
+      border-radius: 50%;
+    }
+  }
+  .header-area-body {
+    // display: inline-block;
+    .header-brand-name {
+
+    }
+    .header-brand-role {
+      margin: 0;
+    }
+  }
+}
+
 
 // media querys
 @media (min-width: $screen-sm-min) {

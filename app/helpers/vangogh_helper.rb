@@ -158,6 +158,48 @@ module VangoghHelper
     ]
   end
 
+  def web_presence
+    [
+      [
+        0,
+        'GitHub',
+        '//github.com/rodrigoquaresma'
+      ],[
+        1,
+        'Facebook',
+        '//www.facebook.com/rodrigoquaresma'
+      ],[
+        2,
+        'Twitter',
+        '//twitter.com/rquaresma'
+      ],[
+        3,
+        'Google Plus',
+        '//plus.google.com/+RodrigoQuaresma'
+      ],[
+        4,
+        'Pinterest',
+        '//br.pinterest.com/rodrigoquaresma'
+      ],[
+        5,
+        'Tumblr',
+        '//www.tumblr.com/blog/quaresma'
+      ],[
+        6,
+        'Flickr',
+        '//www.flickr.com/photos/rodrigoquaresma/'
+      ],[
+        7,
+        'Linkedin',
+        '//linkedin.com/in/rquaresma'
+      ],[
+        8,
+        'Slideshare',
+        '//slideshare.net/rquaresma'
+      ]
+    ]
+  end
+
   def params_id
     return params[:id]
   end

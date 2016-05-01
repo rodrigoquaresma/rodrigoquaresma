@@ -61,13 +61,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.2em;
   font-family: "bebas-neue";
-  font-size: 28px;
+  // font-size: 28px;
   line-height: .8em;
   text-transform: none;
   letter-spacing: 0px;
   font-weight: 400;
   font-style: normal;
-  color: #f16446;
+  color: $brand-primary;
   margin-top: 0;
 }
 
@@ -78,9 +78,10 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .16em;
 }
-h2 { font-weight: 200; }
-h3 { font-weight: 200; font-size: 28px;}
-h4 { font-weight: 400; }
+h2 { font-weight: 200; color: lighten($brand-primary, 3%); }
+h3 { font-weight: 200; color: lighten($brand-primary, 6%); font-size: 28px;}
+h4 { font-weight: 400; color: lighten($brand-primary, 9%); }
+
 
 .spacer-lg {
   margin-top: 30px;
@@ -277,12 +278,20 @@ h4 { font-weight: 400; }
 // lista de experiencias
 .list-experiences {
   padding: 20px;
-  border: 1px solid #dfddc6;
+  background-color: $color-schema-txt;
+  color: $color-schema-bg;
+  .text-muted {
+    color: $color-schema-bg;
+    opacity: 0.85;
+  }
+  a {
+    color: darken($link-color, 30%);
+  }
 }
 .spacer-liga {
   border-width: 0 0 0 1px;
   height: 20px;
-  border-color: #fff;
+  border-color: $color-schema-txt;
   margin: 0;
   border-style: solid;
   margin-left: 20px;
@@ -294,29 +303,24 @@ h4 { font-weight: 400; }
   ul {margin-bottom:0;}
 }
 
-.area-about,
-.area-navbar,
-.area-more,
-.area-experience,
-.area-works,
-.area-work-detail,
-.area-name {
-  background:transparent;
-  padding:40px;
-  margin:0;
+.content-area {
+  padding:20px;
 }
-.area-navbar {
-   padding:40px 35px;
-}
-.area-works {
-  padding:40px 55px;
-}
-
 
 // media querys
 @media (min-width: $screen-sm-min) {
 }
 @media (min-width: $screen-md-min) {
+  .content-area {
+    padding:40px;
+    &.area-navbar {
+      padding-left: 35px;
+    }
+    &.area-works {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+  }
   .work-call {
     .work-list-image {
       -webkit-transition: background .2s ease-out,color .2s ease-out;

@@ -1,10 +1,15 @@
-<div class="area-name">
-  <h1 class="header-brand-name">
-    <%= link_to 'rodrigo quaresma', portfolio_index_path %>
-  </h1>
-  <p class="header-brand-role">UX Designer</p>
+<div class="content-area area-name">
+  <div class="header-area-avatar">
+    <%= image_tag "vangogh/avatar-big.jpg", alt: "rodrigo quaresma", class: "profile-avatar" %>
+  </div>
+  <div class="header-area-body">
+    <h1 class="header-brand-name">
+      <%= link_to 'rodrigo quaresma', portfolio_index_path %>
+    </h1>
+    <p class="header-brand-role">UX Designer</p>
+  </div>
 </div>
-<div class="area-about">
+<div class="content-area area-about">
   <%= render :partial => 'portfolio/about_content' %>
-  <a href="#" class="btn btn-primary">contact me</a>
+  <a href="#">contact me</a>
 </div>

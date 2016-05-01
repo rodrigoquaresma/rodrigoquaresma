@@ -1,8 +1,10 @@
 // color schema
+$font-size-base: 16px;
+
 $color-schema-bg:  #2f2d2e;
 $color-schema-txt: #dfddc6;
 
-$link-color:       #cddc39;
+$link-color:       #61c2f2;
 $link-hover-color: lighten($link-color, 15%);
 
 $body-bg:                $color-schema-bg;
