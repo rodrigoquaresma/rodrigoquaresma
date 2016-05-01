@@ -1,11 +1,14 @@
-<div style="padding:40px;">
-      <% companies.each do |company| %>
-        <div class="list-experiences">
-          <p><%= company[2] %></p>
-          <h3><%= company[1] %></h3>
-          <p class="lead"><%= company[3] %>
-          <p><span class="text-muted">About the company:</span> <%= company[4] %> <span><%= link_to company[5][1], company[5][0], title: company[5][0], target: '_blank' %></span></p>
-        </div>
-        <hr class="spacer-fx" />
-      <% end %>
+<div class="area-experience">
+  <% companies.each do |company| %>
+    <div class="list-experiences">
+      <p><%= company[2] %></p>
+      <h3><%= company[1] %></h3>
+      <p class="lead"><%= company[3] %>
+      <p><span class="text-muted">About the company:</span> <%= company[4] %> <span><%= link_to company[5][1], company[5][0], title: company[5][0], target: '_blank' %></span></p>
+    </div>
+    <hr class="spacer-liga" />
+  <% end %>
+  <hr class="spacer-xs invisible" />
+  <p> Check my <a target="_blank" title="Linkedin Rodrigo Quaresma" href="//linkedin.com/in/rquaresma" rel="publisher">Linkedin</a> to see more...</p>
+  <hr class="spacer-xs invisible" />
 </div>

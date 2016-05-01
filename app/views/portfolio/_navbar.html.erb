@@ -1,5 +1,5 @@
-<div style="background:transparent;padding:40px;margin:0;">
-  <div class="header" style="border:0;">
+<div class="area-navbar">
+  <div class="header">
     <ul class="list-unstyled header-menu">
       <li class="<%= active_tab2('projects') %>">
         <%= link_to 'projects', portfolio_index_path, class: 'projects' %>
@@ -10,9 +10,8 @@
       </li>
       <li>·</li>
       <li class="<%= active_tab2('about') %>">
-        <%= link_to 'web presence', portfolio_about_path, class: 'about' %>
+        <%= link_to 'more ...', portfolio_about_path, class: 'about' %>
       </li>
     </ul>
   </div>
-  <hr class="spacer-lg invisible" />
 </div>

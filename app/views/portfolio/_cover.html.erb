@@ -1,7 +1,10 @@
-<div style="background:transparent;padding:40px;margin:0;">
-<h1 class="header-brand-name">rodrigo quaresma</h1>
-<p class="header-brand-role">UX Designer</p>
+<div class="area-name">
+  <h1 class="header-brand-name">
+    <%= link_to 'rodrigo quaresma', portfolio_index_path %>
+  </h1>
+  <p class="header-brand-role">UX Designer</p>
 </div>
-<div style="background:transparent;padding:40px;margin:0;">
-<%= render :partial => 'portfolio/about_content' %>
+<div class="area-about">
+  <%= render :partial => 'portfolio/about_content' %>
+  <a href="#" class="btn btn-primary">contact me</a>
 </div>
