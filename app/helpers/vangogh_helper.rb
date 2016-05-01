@@ -5,7 +5,11 @@ module VangoghHelper
   end
 
   def active_tab2(item)
-    'active' if item == @active
+    if item == @active
+      'active'
+    else
+      ''
+    end
   end
 
   def works
@@ -13,7 +17,7 @@ module VangoghHelper
       [
         0,
         'RD Station',
-        'for web',
+        'Saas plataform',
         'RD Station is all-in-one Marketing plataform which help businesses to generate more traffic, leads and sales.',
         ['vangogh/rdstation-0.jpg','vangogh/rdstation-1.jpg','vangogh/rdstation-2.jpg','vangogh/rdstation-3.jpg','vangogh/rdstation-4.jpg','vangogh/rdstation-5.jpg','vangogh/rdstation-6.jpg','vangogh/rdstation-7.jpg','vangogh/rdstation-8.jpg'],
         [['UX design',90],['UI design',80],['interaction design',80],['product design',55],['graphic design',30],['jquery/javascript',20],['ruby/rails',10]],
@@ -23,19 +27,19 @@ module VangoghHelper
         'RD Station is all-in-one Marketing plataform which help businesses to generate more traffic, leads and sales.'
       ],[
         1,
-        'NET NOW Video On Demand',
-        'for TV',
+        'NET NOW',
+        'Video On Demand for TV',
         'NET NOW is a on demand video platform where millions of customers can access thousands of videos on their Television devices. Designing the end-to-end user interaction for this on demand video platform was really amazing.',
         ['vangogh/netnow-0.jpg','vangogh/netnow-1.jpg','vangogh/netnow-2.jpg','vangogh/netnow-3.jpg','vangogh/netnow-4.jpg','vangogh/netnow-5.jpg','vangogh/netnow-6.jpg','vangogh/netnow-7.jpg','vangogh/netnow-8.jpg','vangogh/netnow-9.jpg','vangogh/netnow-10.jpg','vangogh/netnow-11.jpg','vangogh/netnow-12.jpg','vangogh/netnow-13.jpg'],
-        [['interaction design',100],['UI design',100],['graphic design',80],['product design',40]],
+        [['interaction design',100],['UI design',95],['product design',60],['graphic design',40]],
         [0,2,5],
         '',
         ['//www.netcombo.com.br/now','product site','net now'],
         ''
       ],[
         2,
-        'Facebook GVT App',
-        'for TV',
+        'Facebook GVT/Vivo',
+        'Social Media App for TV',
         'App to allow Facebook access over TV display using the remote control for navigation.',
         ['vangogh/gvt-facebook-0.jpg','vangogh/gvt-facebook-1.jpg','vangogh/gvt-facebook-2.jpg','vangogh/gvt-facebook-3.jpg'],
         [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
@@ -45,7 +49,7 @@ module VangoghHelper
         ''
       ],[
         3,
-        'Guide TV App',
+        'Guide TV',
         'for tablet',
         'App for tablet bringing entire TV Programs guide and features such as record content, and share in socials or be reminded about favorite TV shows.',
         ['vangogh/gvt-epg-tablet-0.jpg','vangogh/gvt-epg-tablet-1.jpg','vangogh/gvt-epg-tablet-2.jpg','vangogh/gvt-epg-tablet-3.jpg','vangogh/gvt-epg-tablet-4.jpg','vangogh/gvt-epg-tablet-5.jpg'],
@@ -57,7 +61,7 @@ module VangoghHelper
       ],[
         4,
         'InstaGVT',
-        'for TV',
+        'Social Media App for TV',
         'App to allow Instagram access over TV display using the remote control for navigation.',
         ['vangogh/gvt-instagvt-0.jpg','vangogh/gvt-instagvt-1.jpg','vangogh/gvt-instagvt-2.jpg','vangogh/gvt-instagvt-3.jpg','vangogh/gvt-instagvt-4.jpg','vangogh/gvt-instagvt-5.jpg'],
         [['interaction design',100],['graphic design',80],['product design',30],['SVG code',30]],
@@ -68,7 +72,7 @@ module VangoghHelper
       ],[
         5,
         'OxysTV App',
-        'for TV',
+        'EPG Plataform for TV',
         '[personal project] OxysTV is a complete set of navigational services, including VoD and PPV services, PVR, content promotion and miniguide for linear TV.',
         ['vangogh/oxystv-0.jpg','vangogh/oxystv-1.jpg','vangogh/oxystv-2.jpg','vangogh/oxystv-3.jpg'],
         [['interaction design',100],['graphic design',70],['product design',40]],
@@ -93,7 +97,7 @@ module VangoghHelper
         'for Web',
         'Blenbox A/B Testing Calculator helps you to see if your data has achieved statistical significance. Helpful for usability tests and comparison between landing page conversion rates.',
         ['vangogh/blenbox-ab-testing-calculator-0.jpg'],
-        [['product design',90],['interaction design',80],['graphic design',76],['product design',40]],
+        [['interaction design',80],['graphic design',76],['product design',40],['ruby/rails',10]],
         [1,6,3],
         '',
         ['//www.blenbox.com/ab-testing-calculator','A/B Testing Calculator','A/B Testing Calculator'],
@@ -154,6 +158,48 @@ module VangoghHelper
         'I can say that RBS is the place I learned everything I needed to become a designer. The company owns a large portfolion of multimedia products ranging from TV channels, to newspapers, printed publications and radios stations. I was a great opportunity to apply new design methodologies and test its success and impact over and audience of millions of users.',
         'Grupo RBS is one of the largest multimedia business groups in Brazil and the largest Rede Globo affiliate, producing content and entertainment on television, radio, newspaper and digital platforms.',
         ['//www.gruporbs.com.br/en/areas-de-atuacao/','site','Grupo RBS']
+      ]
+    ]
+  end
+
+  def web_presence
+    [
+      [
+        0,
+        'GitHub',
+        '//github.com/rodrigoquaresma'
+      ],[
+        1,
+        'Facebook',
+        '//www.facebook.com/rodrigoquaresma'
+      ],[
+        2,
+        'Twitter',
+        '//twitter.com/rquaresma'
+      ],[
+        3,
+        'Google Plus',
+        '//plus.google.com/+RodrigoQuaresma'
+      ],[
+        4,
+        'Pinterest',
+        '//br.pinterest.com/rodrigoquaresma'
+      ],[
+        5,
+        'Tumblr',
+        '//www.tumblr.com/blog/quaresma'
+      ],[
+        6,
+        'Flickr',
+        '//www.flickr.com/photos/rodrigoquaresma/'
+      ],[
+        7,
+        'Linkedin',
+        '//linkedin.com/in/rquaresma'
+      ],[
+        8,
+        'Slideshare',
+        '//slideshare.net/rquaresma'
       ]
     ]
   end

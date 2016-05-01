@@ -5,11 +5,19 @@
 <%= yield :head %>
 </head>
 <body data-no-turbolink>
-<%= render :partial => 'portfolio/navbar' %>
-<%= yield :content %>
-<%= yield %>
-<%= render :partial => 'portfolio/footer' %>
-<%= render :partial => 'layouts/portfolio/footer' %>
-<%= yield :footer %>
+  <div class="container-fluid">
+    <div class="row row-nogutter">
+      <div class="col-md-4">
+        <%= render :partial => 'portfolio/cover' %>
+      </div>
+      <div class="col-md-8">
+        <%= render :partial => 'portfolio/navbar' %>
+        <%= yield :content %>
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+  <%= render :partial => 'layouts/portfolio/footer' %>
+  <%= yield :footer %>
 </body>
 </html>

@@ -1,0 +1,16 @@
+<div class="menu-button">
+  <a href="#" class="menu-button-touch">menu</a>
+  <div class="menu-button-group" style="display:none;">
+    <div class="content-area">
+      <h3>rodrigo quaresma</h3>
+      <hr class="spacer-sm invisible" />
+      <%= link_to 'about me', portfolio_about_path, class: 'btn btn-secundary '+active_tab2("about") %>
+      <hr class="spacer-sm invisible" />
+      <%= link_to 'projects', portfolio_index_path, class: 'btn btn-secundary '+active_tab2('projects') %>
+      <hr class="spacer-sm invisible" />
+      <%= link_to 'experience', portfolio_experience_path, class: 'btn btn-secundary '+active_tab2('experience') %>
+      <hr class="spacer-sm invisible" />
+      <%= link_to 'more ...', portfolio_web_presence_path, class: 'btn btn-secundary '+active_tab2('web_presence') %>
+    </div>
+  </div>
+</div>

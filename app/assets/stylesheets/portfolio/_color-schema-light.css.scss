@@ -2,8 +2,11 @@
 $color-schema-bg:  #E5E4DF;
 $color-schema-txt: #3f3f3f;
 
-$link-color:       #ff0099;
+$link-color:       #cddc39;
 $link-hover-color: darken($link-color, 15%);
 
 $body-bg:                lighten($color-schema-bg, 5%);
 $text-color:             darken($color-schema-txt, 20%);
+
+$brand-primary:          #998f5c;
+$brand-secundary:        #85995c;

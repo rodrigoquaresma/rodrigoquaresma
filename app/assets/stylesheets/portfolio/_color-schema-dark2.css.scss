@@ -1,0 +1,14 @@
+// color schema
+$font-size-base: 16px;
+
+$color-schema-bg:  #2f2d2e;
+$color-schema-txt: #dfddc6;
+
+$link-color:       #61c2f2;
+$link-hover-color: lighten($link-color, 15%);
+
+$body-bg:                $color-schema-bg;
+$text-color:             $color-schema-txt;
+
+$brand-primary:          #f16446;
+$brand-secundary:        #85995c;

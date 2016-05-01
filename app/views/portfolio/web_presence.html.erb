@@ -1,0 +1,11 @@
+<div class="content-area area-more">
+	<h2 class="visible-xs">more?</h2>
+	<p class="lead">check out my web presence</p>
+	<div class="row">
+		<% web_presence.each do |presence| %>
+			<div class="col-md-4">
+				<a target="_blank" title="<%= presence[1] %> Rodrigo Quaresma" href="<%= presence[2] %>" rel="publisher"><%= presence[1] %></a>
+			</div>
+		<% end %>
+	</div>
+</div>

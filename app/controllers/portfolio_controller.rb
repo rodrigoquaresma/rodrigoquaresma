@@ -14,4 +14,8 @@ class PortfolioController < ApplicationController
   def experience
     @active = "experience"
   end
+
+  def web_presence
+    @active = "web_presence"
+  end
 end

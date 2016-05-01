@@ -1,31 +1,22 @@
-.header {
-  background: white;
-  .header-brand {
-    float: left;
-    width: 100%;
-    padding: 0 1em;
-    .header-brand-img {
-      width: 100%;
-      margin: 2em auto 0;
+.header-brand-name {
+  a {
+    text-decoration: none;
+    color: #f16446;
+    -webkit-transition: color .2s ease-out,color .2s ease-out;
+    transition: color .2s ease-out,color .2s ease-out;
+    &:focus,
+    &:hover {
+      // text-decoration: none;
+      color: $link-color;
     }
-    .header-brand-name { display: none; }
-    .header-brand-role {
-      text-transform: uppercase;
-      letter-spacing: 1.4em;
-      font-weight: 200;
-      line-height: 1em;
-      margin: 0 0 1em;
-      text-align: center;
-      font-size: .8em;
-    }
-    &:hover,
-    &:focus { text-decoration: none; }
   }
+}
+
+.header {
   .header-menu {
-    float: left;
+    // float: left;
     width: 100%;
     padding: 0;
-    background: white;
     border-style: solid;
     border-width: 1px 0;
     border-color: $color-schema-bg;
@@ -34,27 +25,34 @@
     > li {
       display: inline-block;
       text-align: center;
+      padding: 0 5px;
       > a {
+        text-decoration: none;
+        font-size: $font-size-base;
         display: inline-block;
         line-height: 3em;
-        border-bottom: 2px solid transparent;
+        border-bottom: 1px solid transparent;
         text-transform: uppercase;
-        color: $color-schema-txt;
+        color: $text-color;
+        opacity: 0.7;
         &:hover,
         &:focus {
           text-decoration: none;
-          color: $link-hover-color;
+          color: $link-color;
           border-color: $link-hover-color;
+          opacity: 0.9;
         }
       }
       &.active {
         > a {
+          opacity: 0.9;
           font-weight: bold;
-          border-color: $color-schema-txt;
+          color: $link-color;
+          border-color: $link-hover-color;
           &:hover,
           &:focus {
-            color: $link-hover-color;
-            border-color: $link-hover-color;
+            // color: $link-hover-color;
+            // border-color: $link-hover-color;
           }
         }
       }
@@ -62,31 +60,82 @@
   }
 }
 
+.area-name {
+  .header-area-avatar,
+  .header-area-body {
+  }
+  .header-area-avatar {
+    margin: 0 11px 11px 0;
+    .profile-avatar {
+      width: 4em;
+      border-radius: 50%;
+    }
+  }
+  .header-area-body {
+    .header-brand-name { }
+    .header-brand-role {
+      margin: 0;
+    }
+  }
+}
+
+.menu-button {
+  .menu-button-touch {
+    z-index: 2;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: $link-color;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    position: fixed;
+    text-align: center;
+    line-height: 4em;
+    color: $color-schema-bg;
+    font-weight: bold;
+  }
+  .menu-button-group {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+  }
+}
+
+
 // media querys
 @media (min-width: $screen-sm-min) {
-  .header {
-    border-style: solid;
-    border-width: 0 0 1px 0;
-    border-color: #e5e4df;
-    .header-brand {
-      .header-brand-img {
-        width: auto;
-        max-height: 2em;
-        margin-top: 1.5em;
-      }
-      .header-brand-role {
-        font-size: .7em;
-        letter-spacing: 1.2em;
-        text-align: left;
-      }
+  .area-name {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    .header-area-avatar,
+    .header-area-body {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: flex-start;
+      -webkit-justify-content: flex-start;
+      justify-content: flex-start;
     }
+  }
+  .header {
+    // border-style: solid;
+    // border-width: 0 0 20px 0;
+    // border-color: #e5e4df;
     .header-menu {
       border: none;
       margin: 0;
-      text-align: right;
+      text-align: left;
       padding-right: 1em;
       > li {
-        margin: 0 .5em;
+        // margin: 0 .5em;
         > a {
           line-height: 5em;
         }
