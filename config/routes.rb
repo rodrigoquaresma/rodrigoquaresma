@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'projects', :to => 'portfolio#index', :as => :portfolio_index
   get 'about', :to => 'portfolio#about', :as => :portfolio_about
   get 'experience', :to => 'portfolio#experience', :as => :portfolio_experience
+  get 'web-presence', :to => 'portfolio#web_presence', :as => :portfolio_web_presence
   # get 'projects/detail', :to => 'portfolio#show', :as => :portfolio_show
   get 'projects/detail/:id', :to => 'portfolio#show', :as => :portfolio_show
 
