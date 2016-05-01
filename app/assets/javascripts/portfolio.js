@@ -4,6 +4,16 @@
 
 (function ($){
 
+  var toggleShow = {
+    showMenu : function(){
+      $('.menu-button-group').toggle();
+    }
+  };
+
+  $(document).ready(function(){
+    $('.menu-button-touch').on('click', toggleShow.showMenu)
+  });
+
   window.onload = function() {
 
     var current = 0,

@@ -1,7 +1,8 @@
 <div class="content-area area-works">
+  <h2 class="visible-xs">projects</h2>
   <div class="row row-nogutter work-list">
     <% works.each do |work| %>
-      <div class="col-md-6 col-lg-4 work-list-item">
+      <div class="col-sm-6 col-lg-4 work-list-item">
         <%= link_to portfolio_show_path(work[0]), class: "work-call" do %>
           <span class="work-list-image"><%= image_tag work[4][0], alt: work[1] %></span>
           <span class="work-list-overlay"></span>

@@ -309,8 +309,6 @@ h4 { font-weight: 400; color: lighten($brand-primary, 9%); }
 
 // media querys
 @media (min-width: $screen-sm-min) {
-}
-@media (min-width: $screen-md-min) {
   .content-area {
     padding:40px;
     &.area-navbar {
@@ -351,6 +349,8 @@ h4 { font-weight: 400; color: lighten($brand-primary, 9%); }
     }
   }
   .elastislide-horizontal nav span { top: 41%; }
+}
+@media (min-width: $screen-md-min) {
 }
 @media (min-width: $screen-lg-min) {
 }

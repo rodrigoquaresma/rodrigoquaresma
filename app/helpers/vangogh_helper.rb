@@ -5,7 +5,11 @@ module VangoghHelper
   end
 
   def active_tab2(item)
-    'active' if item == @active
+    if item == @active
+      'active'
+    else
+      ''
+    end
   end
 
   def works
